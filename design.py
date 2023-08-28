@@ -43,33 +43,21 @@ def entity_extract():
 def predicate_extract():
     pass
 
-
 # Tiger
 def entity_aggregate():
     pass
-
 
 # use hypernym
 # Isaac
 def predicate_aggregate():
     pass
 
-
 # All
 def merge_kg():
     pass
+
 def infer_schema():
     pass
-
-
-
-
-
-
-
-
-
-
 
 
 def get_embedding():
