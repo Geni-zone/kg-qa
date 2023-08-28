@@ -32,7 +32,7 @@ def split_text(input: str, window_size: int=6000, overlap: Union[int, None]=3000
 
 # Every 4k tokens with 1k overlap
 # Tiger
-def entity_extract():
+def entity_extract(text: str):
     pass
 
 
