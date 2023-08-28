@@ -1,4 +1,6 @@
 from typing import Union
+import openai
+
 
 # Every 4k tokens with 1k overlap
 # don't split sentences
