@@ -31,31 +31,45 @@ def split_text(input: str, window_size: int=6000, overlap: Union[int, None]=3000
 
 
 # Every 4k tokens with 1k overlap
+# Tiger
 def entity_extract():
     pass
 
 
 # gather the excepts about the entity
 # ask GPT
+# Phrase Selection & Mention Recognition & Relation Extraction
+# Philip: suppose you have a list of entities.
 def predicate_extract():
     pass
 
 
+# Tiger
 def entity_aggregate():
     pass
 
 
 # use hypernym
+# Isaac
 def predicate_aggregate():
     pass
 
 
+# All
 def merge_kg():
     pass
-
-
 def infer_schema():
     pass
+
+
+
+
+
+
+
+
+
+
 
 
 def get_embedding():
