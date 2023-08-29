@@ -18,6 +18,7 @@ def main(text: str):
     #     }
     # }
     kg, predicates = predicate_extract(text=text, entities=entities)
+    print(entities)
     print(kg)
     print(predicates)
 
