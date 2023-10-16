@@ -110,6 +110,7 @@ def predicate_extract(text: str, entities: {str: {'description': str, 'types': [
     text_chunks = split_text(text, 600, 150, '.')
     total_tokens_used = {"num": 0}
     
+    # use entities to select the sentences
     def phrase_selection(entity: str, text_chunk: str):
         system_prompt: str = "You are an expert in linguistics and knowledge graph. You are given an entity and a chunks of text. You help extract the relevant sentences about that entity. Do not modify the sentences when extracting. Your output should be a string of sentences separated by a period."
         prompt: str = f"Entity: {entity}\nText: {text_chunk}\n\n"

@@ -1,0 +1,600 @@
+{
+    "Power:": {
+        "page": [],
+        "related words": {
+            "coefficient": {
+                "page": [
+                    " 229"
+                ],
+                "related words": {}
+            },
+            "defects": {
+                "page": [
+                    " 230"
+                ],
+                "related words": {}
+            },
+            "density": {
+                "page": [
+                    " 88",
+                    " 93",
+                    " 180",
+                    " 194",
+                    " 199",
+                    " 200",
+                    " 202",
+                    " 203",
+                    " 205",
+                    " 209-11",
+                    " 250",
+                    " 252",
+                    " 257"
+                ],
+                "related words": {}
+            },
+            "peaking factor": {
+                "page": [
+                    " 200"
+                ],
+                "related words": {}
+            },
+            "reactors, transient behavior of": {
+                "page": [
+                    " 134"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Power reactor core": {
+        "page": [
+            " 85"
+        ],
+        "related words": {
+            "core composition": {
+                "page": [
+                    " 85-8"
+                ],
+                "related words": {
+                    "Fast reactors": {
+                        "page": [
+                            " 94"
+                        ],
+                        "related words": {}
+                    },
+                    "Graphite-moderated reactors": {
+                        "page": [
+                            " 92-3"
+                        ],
+                        "related words": {}
+                    },
+                    "Heavy water reactors": {
+                        "page": [
+                            " 91-2"
+                        ],
+                        "related words": {}
+                    },
+                    "Light water reactors": {
+                        "page": [
+                            " 88-91"
+                        ],
+                        "related words": {}
+                    },
+                    "RBMK reactors": {
+                        "page": [
+                            " 93-4"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "fast reactor lattices": {
+                "page": [
+                    " 94-7"
+                ],
+                "related words": {}
+            },
+            "thermal reactor lattices": {
+                "page": [
+                    " 98-9"
+                ],
+                "related words": {
+                    "Four factor formula": {
+                        "page": [
+                            " 99-107"
+                        ],
+                        "related words": {}
+                    },
+                    "Pressurized water reactor example": {
+                        "page": [
+                            " 108-10"
+                        ],
+                        "related words": {}
+                    }
+                }
+            }
+        }
+    },
+    "Power reactor core, behaviour:": {
+        "page": [],
+        "related words": {
+            "fission product and actinide inventories": {
+                "page": [
+                    " 257-9"
+                ],
+                "related words": {}
+            },
+            "fission product buildup and decay": {
+                "page": [
+                    " 245-6"
+                ],
+                "related words": {
+                    "samarium poisoning": {
+                        "page": [
+                            " 250-2"
+                        ],
+                        "related words": {}
+                    },
+                    "xenon positioning": {
+                        "page": [
+                            " 247-50"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "fuel depletion": {
+                "page": [
+                    " 252"
+                ],
+                "related words": {
+                    "burnable poisons": {
+                        "page": [
+                            " 255-7"
+                        ],
+                        "related words": {}
+                    },
+                    "fissionable nuclide concentrations": {
+                        "page": [
+                            " 252-5"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "reactivity control": {
+                "page": [
+                    " 243-5"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Pressurized water reactor": {
+        "page": [
+            " 88",
+            " 108",
+            " 209"
+        ],
+        "related words": {}
+    },
+    "Prompt coefficient": {
+        "page": [
+            " 228"
+        ],
+        "related words": {}
+    },
+    "Prompt jump approximation": {
+        "page": [
+            " 131"
+        ],
+        "related words": {}
+    },
+    "Quasi-static model": {
+        "page": [
+            " 233",
+            " 235"
+        ],
+        "related words": {}
+    },
+    "Radial and axial peaking factors": {
+        "page": [
+            " 202",
+            " 204"
+        ],
+        "related words": {}
+    },
+    "Radial flux distribution": {
+        "page": [
+            " 182"
+        ],
+        "related words": {}
+    },
+    "Radial peaking factor": {
+        "page": [
+            " 202",
+            " 208"
+        ],
+        "related words": {}
+    },
+    "Radial reflector": {
+        "page": [
+            " 180",
+            " 181",
+            " 184"
+        ],
+        "related words": {}
+    },
+    "Radioactive decay": {
+        "page": [
+            " 4",
+            " 5",
+            " 9",
+            " 10",
+            " 15",
+            " 16",
+            " 18",
+            " 37",
+            " 116",
+            " 245",
+            " 248",
+            " 252"
+        ],
+        "related words": {}
+    },
+    "Radioactivity, measure of": {
+        "page": [
+            " 19"
+        ],
+        "related words": {}
+    },
+    "Radioiodine": {
+        "page": [
+            " 258"
+        ],
+        "related words": {}
+    },
+    "Radioisotopes": {
+        "page": [
+            " 11 see also Isotopes"
+        ],
+        "related words": {}
+    },
+    "Radionuclides": {
+        "page": [
+            " 20"
+        ],
+        "related words": {
+            "decay of": {
+                "page": [
+                    " 5"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Radiostrontium": {
+        "page": [
+            " 11"
+        ],
+        "related words": {}
+    },
+    "Radiotoxicity": {
+        "page": [
+            " 259"
+        ],
+        "related words": {}
+    },
+    "Ramp rate": {
+        "page": [
+            " 235"
+        ],
+        "related words": {}
+    },
+    "RBMK reactors": {
+        "page": [
+            " 93",
+            " 94",
+            " 110"
+        ],
+        "related words": {}
+    },
+    "Reaction equations": {
+        "page": [
+            " 3"
+        ],
+        "related words": {}
+    },
+    "Reactivity:": {
+        "page": [],
+        "related words": {
+            "coefficients": {
+                "page": [
+                    " 221",
+                    " 228"
+                ],
+                "related words": {}
+            },
+            "control": {
+                "page": [
+                    " 243"
+                ],
+                "related words": {}
+            },
+            "feedback": {
+                "page": [
+                    " 221",
+                    " 222"
+                ],
+                "related words": {}
+            },
+            "formulation": {
+                "page": [
+                    " 126"
+                ],
+                "related words": {}
+            },
+            "worth": {
+                "page": [
+                    " 186"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Reactor:": {
+        "page": [],
+        "related words": {
+            "dynamics": {
+                "page": [
+                    " 133",
+                    " 233"
+                ],
+                "related words": {}
+            },
+            "lattices": {
+                "page": [
+                    " 81",
+                    " 90",
+                    " 92",
+                    " 98",
+                    " 108",
+                    " 139",
+                    " 154",
+                    " 180",
+                    " 199"
+                ],
+                "related words": {}
+            },
+            "multiplication": {
+                "page": [
+                    " 87",
+                    " 91",
+                    " 97",
+                    " 167",
+                    " 204",
+                    " 222"
+                ],
+                "related words": {}
+            },
+            "period": {
+                "page": [
+                    " 127"
+                ],
+                "related words": {}
+            },
+            "power": {
+                "page": [
+                    " 172"
+                ],
+                "related words": {}
+            },
+            "transients": {
+                "page": [
+                    " 232"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Reactor kinetics": {
+        "page": [
+            " 115"
+        ],
+        "related words": {
+            "delayed neutron kinetics": {
+                "page": [
+                    " 123-4"
+                ],
+                "related words": {
+                    "Kinetics equations": {
+                        "page": [
+                            " 124-5"
+                        ],
+                        "related words": {}
+                    },
+                    "Reactivity formulation": {
+                        "page": [
+                            " 126"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "multiplying systems behavior": {
+                "page": [
+                    " 120-2"
+                ],
+                "related words": {}
+            },
+            "neutron balance equations": {
+                "page": [
+                    " 116"
+                ],
+                "related words": {
+                    "Finite multiplying systems": {
+                        "page": [
+                            " 119-20"
+                        ],
+                        "related words": {}
+                    },
+                    "Infinite medium multiplying systems": {
+                        "page": [
+                            " 117-19"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "prologue to reactor dynamics": {
+                "page": [
+                    " 133-4"
+                ],
+                "related words": {}
+            },
+            "step reactivity changes": {
+                "page": [
+                    " 126-7"
+                ],
+                "related words": {
+                    "Prompt jump approximation": {
+                        "page": [
+                            " 131-3"
+                        ],
+                        "related words": {}
+                    },
+                    "Reactor period": {
+                        "page": [
+                            " 127-31"
+                        ],
+                        "related words": {}
+                    }
+                }
+            }
+        }
+    },
+    "Reflected boundaries": {
+        "page": [
+            " 147"
+        ],
+        "related words": {}
+    },
+    "Reflector:": {
+        "page": [],
+        "related words": {
+            "diminishing effect": {
+                "page": [
+                    " 185"
+                ],
+                "related words": {}
+            },
+            "savings": {
+                "page": [
+                    " 184"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Resonance:": {
+        "page": [],
+        "related words": {
+            "absorption": {
+                "page": [
+                    " 68",
+                    " 73",
+                    " 79",
+                    " 226"
+                ],
+                "related words": {}
+            },
+            "cross sections": {
+                "page": [
+                    " 42",
+                    " 78"
+                ],
+                "related words": {}
+            },
+            "escape probability": {
+                "page": [
+                    " 102-105",
+                    " 108",
+                    " 109",
+                    " 175",
+                    " 223",
+                    " 224",
+                    " 226"
+                ],
+                "related words": {}
+            },
+            "self-shielding": {
+                "page": [
+                    " 224"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Rod bank": {
+        "page": [
+            " 91",
+            " 131",
+            " 186",
+            " 190",
+            " 191",
+            " 193",
+            " 203",
+            " 231",
+            " 236",
+            " 238",
+            " 244"
+        ],
+        "related words": {}
+    },
+    "Rod drop": {
+        "page": [
+            " 132"
+        ],
+        "related words": {}
+    },
+    "Rod oscillator": {
+        "page": [
+            " 133"
+        ],
+        "related words": {}
+    },
+    "Samarium": {
+        "page": [
+            " 243",
+            " 245",
+            " 250-2"
+        ],
+        "related words": {
+            "concentration": {
+                "page": [
+                    " 251"
+                ],
+                "related words": {}
+            },
+            "poisoning": {
+                "page": [
+                    " 250"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Saturation activity": {
+        "page": [
+            " 20"
+        ],
+        "related words": {}
+    },
+    "Scalar flux": {
+        "page": [
+            " 64",
+            " 273"
+        ],
+        "related words": {}
+    }
+}

@@ -1,0 +1,690 @@
+{
+    "Power:": {
+        "page": [],
+        "related words": {
+            "coefficient": {
+                "page": [
+                    " 229"
+                ],
+                "related words": {},
+                "summary": "The power coefficient is a term used in the context of nuclear reactors. When a reactor operates at a power level higher than a small percentage of its rated power, the fuel temperature increases significantly compared to the coolant temperature. This leads to a change in reactivity, which is quantified by the power coefficient.\n\nThe power coefficient accounts for the reactivity feedback in a reactor operating at power. It is derived by dividing the equation representing the reactivity change by an incremental power change. The power coefficient depends on factors such as the fuel and coolant temperatures, as well as the reactivity coefficients at those temperatures.\n\nIn summary, the power coefficient in a nuclear reactor describes the change in reactivity with respect to changes in power. It is an important parameter to consider for reactor safety and control, as it affects the stability and behavior of the reactor under different power levels.",
+                "type": "/Class",
+                "label": "Power: l0:coefficient"
+            },
+            "defects": {
+                "page": [
+                    " 230"
+                ],
+                "related words": {},
+                "summary": "In the context of nuclear reactors, power defects refer to the effects of temperature and power coefficients on reactor control and reactivity. The temperature defect is the negative feedback reactivity that needs to be compensated for when bringing a reactor core from room temperature to the operating inlet temperature. This is achieved by adding an equal amount of reactivity through control rod withdrawal or other means.\n\nThe power defect, on the other hand, occurs as reactor power increases from the hot zero-power state to its rated level. A negative power coefficient causes the reactivity to decrease further. The power defect is determined by integrating the fuel and coolant temperature coefficients between inlet and full power conditions. Similar to the temperature defect, the control system must add an equal amount of reactivity to bring the reactor from zero to full power.\n\nExcess reactivity is defined as the reactivity that would exist if all movable control poisons were instantly eliminated from the core. Large excess reactivities are undesirable as they require large amounts of neutron poisons to compensate for them.\n\nOverall, understanding power defects is crucial for controlling reactivity and ensuring safe and stable operation of nuclear reactors.",
+                "type": "/Reactor Phenomena",
+                "label": "Power: l0:defects"
+            },
+            "density": {
+                "page": [
+                    " 88",
+                    " 93",
+                    " 180",
+                    " 194",
+                    " 199",
+                    " 200",
+                    " 202",
+                    " 203",
+                    " 205",
+                    " 209-11",
+                    " 250",
+                    " 252",
+                    " 257"
+                ],
+                "related words": {},
+                "summary": "From the information provided, the power density in nuclear reactors refers to the average power produced per unit volume within the reactor core. The power density is influenced by factors such as the linear heat rate of the fuel elements, the volume ratio of coolant/moderator to fuel, and the core lattice structure. The optimization of the lattice structure aims to maximize heat transfer and achieve higher power densities within the limits of coolant's heat removal capabilities. Neutronic considerations, such as the ratios of fuel, coolant, and moderator, also play a role in determining the critical state of a power reactor. Different types of reactors, such as pressurized water reactors (PWRs), boiling water reactors (BWRs), high-temperature gas-cooled reactors (HTGRs), and RBMK reactors, have varying power densities due to differences in their design, fuel, coolant, and moderator materials.",
+                "type": "/\"PhysicalQuantity\"",
+                "label": "Power: l0:density"
+            },
+            "peaking factor": {
+                "page": [
+                    " 200"
+                ],
+                "related words": {},
+                "summary": "The power peaking factor is an important parameter in nuclear reactor design. It is defined as the ratio of the maximum power density to the average power density in the reactor core. The peaking factor plays a crucial role in optimizing the design of the reactor core, as it affects both the power output and the cost of construction.\n\nMaximizing the ratio of maximum power density to average power density is a key optimization problem in core design. The achievable maximum power density depends on materials properties and the operating conditions of the reactor. On the other hand, minimizing the peaking factor involves considerations of reactor physics, such as the distribution of fuel enrichment, the placement of control rods, and other neutron poisons.\n\nThe power density distribution in a reactor core is influenced by reactor physics and thermal-hydraulic phenomena. The power density at any point in the reactor is determined by the fission cross section, the neutron flux, and the spatial distribution of fuel, coolant, and other core constituents. In a cylindrical reactor, the power density distribution can be represented as a separable function of radial and axial coordinates.\n\nIn summary, the power peaking factor is a parameter that affects the power distribution and optimization of a nuclear reactor core. It is influenced by reactor physics considerations and plays a role in determining the power output and cost of construction.",
+                "type": "/float",
+                "label": "Power: l0:peaking factor"
+            },
+            "reactors, transient behavior of": {
+                "page": [
+                    " 134"
+                ],
+                "related words": {},
+                "summary": "The information provided discusses the transient behavior of power reactors in connection with nuclear reactors. It highlights the importance of feedback effects in reactor design and operation. These feedback effects, such as resonance cross sections and temperature dependence, can impact the reactivity of the reactor. It is crucial to ensure that the feedback is negative, meaning that any increase in temperature leads to a decrease in reactivity. \n\nThe information also mentions that the neutron population and power of the reactor can be affected by these feedback effects. When the neutron population becomes large enough for a temperature rise to occur, the power curve initially follows a period of increase. However, with negative temperature feedback, the power curve stabilizes and possibly decreases over time as the negative feedback compensates for the initial reactivity insertion.\n\nOverall, the information emphasizes the significance of understanding and managing feedback effects in order to determine the transient behavior of power reactors in the context of nuclear reactor operation.",
+                "type": "/Transient behavior",
+                "label": "Power: l0:reactors, transient behavior of"
+            }
+        }
+    },
+    "Power reactor core": {
+        "page": [
+            " 85"
+        ],
+        "related words": {
+            "core composition": {
+                "page": [
+                    " 85-8"
+                ],
+                "related words": {
+                    "Fast reactors": {
+                        "page": [
+                            " 94"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, fast reactors are designed with a core composition that minimizes the presence of low atomic mass materials to prevent neutron slowing down. Fast reactor cores typically use a hexagonal lattice structure with tightly packed cells, allowing for higher power densities and smaller volumes compared to thermal reactors.\n\nFast reactor fuel can be either metal or ceramic, enclosed in metal cladding. Liquid metals, such as sodium, are commonly used as coolants due to their high atomic weight, excellent heat transfer properties, and low-pressure system requirements. However, the use of liquid metal coolants necessitates an intermediate heat exchanger to prevent contact with water, as sodium reacts violently with water. Some fast reactors also utilize molten lead coolant. Alternatively, gas-cooled fast reactors can be used, but they require high pressure and temperature rises for effective heat transport.\n\nFast reactors are refueled in batch mode, and their core composition and design allow for higher power densities and efficient neutron spectra. These reactors play a significant role in the field of nuclear reactor physics.",
+                            "type": "Power reactor core l0:core composition l1:Fast reactors"
+                        }
+                    },
+                    "Graphite-moderated reactors": {
+                        "page": [
+                            " 92-3"
+                        ],
+                        "related words": {
+                            "summary": "Graphite-moderated reactors, such as the CANDU and RBMK designs, are a type of nuclear reactor where graphite is used as both the moderator and structural material. These reactors typically use natural uranium fuel and heavy water or light water as coolant. The graphite moderator slows down neutrons to maintain a sustained nuclear chain reaction. \n\nCANDU reactors are pressurized heavy water reactors (PHWRs) that utilize a large cylindrical tank called a calandria, with horizontal pressure tubes passing through it. Each pressure tube houses fuel assembly segments containing fuel pins. Heavy water serves as both coolant and moderator. Continuous refueling is required in CANDU reactors, and control rods are used for reactor shutdown.\n\nRBMK reactors, on the other hand, are water-cooled, graphite-moderated reactors commonly used in the former Soviet Union. They have similarities to CANDU designs, with pressure tubes containing fuel assemblies. However, RBMK reactors have larger volumes and lower power densities due to the need for a significant amount of graphite moderator.\n\nIn summary, graphite-moderated reactors employ graphite as the moderator and structural material. They can use heavy water or light water as coolant and operate with natural uranium fuel. These reactors have unique design features and characteristics, such as continuous refueling in CANDU reactors and large volumes in RBMK reactors.",
+                            "type": "Power reactor core l0:core composition l1:Graphite-moderated reactors"
+                        }
+                    },
+                    "Heavy water reactors": {
+                        "page": [
+                            " 91-2"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, heavy water reactors (HWRs) are a type of power reactor that use heavy water (deuterium oxide) as both a coolant and a moderator. HWRs, specifically the pressurized heavy water reactors (PHWRs) like the CANDU type, have a unique core composition and operational characteristics.\n\nThe core of a HWR consists of a large cylindrical tank called a calandria, which contains an array of horizontal pressure tubes. Each pressure tube houses several fuel assembly segments, known as bundles, containing UO2 pellets clad in zirconium. Heavy water coolant is pumped through the tubes, circulated through steam generators, and returned to the core.\n\nOne notable feature of HWRs is their ability to use natural uranium as fuel, thanks to the excellent moderation properties of heavy water. However, continuous refueling is required during operation due to the limited burn-up capability of natural uranium. This is achieved using on-line refueling machines that insert fresh fuel bundles into the core while removing depleted ones.\n\nHWRs have a larger moderator to fuel volume ratio compared to other reactor types, as heavy water has a smaller slowing down power but a larger slowing down ratio. This means that HWRs require a larger volume of moderator to slow down neutrons effectively. The large moderator volume allows for efficient neutron moderation and control.\n\nOverall, HWRs, particularly PHWRs, are known for their use of heavy water as a moderator and coolant, their ability to use natural uranium fuel, and their continuous refueling operation. These reactors have unique core compositions and operational characteristics that make them distinct within the realm of nuclear reactors.",
+                            "type": "Power reactor core l0:core composition l1:Heavy water reactors"
+                        }
+                    },
+                    "Light water reactors": {
+                        "page": [
+                            " 88-91"
+                        ],
+                        "related words": {
+                            "summary": "The power reactor core composition in light water reactors, such as pressurized water reactors (PWRs) and boiling water reactors (BWRs), primarily consists of fuel assemblies placed in a lattice structure. These reactors use ordinary water as both coolant and moderator. The core design aims to optimize heat transfer and achieve high power densities within the coolant's heat removal capabilities. The fuel enrichment, lattice structure, and ratios of fuel, coolant, and moderator determine the neutronic properties and critical state of the reactor. Control rods are used for reactor shutdown and compensation for fuel depletion. PWRs insert control rods from the top, while BWRs insert them from the bottom. Heavy water reactors, on the other hand, require large volume ratios of moderator to fuel due to heavy water's lower slowing down power but higher slowing down ratio.",
+                            "type": "Power reactor core l0:core composition l1:Light water reactors"
+                        }
+                    },
+                    "RBMK reactors": {
+                        "page": [
+                            " 93-4"
+                        ],
+                        "related words": {
+                            "summary": "The RBMK reactors are a type of power reactor used in the former Soviet Union. They are water-cooled and graphite-moderated reactors with low power densities and large volumes. The core consists of pressure tubes containing fuel assemblies made of uranium dioxide fuel elements. The coolant, light water, boils as it passes through the pressure tubes. The graphite moderator forms the bulk of the core volume and is used to slow down neutrons. The RBMK reactors have some similarities to CANDU reactor designs but also have significant differences. They refuel on-line by isolating one pressure tube at a time. The RBMK fuel is enriched to approximately 2%. Overall, RBMK reactors are a specific type of power reactor with unique characteristics in terms of core composition and operation.",
+                            "type": "Power reactor core l0:core composition l1:RBMK reactors"
+                        }
+                    }
+                },
+                "summary": "The composition of a power reactor core is determined by the need to maintain criticality and transfer thermal energy without overheating any components. Power reactors typically have cylindrical cores with coolant flowing through channels. The core consists of fuel elements, coolant channels, and sometimes a moderator region. The fuel elements produce heat from fission, which is conducted to the coolant. The design of the core lattice structure, including the ratios of fuel, coolant, and moderator, affects both heat transfer and neutronic behavior. The optimization of lattice structure and achievable power density is crucial for determining the critical state of a power reactor. Different classes of power reactors, such as pressurized water reactors (PWRs) and boiling water reactors (BWRs), have their own specific compositions and design considerations.",
+                "type": "Power reactor core/Chemical Composition, Material Composition",
+                "label": "Power reactor core l0:core composition"
+            },
+            "fast reactor lattices": {
+                "page": [
+                    " 94-7"
+                ],
+                "related words": {},
+                "summary": "Fast reactor cores, which are a type of power reactor core, are designed to achieve high power densities by minimizing the presence of low atomic mass materials. They use hexagonal lattice cells and tightly packed fuel configurations to optimize power output. Fast reactor fuel can be either metal or ceramic, enclosed in metal cladding. Liquid metals, such as sodium, are commonly used as coolants due to their heat transfer properties. However, precautions must be taken to prevent contact between sodium coolant and water. Fast reactor cores are refueled in batches, and the enrichment of the fuel, as well as the presence of coolant and structural materials, affect the reactor's multiplication factor (k1). Increasing fuel enrichment and reducing the ratio of coolant and structural materials to fuel atoms generally increase the multiplication factor. However, the presence of coolant and structural materials can degrade the neutron energy spectrum, impacting the multiplication factor.",
+                "type": "Power reactor core/Power reactor core fast reactor lattices",
+                "label": "Power reactor core l0:fast reactor lattices"
+            },
+            "thermal reactor lattices": {
+                "page": [
+                    " 98-9"
+                ],
+                "related words": {
+                    "Four factor formula": {
+                        "page": [
+                            " 99-107"
+                        ],
+                        "related words": {
+                            "summary": "The Four Factor Formula is a mathematical model used in nuclear reactor analysis to determine the multiplication factor (k) of a power reactor core. It takes into account various factors that influence the neutron population and reaction rates within the reactor core.\n\nThe formula considers four main factors: \n\n1. Thermal Utilization Factor (f): This factor represents the probability of a thermal neutron being absorbed by the fuel and causing fission. It takes into account the absorption cross-sections of the fuel and the probability of fission.\n\n2. Resonance Escape Probability (p): This factor accounts for the probability of a neutron escaping resonance absorption in the fuel. Resonance absorption occurs when neutrons are absorbed by atomic nuclei at specific energy levels.\n\n3. Fast Fission Factor (f'): This factor represents the contribution of fast neutrons to the fission process. It considers the absorption cross-sections of the fuel for fast neutrons and the probability of fast fission.\n\n4. Thermal Neutron Leakage Factor (T): This factor accounts for the leakage of thermal neutrons from the fuel region to the moderator region. It considers the neutron flux in the moderator compared to that in the fuel.\n\nBy combining these factors, the Four Factor Formula provides an estimate of the multiplication factor (k) of the reactor core. The multiplication factor indicates whether the reactor is critical (k=1), subcritical (k<1), or supercritical (k>1). It is an important parameter in reactor design and operation, as it determines the overall power output and stability of the reactor.\n\nIn summary, the Four Factor Formula is a mathematical expression that incorporates various factors influencing neutron behavior in a nuclear reactor core. It helps in understanding and predicting the performance and criticality of the reactor.",
+                            "type": "Power reactor core l0:thermal reactor lattices l1:Four factor formula"
+                        }
+                    },
+                    "Pressurized water reactor example": {
+                        "page": [
+                            " 108-10"
+                        ],
+                        "related words": {}
+                    }
+                },
+                "summary": "The information provided discusses the treatment of thermal reactor lattices in the context of nuclear reactors. It highlights that in thermal reactors, the cross sections and dimensions of coolant and moderator regions are larger compared to fast reactors. This leads to significant differences in neutron flux between the fuel and moderator regions, particularly in energy ranges where the fuel absorption cross section is large.\n\nA simplified two-volume model is used to analyze the thermal reactor lattices, considering fuel and moderator volumes. The model can be generalized to include separate coolant and moderator regions and account for other materials. The cellular reaction rates are divided into fuel and moderator contributions, and the equation for lattice multiplication factor (k1) is derived.\n\nThe analysis further divides the neutron energy spectrum into thermal, intermediate, and fast ranges. Fission reactions primarily occur in the thermal range, while absorption reactions dominate in the intermediate and fast ranges. The simplifications made in the equations focus on the contributions of fission and absorption reactions in each energy range.\n\nOverall, the information emphasizes the importance of thermal neutrons and neutron slowing down in determining the behavior of power reactor core thermal reactor lattices in nuclear reactors.",
+                "type": "Power reactor core/Class",
+                "label": "Power reactor core l0:thermal reactor lattices"
+            }
+        },
+        "summary": "The power reactor core is a crucial component of a nuclear reactor. Its design is determined by the need to maintain criticality (sustained chain reaction) and transfer thermal energy produced from fission out of the core without overheating. The core composition varies depending on the reactor type, but most power reactors have a cylindrical shape with coolant flowing through channels. The core consists of fuel elements, coolant channels, and sometimes a separate moderator region. Different reactor classes have different core layouts, but they all aim to achieve efficient heat transfer and neutron behavior. The core composition and lattice structure play a significant role in determining the multiplication factor and overall performance of the reactor.",
+        "type": "Power reactor core",
+        "label": "Power reactor core"
+    },
+    "Power reactor core, behaviour:": {
+        "page": [],
+        "related words": {
+            "fission product and actinide inventories": {
+                "page": [
+                    " 257-9"
+                ],
+                "related words": {},
+                "summary": "The behavior of fission product and actinide inventories in a power reactor core is important for both reactor safety during operation and long-term disposal of radioactive waste. During the core's lifetime, fission products accumulate and reach saturation levels based on their yields and half-lives. Reactor safety measures aim to prevent the accidental release of fission products and other radioactive materials to the environment, considering their quantities, volatility, and ability to penetrate containment barriers.\n\nActinides, on the other hand, are produced in smaller quantities than fission products and have much longer half-lives, often measured in thousands of years. Following reactor shutdown, the radiotoxicity of the discharged fuel is primarily attributed to actinides rather than fission products, especially for time spans exceeding a century. This has led to increased attention towards reprocessing reactor fuel to recycle it, increase energy production, and reduce the mass of long-lived radioactive waste.\n\nIn summary, the behavior of fission product and actinide inventories in a power reactor core is crucial for reactor safety and the long-term management of radioactive waste. Understanding their production, characteristics, and disposal methods is essential for ensuring the safe and efficient operation of nuclear reactors.",
+                "type": "/Power Reactor Core, Fission Product Inventory, Actinide Inventory",
+                "label": "Power reactor core, behaviour: l0:fission product and actinide inventories"
+            },
+            "fission product buildup and decay": {
+                "page": [
+                    " 245-6"
+                ],
+                "related words": {
+                    "samarium poisoning": {
+                        "page": [
+                            " 250-2"
+                        ],
+                        "related words": {
+                            "summary": "In a nuclear reactor, the behavior of the power reactor core is influenced by various factors, including fission product buildup and decay, as well as samarium poisoning. \n\nFission product buildup refers to the accumulation of radioactive isotopes produced during the fission process. Xenon-135 is one such fission product that can cause difficulties in reactor operation. It has a high neutron absorption cross section and can lead to a decrease in reactivity, making it challenging to restart the reactor. Xenon poisoning can also result in space-time oscillations and increased power peaking in certain areas of the core.\n\nSamarium poisoning is another issue caused by the accumulation of samarium-149, which has a significant thermal absorption cross section. Samarium is produced through the decay of neodymium-149, which is a fission product. After a reactor shutdown, the samarium concentration increases due to the decay of neodymium. To restart the reactor after an extended shutdown, additional reactivity must be available to overcome the increased samarium concentration.\n\nOverall, fission product buildup and samarium poisoning are important considerations in nuclear reactor operation. They can affect reactor performance, reactivity, and the ability to restart the reactor after shutdown. Proper management and control of these factors are crucial for safe and efficient reactor operation.",
+                            "type": "Power reactor core, behaviour: l0:fission product buildup and decay l1:samarium poisoning"
+                        }
+                    },
+                    "xenon positioning": {
+                        "page": [
+                            " 247-50"
+                        ],
+                        "related words": {}
+                    }
+                },
+                "summary": "In a nuclear reactor, fission reactions produce radioactive fission products that can build up in the reactor core. These fission products have measurable thermal absorption cross sections, making them neutron poisons. The buildup of fission products depends on their production and decay rates.\n\nOver time, fission products reach an equilibrium concentration where the rate of production equals the rate of decay. The concentration of fission products depends on the reactor's operating time relative to the fission product's effective half-life. If the reactor has been operating for a short time, the concentration of fission products will increase linearly with time. However, at longer times, the concentration reaches a saturation value and does not increase further.\n\nThe inventory of fission products that have reached saturation is proportional to the reactor power, while the inventory of those still increasing linearly with time is proportional to the total energy produced by the reactor. Therefore, the behavior of fission product buildup and decay is important in understanding the long-term performance and safety of a nuclear reactor.",
+                "type": "/Class",
+                "label": "Power reactor core, behaviour: l0:fission product buildup and decay"
+            },
+            "fuel depletion": {
+                "page": [
+                    " 252"
+                ],
+                "related words": {
+                    "burnable poisons": {
+                        "page": [
+                            " 255-7"
+                        ],
+                        "related words": {
+                            "summary": "The behavior of a power reactor core in relation to fuel depletion and burnable poisons is an important aspect of nuclear reactor operation. Fuel depletion refers to the reduction of fissile material, such as uranium-235, and the buildup of higher isotopes of plutonium and uranium due to neutron captures. This process affects the conversion ratio, which measures the ratio of fissile material created to fissile material consumed. If the conversion ratio is greater than one, it is known as the breeding ratio, indicating that the reactor is producing more fissile material than it is consuming.\n\nBurnable poisons are neutron absorbers, such as boron and gadolinium, that are embedded in the fuel or other core components to limit excess reactivity and mitigate localized power peaking. They work by absorbing neutrons and reducing the overall reactivity of the core. Burnable poisons can be distributed uniformly or concentrated in lumps to achieve desired effects. By controlling the concentration and distribution of burnable poisons, the excess reactivity and power density distribution within the core can be managed.\n\nIn terms of long-term core behavior, the production of fission products and actinides during reactor operation is a concern. These radioactive materials have implications for both reactor safety and the disposal of radioactive waste. Fission product concentrations build up over time and reach saturation levels based on their yields and half-lives. Reactor safety measures aim to prevent the accidental release of fission products and other radioactive materials into the environment. The characteristics of the isotopes, such as their volatility and ability to penetrate containment barriers, are important considerations in ensuring reactor safety.\n\nOverall, understanding the behavior of a power reactor core in terms of fuel depletion and the use of burnable poisons is crucial for optimizing reactor performance, managing reactivity, and addressing safety and waste disposal concerns in nuclear reactors.",
+                            "type": "Power reactor core, behaviour: l0:fuel depletion l1:burnable poisons"
+                        }
+                    },
+                    "fissionable nuclide concentrations": {
+                        "page": [
+                            " 252-5"
+                        ],
+                        "related words": {
+                            "summary": "The behavior of a power reactor core in terms of fuel depletion and fissionable nuclide concentrations is an important aspect of nuclear reactor operation. In most reactor fuels, uranium-235 and plutonium-239 are the primary fissile isotopes involved in the fission process. The power density of the reactor core depends on the fission in these isotopes.\n\nOver time, as the reactor operates, the fissile materials are depleted, and the concentrations of uranium-235 and plutonium-239 decrease. This depletion is governed by rate equations that describe the buildup and decay of these isotopes. The flux in the reactor also changes with time to compensate for the changing concentrations and maintain a constant reactor power output.\n\nThe conversion ratio, which measures the ratio of fissile material created to fissile material destroyed, is an important parameter in evaluating fuel performance. If the conversion ratio is greater than one, it indicates that the reactor is producing more fissile material than it is consuming, which is known as the breeding ratio.\n\nThe depletion of uranium-235 and the buildup of plutonium-239 have an impact on the reactivity of the reactor core. As uranium-235 is depleted and plutonium-239 builds up, the multiplication factor (a measure of reactivity) decreases over time. This is due to the competing effects of fuel depletion and fission product buildup.\n\nTo control excess reactivity and mitigate power peaking, burnable poisons can be used. These are isotopes with a high neutron absorption cross-section that are embedded in the fuel or other core components. They limit excess reactivity early in the core's life.\n\nOverall, understanding the behavior of fuel depletion and fissionable nuclide concentrations is crucial for the safe and efficient operation of nuclear reactors. It helps in optimizing fuel usage, managing reactivity, and ensuring long-term core stability.",
+                            "type": "Power reactor core, behaviour: l0:fuel depletion l1:fissionable nuclide concentrations"
+                        }
+                    }
+                },
+                "summary": "The behavior of a power reactor core in terms of fuel depletion refers to the changes that occur in the fuel composition over time as the reactor operates. In most cases, reactor fuels consist of uranium or plutonium. The power density of the reactor core is determined by the fission reactions taking place in these fissile materials.\n\nDuring operation, the fuel undergoes depletion as fissile isotopes, such as uranium-235 and plutonium-239, are consumed through fission reactions. Additionally, fertile materials like uranium-238 can capture neutrons and undergo radioactive decay to become fissile material, contributing to the power production.\n\nTo maintain a constant reactor power output over time, the flux of neutrons must be adjusted as the fissile material is depleted. This is achieved by gradually increasing the neutron flux.\n\nThe concentrations of fissile and fertile materials in the reactor core change with time, and their evolution is governed by rate equations similar to those used for fission product buildup and decay. These equations describe how the concentrations of different isotopes change as the fuel is consumed.\n\nOverall, the information suggests that fuel depletion is a crucial aspect of power reactor core behavior in nuclear reactors. It highlights the importance of managing the fuel composition and adjusting the neutron flux to ensure sustained power production.",
+                "type": "/Class",
+                "label": "Power reactor core, behaviour: l0:fuel depletion"
+            },
+            "reactivity control": {
+                "page": [
+                    " 243-5"
+                ],
+                "related words": {},
+                "summary": "The behavior of a power reactor core in terms of reactivity control is influenced by two main factors: fission product buildup and fuel depletion. \n\nFission products are radioactive by-products of fission reactions in a nuclear reactor. Some of these fission products have significant thermal absorption cross sections, making them neutron poisons. Over time, fission products accumulate in the core, leading to a decrease in reactivity. The buildup of fission products reaches a saturation point, after which their concentration remains relatively constant. The two most significant fission products in terms of neutron absorption are xenon-135 and samarium-149, which reach equilibrium within days following reactor startup or shutdown.\n\nFuel depletion is another factor that affects reactivity control. As the reactor operates, the fuel is gradually depleted, resulting in a decrease in reactivity. Fuel depletion occurs over longer time scales, typically measured in weeks or months. The effects of fuel depletion and fission product buildup can be treated separately to a large extent.\n\nReactivity control is crucial to maintain the desired power level and prevent excessive power peaking in the core. Various methods are employed to compensate for excess reactivity, such as dissolving neutron absorbers in the coolant or using burnable poisons embedded in the fuel or core constituents.\n\nOverall, reactivity control in a power reactor core involves managing the effects of fission product buildup and fuel depletion to ensure safe and efficient operation of the nuclear reactor.",
+                "type": "/Class",
+                "label": "Power reactor core, behaviour: l0:reactivity control"
+            }
+        }
+    },
+    "Pressurized water reactor": {
+        "page": [
+            " 88",
+            " 108",
+            " 209"
+        ],
+        "related words": {},
+        "summary": "A Pressurized Water Reactor (PWR) is a type of nuclear reactor that utilizes ordinary water as both coolant and moderator. It is one of the major classes of light water reactors (LWRs), along with boiling water reactors (BWRs). The PWR design involves placing fuel elements in square assemblies, with control rods inserted into moderator regions between the assemblies.\n\nThe power density of a PWR is determined by factors such as the linear heat rate of fuel elements, the volume ratio of coolant/moderator to fuel, and other considerations. The core lattice structure of a PWR is optimized to facilitate heat transfer and maximize achievable power densities within the coolant's heat removal capabilities.\n\nNeutronic properties, including the ratios of fuel, coolant, and moderator, play a crucial role in determining the critical state of a PWR. Parameters such as fuel enrichment and the volume ratio of moderator to fuel affect the thermal reactor core multiplication. The multiplication increases with enrichment but exhibits a maximum at the optimal moderator to fuel ratio.\n\nIn summary, a Pressurized Water Reactor is a type of light water reactor that uses ordinary water as both coolant and moderator. Its design and operational considerations involve optimizing power density, heat transfer, and neutronic properties to ensure safe and efficient nuclear reactor operation.",
+        "type": "PressurizedWaterReactor",
+        "label": "Pressurized water reactor"
+    },
+    "Prompt coefficient": {
+        "page": [
+            " 228"
+        ],
+        "related words": {},
+        "summary": "The prompt coefficient is a measure of the reactivity change in a nuclear reactor due to a sudden change in power. It represents the immediate feedback effect on reactivity without considering the delayed neutron effects. In a stable reactor, the prompt coefficient should be negative, indicating that an increase in power leads to a decrease in reactivity, which helps maintain reactor stability.\n\nThe prompt coefficient is influenced by the temperature of the fuel. When the power changes over a short period, the fuel temperature dominates the feedback reactivity. The prompt coefficient, also known as the fuel temperature coefficient, quantifies this feedback. A negative prompt coefficient is essential for reactor stability.\n\nIn some cases, there may be a small instantaneous coolant heating due to elastic collisions between neutrons and coolant atoms. However, this effect is usually negligible compared to other factors.\n\nOverall, the prompt coefficient is an important parameter in nuclear reactor design and operation as it helps ensure the stability and safety of the reactor by quantifying the reactivity response to power changes.",
+        "type": "datatype",
+        "label": "Prompt coefficient"
+    },
+    "Prompt jump approximation": {
+        "page": [
+            " 131"
+        ],
+        "related words": {},
+        "summary": "The prompt jump approximation is a concept used in nuclear reactor analysis to describe the rapid change in neutron population that occurs following small step changes in reactivity. It is observed that the neutron population initially jumps rapidly but then undergoes slower changes. This behavior is due to the fact that the precursor concentration, which affects the neutron population, changes sluggishly compared to the prompt generation time. The prompt jump approximation is utilized in experimental determinations of reactor parameters using techniques such as rod drop and source jerk.",
+        "type": "Class",
+        "label": "Prompt jump approximation"
+    },
+    "Quasi-static model": {
+        "page": [
+            " 233",
+            " 235"
+        ],
+        "related words": {},
+        "summary": "The quasi-static model is a simplified approach used to analyze the behavior of nuclear reactors during transients. It assumes that the reactor operates at steady-state conditions and that temperature feedback is negligible. The model considers the insertion of positive reactivity and the negative temperature coefficients of fuel and coolant. It allows for the analysis of small step reactivity insertions or very slow ramp rates of reactivity addition. The quasi-static model provides insights into the equilibrium power level reached after a transient and can be used for normal operational transients. However, it is not applicable for fast transients or accidents where heat transfer and prompt jumps in power are significant. In such cases, the full dynamics model is required.",
+        "type": "Model",
+        "label": "Quasi-static model"
+    },
+    "Radial and axial peaking factors": {
+        "page": [
+            " 202",
+            " 204"
+        ],
+        "related words": {},
+        "summary": "The radial and axial peaking factors are parameters used to describe the power distribution within a nuclear reactor. The power peaking factor is the product of the radial and axial peaking factors.\n\n- Radial peaking factor (Fr): It represents the maximum power density at the outermost fuel region compared to the average power density in the core. A lower radial peaking factor indicates a more uniform power distribution.\n\n- Axial peaking factor (Fz): It represents the maximum power density at the top or bottom of the fuel region compared to the average power density along the axial height of the core. A lower axial peaking factor indicates a more uniform power distribution.\n\nThe goal is to minimize the peaking factors and achieve a more uniform power distribution within the reactor. This can be achieved by using different fuel enrichments in radial zones or through other design modifications.\n\nIt is important to note that these peaking factors are influenced by factors such as fuel element manufacturing tolerances, control and instrumentation perturbations, and other localized effects. Therefore, a local peaking factor (Fl) is often included to account for these effects.\n\nOverall, minimizing the peaking factors helps to ensure efficient and safe operation of the nuclear reactor.",
+        "type": "float",
+        "label": "Radial and axial peaking factors"
+    },
+    "Radial flux distribution": {
+        "page": [
+            " 182"
+        ],
+        "related words": {},
+        "summary": "The information provided discusses the radial flux distribution in a nuclear reactor. The radial flux distribution refers to the distribution of neutron flux (the number of neutrons per unit area per unit time) across the radial direction of the reactor core.\n\nThe equations mentioned in the information are derived from the diffusion theory, which is commonly used to model neutron transport in nuclear reactors. These equations describe the behavior of neutron flux in the radial direction and are used to determine the flux distribution.\n\nThe solution to the equations depends on various parameters, such as the height of the core and reflector, the axial buckling, and the boundary conditions. The equations provide a mathematical representation of the neutron flux distribution in the core and reflector regions.\n\nUnderstanding the radial flux distribution is crucial in reactor design and analysis. It helps in determining the power distribution, fuel utilization, and overall performance of the reactor. By studying the flux distribution, engineers can optimize the reactor design, ensure safety, and improve efficiency.\n\nIn summary, the radial flux distribution in a nuclear reactor is a key factor in understanding and analyzing the behavior of neutron flux across the radial direction of the reactor core. It plays a vital role in reactor design, performance evaluation, and safety assessment.",
+        "type": "Physical Property",
+        "label": "Radial flux distribution"
+    },
+    "Radial peaking factor": {
+        "page": [
+            " 202",
+            " 208"
+        ],
+        "related words": {},
+        "summary": "The radial peaking factor is a parameter used to describe the variation in power density across the radial direction of a nuclear reactor core. It is defined as the maximum power density at any radial position divided by the average power density over the entire core. \n\nIn a cylindrical reactor core, the radial peaking factor is determined by the radial power distribution, which is influenced by factors such as fuel enrichment, coolant flow, and core geometry. A lower peaking factor indicates a more uniform power distribution, while a higher peaking factor indicates a larger variation in power density.\n\nReducing the radial peaking factor is desirable in nuclear reactors as it helps to mitigate localized hotspots and improve fuel performance. This can be achieved by employing different fuel enrichments in different radial zones or through other design modifications.\n\nThe radial peaking factor is an important parameter in determining the maximum fuel and coolant temperatures in the reactor core. It is used to estimate the maximum fuel temperature drop from the centerline to the coolant and to calculate the maximum fuel temperature based on the coolant temperature at the point of maximum power output.\n\nOverall, understanding and controlling the radial peaking factor is crucial for optimizing the performance and safety of nuclear reactors.",
+        "type": "float",
+        "label": "Radial peaking factor"
+    },
+    "Radial reflector": {
+        "page": [
+            " 180",
+            " 181",
+            " 184"
+        ],
+        "related words": {},
+        "summary": "A radial reflector is a component used in nuclear reactors to reduce the fraction of neutrons that escape the core. It is placed around the core and acts as a diffusing material that scatters escaping neutrons back into the core, thus increasing the probability of their interaction with fuel. The use of a radial reflector is particularly important in smaller reactor cores where neutron leakage is significant.\n\nThe presence of a radial reflector affects the neutron distribution within the core and requires more advanced mathematical methods for analysis. The addition of a radial reflector without reducing the core dimensions leads to an increase in multiplication, which needs to be compensated by decreasing the value of k1 (a parameter related to reactor criticality). This can be achieved by reducing fuel enrichment or adding neutron absorbers to the core.\n\nOverall, a radial reflector plays a crucial role in improving the neutron economy of a nuclear reactor by reducing neutron leakage and enhancing the utilization of fuel.",
+        "type": "Physical Component",
+        "label": "Radial reflector"
+    },
+    "Radioactive decay": {
+        "page": [
+            " 4",
+            " 5",
+            " 9",
+            " 10",
+            " 15",
+            " 16",
+            " 18",
+            " 37",
+            " 116",
+            " 245",
+            " 248",
+            " 252"
+        ],
+        "related words": {}
+    },
+    "Radioactivity, measure of": {
+        "page": [
+            " 19"
+        ],
+        "related words": {}
+    },
+    "Radioiodine": {
+        "page": [
+            " 258"
+        ],
+        "related words": {}
+    },
+    "Radioisotopes": {
+        "page": [
+            " 11 see also Isotopes"
+        ],
+        "related words": {}
+    },
+    "Radionuclides": {
+        "page": [
+            " 20"
+        ],
+        "related words": {
+            "decay of": {
+                "page": [
+                    " 5"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Radiostrontium": {
+        "page": [
+            " 11"
+        ],
+        "related words": {}
+    },
+    "Radiotoxicity": {
+        "page": [
+            " 259"
+        ],
+        "related words": {}
+    },
+    "Ramp rate": {
+        "page": [
+            " 235"
+        ],
+        "related words": {}
+    },
+    "RBMK reactors": {
+        "page": [
+            " 93",
+            " 94",
+            " 110"
+        ],
+        "related words": {}
+    },
+    "Reaction equations": {
+        "page": [
+            " 3"
+        ],
+        "related words": {}
+    },
+    "Reactivity:": {
+        "page": [],
+        "related words": {
+            "coefficients": {
+                "page": [
+                    " 221",
+                    " 228"
+                ],
+                "related words": {}
+            },
+            "control": {
+                "page": [
+                    " 243"
+                ],
+                "related words": {}
+            },
+            "feedback": {
+                "page": [
+                    " 221",
+                    " 222"
+                ],
+                "related words": {}
+            },
+            "formulation": {
+                "page": [
+                    " 126"
+                ],
+                "related words": {}
+            },
+            "worth": {
+                "page": [
+                    " 186"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Reactor:": {
+        "page": [],
+        "related words": {
+            "dynamics": {
+                "page": [
+                    " 133",
+                    " 233"
+                ],
+                "related words": {}
+            },
+            "lattices": {
+                "page": [
+                    " 81",
+                    " 90",
+                    " 92",
+                    " 98",
+                    " 108",
+                    " 139",
+                    " 154",
+                    " 180",
+                    " 199"
+                ],
+                "related words": {}
+            },
+            "multiplication": {
+                "page": [
+                    " 87",
+                    " 91",
+                    " 97",
+                    " 167",
+                    " 204",
+                    " 222"
+                ],
+                "related words": {}
+            },
+            "period": {
+                "page": [
+                    " 127"
+                ],
+                "related words": {}
+            },
+            "power": {
+                "page": [
+                    " 172"
+                ],
+                "related words": {}
+            },
+            "transients": {
+                "page": [
+                    " 232"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Reactor kinetics": {
+        "page": [
+            " 115"
+        ],
+        "related words": {
+            "delayed neutron kinetics": {
+                "page": [
+                    " 123-4"
+                ],
+                "related words": {
+                    "Kinetics equations": {
+                        "page": [
+                            " 124-5"
+                        ],
+                        "related words": {}
+                    },
+                    "Reactivity formulation": {
+                        "page": [
+                            " 126"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "multiplying systems behavior": {
+                "page": [
+                    " 120-2"
+                ],
+                "related words": {}
+            },
+            "neutron balance equations": {
+                "page": [
+                    " 116"
+                ],
+                "related words": {
+                    "Finite multiplying systems": {
+                        "page": [
+                            " 119-20"
+                        ],
+                        "related words": {}
+                    },
+                    "Infinite medium multiplying systems": {
+                        "page": [
+                            " 117-19"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "prologue to reactor dynamics": {
+                "page": [
+                    " 133-4"
+                ],
+                "related words": {}
+            },
+            "step reactivity changes": {
+                "page": [
+                    " 126-7"
+                ],
+                "related words": {
+                    "Prompt jump approximation": {
+                        "page": [
+                            " 131-3"
+                        ],
+                        "related words": {}
+                    },
+                    "Reactor period": {
+                        "page": [
+                            " 127-31"
+                        ],
+                        "related words": {}
+                    }
+                }
+            }
+        }
+    },
+    "Reflected boundaries": {
+        "page": [
+            " 147"
+        ],
+        "related words": {}
+    },
+    "Reflector:": {
+        "page": [],
+        "related words": {
+            "diminishing effect": {
+                "page": [
+                    " 185"
+                ],
+                "related words": {}
+            },
+            "savings": {
+                "page": [
+                    " 184"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Resonance:": {
+        "page": [],
+        "related words": {
+            "absorption": {
+                "page": [
+                    " 68",
+                    " 73",
+                    " 79",
+                    " 226"
+                ],
+                "related words": {}
+            },
+            "cross sections": {
+                "page": [
+                    " 42",
+                    " 78"
+                ],
+                "related words": {}
+            },
+            "escape probability": {
+                "page": [
+                    " 102-105",
+                    " 108",
+                    " 109",
+                    " 175",
+                    " 223",
+                    " 224",
+                    " 226"
+                ],
+                "related words": {}
+            },
+            "self-shielding": {
+                "page": [
+                    " 224"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Rod bank": {
+        "page": [
+            " 91",
+            " 131",
+            " 186",
+            " 190",
+            " 191",
+            " 193",
+            " 203",
+            " 231",
+            " 236",
+            " 238",
+            " 244"
+        ],
+        "related words": {}
+    },
+    "Rod drop": {
+        "page": [
+            " 132"
+        ],
+        "related words": {}
+    },
+    "Rod oscillator": {
+        "page": [
+            " 133"
+        ],
+        "related words": {}
+    },
+    "Samarium": {
+        "page": [
+            " 243",
+            " 245",
+            " 250-2"
+        ],
+        "related words": {
+            "concentration": {
+                "page": [
+                    " 251"
+                ],
+                "related words": {}
+            },
+            "poisoning": {
+                "page": [
+                    " 250"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Saturation activity": {
+        "page": [
+            " 20"
+        ],
+        "related words": {}
+    },
+    "Scalar flux": {
+        "page": [
+            " 64",
+            " 273"
+        ],
+        "related words": {}
+    }
+}

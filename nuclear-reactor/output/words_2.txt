@@ -1,0 +1,1 @@
+["Lattice cell:", "Lattice cell: l0:compositions", "Lattice cell: l0:pitch", "Lattice structure", "Leakage:", "Leakage: l0:effects", "Leakage: l0:probability", "Light water reactors (LWRs)", "Linear heat rate", "Liquid coolants", "Liquid cooled reactors", "Lumped boron", "Macroscopic cross section", "Maxwell-Boltzmann distribution"]

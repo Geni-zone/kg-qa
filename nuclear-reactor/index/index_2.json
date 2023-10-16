@@ -1,0 +1,609 @@
+{
+    "Infinite medium multiplication": {
+        "page": [
+            " 81",
+            " 117",
+            " 118",
+            " 177",
+            " 191"
+        ],
+        "related words": {}
+    },
+    "Inhour equation": {
+        "page": [
+            " 128"
+        ],
+        "related words": {}
+    },
+    "Integrating factor technique": {
+        "page": [
+            " 121",
+            " 132",
+            " 212",
+            " 246",
+            " 248",
+            " 254"
+        ],
+        "related words": {}
+    },
+    "Interface conditions": {
+        "page": [
+            " 148"
+        ],
+        "related words": {}
+    },
+    "Iodine-131": {
+        "page": [
+            " 20",
+            " 21",
+            " 246"
+        ],
+        "related words": {}
+    },
+    "Iodine-135": {
+        "page": [
+            " 247"
+        ],
+        "related words": {}
+    },
+    "Isothermal temperature coefficient": {
+        "page": [
+            " 228"
+        ],
+        "related words": {}
+    },
+    "Isotopes": {
+        "page": [
+            " 3",
+            " 5",
+            " 9",
+            " 13",
+            " 16",
+            " 17",
+            " 21",
+            " 33",
+            " 35",
+            " 36",
+            " 42",
+            " 47",
+            " 52",
+            " 75",
+            " 123",
+            " 129",
+            " 226",
+            " 246",
+            " 247",
+            " 248",
+            " 252",
+            " 255",
+            " 257",
+            " 258"
+        ],
+        "related words": {
+            "decay rate": {
+                "page": [
+                    " 246"
+                ],
+                "related words": {}
+            },
+            "fissionable": {
+                "page": [
+                    " 11",
+                    " 47",
+                    " 115",
+                    " 129",
+                    " 172"
+                ],
+                "related words": {}
+            },
+            "hydrogen": {
+                "page": [
+                    " 5",
+                    " 9"
+                ],
+                "related words": {}
+            },
+            "plutonium and uranium": {
+                "page": [
+                    " 255"
+                ],
+                "related words": {}
+            },
+            "radium": {
+                "page": [
+                    " 18"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Isotopic:": {
+        "page": [],
+        "related words": {
+            "concentrations": {
+                "page": [
+                    " 252"
+                ],
+                "related words": {}
+            },
+            "distribution": {
+                "page": [
+                    " 153"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Kinetic:": {
+        "page": [],
+        "related words": {
+            "energy": {
+                "page": [
+                    " 6",
+                    " 8-11",
+                    " 29",
+                    " 37-9",
+                    " 41",
+                    " 42",
+                    " 46",
+                    " 57",
+                    " 63",
+                    " 116",
+                    " 228"
+                ],
+                "related words": {}
+            },
+            "theory": {
+                "page": [
+                    " 39",
+                    " 70"
+                ],
+                "related words": {}
+            },
+            "equations": {
+                "page": [
+                    " 124-7",
+                    " 134",
+                    " 168",
+                    " 233"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Laplace transforms": {
+        "page": [
+            " 133"
+        ],
+        "related words": {}
+    },
+    "Lattice cell:": {
+        "page": [],
+        "related words": {
+            "compositions": {
+                "page": [
+                    " 174"
+                ],
+                "related words": {}
+            },
+            "pitch": {
+                "page": [
+                    " 139"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Lattice structure": {
+        "page": [
+            " 81",
+            " 85",
+            " 88",
+            " 204"
+        ],
+        "related words": {}
+    },
+    "Leakage:": {
+        "page": [],
+        "related words": {
+            "effects": {
+                "page": [
+                    " 117",
+                    " 222"
+                ],
+                "related words": {}
+            },
+            "probability": {
+                "page": [
+                    " 180",
+                    " 222"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Light water reactors (LWRs)": {
+        "page": [
+            " 88",
+            " 90-2"
+        ],
+        "related words": {}
+    },
+    "Linear heat rate": {
+        "page": [
+            " 86",
+            " 88",
+            " 205",
+            " 206",
+            " 208-10",
+            " 279"
+        ],
+        "related words": {}
+    },
+    "Liquid coolants": {
+        "page": [
+            " 93",
+            " 186",
+            " 212",
+            " 214"
+        ],
+        "related words": {}
+    },
+    "Liquid cooled reactors": {
+        "page": [
+            " 110",
+            " 208",
+            " 213",
+            " 226",
+            " 227"
+        ],
+        "related words": {}
+    },
+    "Lumped boron": {
+        "page": [
+            " 257"
+        ],
+        "related words": {}
+    },
+    "Macroscopic cross section": {
+        "page": [
+            " 29-31",
+            " 33",
+            " 34",
+            " 36",
+            " 37",
+            " 61",
+            " 62",
+            " 64",
+            " 75",
+            " 81",
+            " 96",
+            " 108",
+            " 133"
+        ],
+        "related words": {}
+    },
+    "Maxwell-Boltzmann distribution": {
+        "page": [
+            " 39",
+            " 45",
+            " 58",
+            " 71",
+            " 73",
+            " 79",
+            " 80",
+            " 134",
+            " 224"
+        ],
+        "related words": {}
+    },
+    "Mean free path": {
+        "page": [
+            " 32"
+        ],
+        "related words": {}
+    },
+    "Microscopic cross section": {
+        "page": [
+            " 31",
+            " 33-6",
+            " 38",
+            " 73",
+            " 97",
+            " 108",
+            " 109",
+            " 222"
+        ],
+        "related words": {}
+    },
+    "Migration length": {
+        "page": [
+            " 178"
+        ],
+        "related words": {}
+    },
+    "Moderator": {
+        "page": [
+            " 61-3",
+            " 65",
+            " 67-9",
+            " 72",
+            " 73",
+            " 81",
+            " 85",
+            " 87",
+            " 88",
+            " 90-4",
+            " 98-110",
+            " 139",
+            " 168",
+            " 177",
+            " 179",
+            " 204",
+            " 209",
+            " 212",
+            " 221",
+            " 223",
+            " 225-7"
+        ],
+        "related words": {
+            "temperature coefficient": {
+                "page": [
+                    " 225"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Momentum, conservation of": {
+        "page": [
+            " 41",
+            " 49",
+            " 53"
+        ],
+        "related words": {}
+    },
+    "Movable control poison": {
+        "page": [
+            " 230",
+            " 232",
+            " 244"
+        ],
+        "related words": {}
+    },
+    "Multigroup methods": {
+        "page": [
+            " 75"
+        ],
+        "related words": {}
+    },
+    "Multiplying systems behavior": {
+        "page": [
+            " 120"
+        ],
+        "related words": {}
+    },
+    "Negative feedback impacts": {
+        "page": [
+            " 134"
+        ],
+        "related words": {}
+    },
+    "Neptunium": {
+        "page": [
+            " 253",
+            " 258"
+        ],
+        "related words": {}
+    },
+    "Neutrinos": {
+        "page": [
+            " 4",
+            " 5",
+            " 9-11"
+        ],
+        "related words": {}
+    },
+    "Neutron:": {
+        "page": [],
+        "related words": {
+            "balance equations": {
+                "page": [
+                    " 116"
+                ],
+                "related words": {}
+            },
+            "beam": {
+                "page": [
+                    " 32"
+                ],
+                "related words": {}
+            },
+            "capture": {
+                "page": [
+                    " 47",
+                    " 104",
+                    " 109",
+                    " 243",
+                    " 253",
+                    " 255-7"
+                ],
+                "related words": {}
+            },
+            "chain reactions": {
+                "page": [
+                    " 29",
+                    " 57",
+                    " 115 see also Chain reaction"
+                ],
+                "related words": {}
+            },
+            "colliding/collisions": {
+                "page": [
+                    " 61",
+                    " 97"
+                ],
+                "related words": {}
+            },
+            "cross sections": {
+                "page": [
+                    " 29"
+                ],
+                "related words": {}
+            },
+            "cycle in thermal reactors": {
+                "page": [
+                    " 100"
+                ],
+                "related words": {}
+            },
+            "density": {
+                "page": [
+                    " 74"
+                ],
+                "related words": {}
+            },
+            "diffusion": {
+                "page": [
+                    " 139",
+                    " 140",
+                    " 142",
+                    " 149",
+                    " 157",
+                    " 174"
+                ],
+                "related words": {
+                    "properties, derivation of": {
+                        "page": [
+                            " 273",
+                            " 275-9"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "distributions": {
+                "page": [
+                    " 57",
+                    " 167"
+                ],
+                "related words": {}
+            },
+            "energy": {
+                "page": [
+                    " 29",
+                    " 48",
+                    " 49",
+                    " 51",
+                    " 53",
+                    " 58",
+                    " 64",
+                    " 74",
+                    " 95",
+                    " 97",
+                    " 98",
+                    " 100",
+                    " 115",
+                    " 174",
+                    " 225",
+                    " 273"
+                ],
+                "related words": {}
+            },
+            "emitting fission products": {
+                "page": [
+                    " 123",
+                    " 126",
+                    " 127"
+                ],
+                "related words": {}
+            },
+            "flux": {
+                "page": [
+                    " 63",
+                    " 64",
+                    " 73",
+                    " 101",
+                    " 107",
+                    " 151",
+                    " 153",
+                    " 193",
+                    " 221",
+                    " 222",
+                    " 224"
+                ],
+                "related words": {}
+            },
+            "leakage": {
+                "page": [
+                    " 58",
+                    " 115",
+                    " 119",
+                    " 174",
+                    " 175",
+                    " 179",
+                    " 227"
+                ],
+                "related words": {}
+            },
+            "lifetime": {
+                "page": [
+                    " 12",
+                    " 116",
+                    " 117",
+                    " 120",
+                    " 122",
+                    " 124",
+                    " 127",
+                    " 129",
+                    " 212",
+                    " 236",
+                    " 243"
+                ],
+                "related words": {}
+            },
+            "moderators see Moderator multiplication": {
+                "page": [
+                    " 12",
+                    " 57",
+                    " 211"
+                ],
+                "related words": {}
+            },
+            "nonleakage probability": {
+                "page": [
+                    " 58",
+                    " 167",
+                    " 180"
+                ],
+                "related words": {}
+            },
+            "poison": {
+                "page": [
+                    " 87",
+                    " 91",
+                    " 180",
+                    " 186",
+                    " 200",
+                    " 230",
+                    " 244",
+                    " 245"
+                ],
+                "related words": {}
+            },
+            "spectrum": {
+                "page": [
+                    " 48",
+                    " 61",
+                    " 62",
+                    " 95",
+                    " 106",
+                    " 174",
+                    " 226",
+                    " 227"
+                ],
+                "related words": {}
+            }
+        }
+    }
+}

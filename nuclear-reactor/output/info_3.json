@@ -1,0 +1,740 @@
+{
+    "Neutron distributions in energy": {
+        "page": [
+            " 57-8"
+        ],
+        "related words": {
+            "energy-averaged reaction rates": {
+                "page": [
+                    " 73-5"
+                ],
+                "related words": {
+                    "Fast cross section averages": {
+                        "page": [
+                            " 75-8"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses neutron distributions in energy-averaged reaction rates and fast cross section averages in the context of nuclear reactors. \n\nIn nuclear reactors, neutron flux is divided into different energy segments: thermal, intermediate, and fast. The flux distribution for fast neutrons is approximated using Eq. (3.16), which considers uncollided neutrons. However, the total macroscopic cross section in the denominator of this equation includes all nuclides present in the reactor, making it a complex function of energy. To simplify the equation, the cross sections for individual elements are made independent of other elements by assuming an energy-independent term. Fast cross section averages are then obtained by integrating the product of the cross section and flux over the energy range.\n\nThe energy range between 1.0 eV and 0.1 MeV, referred to as the intermediate or resonance range, is characterized by large cross sections due to resonances in heavy elements. The flux distribution in this range is approximated using Eq. (3.29), and the cross section averages are obtained by integrating the product of the cross section and flux over the energy range. For capture and fission reactions, the cross sections are often expressed in terms of resonance integrals, which represent the contributions from resonance peaks. The values of resonance integrals are relatively insensitive to the limits of integration, while the denominator of the cross section expression depends strongly on these limits.\n\nOverall, the provided information highlights the methods used to calculate energy-averaged reaction rates and cross section averages for different energy segments in nuclear reactors. These calculations are essential for understanding neutron behavior and optimizing reactor performance.",
+                            "type": "Neutron distributions in energy l0:energy-averaged reaction rates l1:Fast cross section averages"
+                        }
+                    },
+                    "Resonance cross section averages": {
+                        "page": [
+                            " 78-9"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses the neutron distributions in energy-averaged reaction rates and resonance cross section averages in the context of nuclear reactors. \n\n1. Resonance Cross Section Averages: In the energy range between 1.0 eV and 0.1 MeV, the large cross sections caused by resonances in heavy elements (such as uranium and plutonium) dominate neutron absorption. These resonances account for most of the neutron absorption in this energy range. The flux distribution in this range can be approximated using equations, but the cross sections need to be independent of core composition. Resonance cross sections are often expressed as resonance integrals, which represent the contributions from resonance peaks within the energy range.\n\n2. Thermal Cross Section Averages: In thermal reactors, neutron spectra are described by the Maxwell-Boltzmann distribution. Averages over this distribution provide a reasonable approximation for performing basic reactor calculations. Thermal neutron cross sections are often measured at 0.0253 eV, corresponding to a neutron speed of 2200 m/s. Cross sections averaged over the Maxwell-Boltzmann distribution at room temperature are tabulated for common reactor materials.\n\nIt is important to note that the provided information focuses on the mathematical approximations and simplifications used to describe neutron distributions and cross sections in nuclear reactors. The actual calculations and accurate determination of these values require advanced computational methods, which are beyond the scope of the provided text.",
+                            "type": "Neutron distributions in energy l0:energy-averaged reaction rates l1:Resonance cross section averages"
+                        }
+                    },
+                    "Thermal cross section averages": {
+                        "page": [
+                            " 79-81"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses neutron distributions in energy, energy-averaged reaction rates, and thermal cross section averages in the context of nuclear reactors. Here is a summary:\n\n1. Neutron Distributions in Energy: Neutrons in a nuclear reactor have a wide range of energies. The distribution of neutrons in different energy ranges is important for understanding their behavior and interactions within the reactor.\n\n2. Energy-Averaged Reaction Rates: Reaction rates in a nuclear reactor depend on the energy of neutrons involved. Averaging the reaction rates over a range of neutron energies provides a useful approximation for reactor calculations. However, accurate determination of reaction rates requires advanced computational methods.\n\n3. Thermal Cross Section Averages: Thermal neutrons have lower energies and play a significant role in nuclear reactions. The Maxwell-Boltzmann distribution is often used to approximate the thermal neutron flux. Thermal cross section averages provide information about the likelihood of neutron interactions with different materials in the reactor at thermal energies.\n\n4. Resonance Self-Shielding: Neutrons at certain energies can be absorbed by resonant materials, leading to a decrease in the number of neutrons available for reactions. Resonance self-shielding reduces the impact of resonance absorption, and advanced methods are required to accurately calculate its effects.\n\n5. Infinite Medium Multiplication: The multiplication factor (k1) in a nuclear reactor is the ratio of the number of fission neutrons produced to the number of neutrons absorbed. It is determined by the energy-averaged cross sections of fissionable materials and the absorption cross sections of all reactor constituents.\n\nOverall, understanding neutron distributions, energy-averaged reaction rates, and thermal cross section averages is crucial for analyzing the behavior and performance of nuclear reactors.",
+                            "type": "Neutron distributions in energy l0:energy-averaged reaction rates l1:Thermal cross section averages"
+                        }
+                    }
+                },
+                "summary": "The neutron distribution in energy is crucial for sustaining a chain reaction in a nuclear reactor. The distribution is influenced by the composition of non-fissile materials in the reactor core and their ability to slow down neutrons from fission towards thermal energies. To analyze the overall characteristics of a reactor core, energy-averaged reaction rates are calculated by averaging cross sections and neutron flux over the neutron energy spectrum.\n\nThe energy-averaged reaction rates are expressed as products of energy-averaged cross sections and the neutron flux. The cross sections are averaged over energy by integrating the product of the microscopic cross section and the neutron flux over the energy range. This averaging process provides a more comprehensive understanding of the reaction rates in the reactor.\n\nThe energy spectrum is typically divided into three segments: thermal, intermediate, and fast energy ranges. Each segment requires specific flux approximations for cross section averaging. The fast neutron range, which includes uncollided neutrons, requires a simplified approach due to the complexity of total macroscopic cross sections. The cross sections are averaged by normalizing the flux distribution and integrating the product of the cross section and the normalized flux.\n\nIn summary, the neutron distribution in energy and the energy-averaged reaction rates play a crucial role in understanding the behavior of neutrons in a nuclear reactor. Proper characterization and analysis of these factors are essential for reactor design, optimization, and safety considerations.",
+                "type": "Physical Property/QuantitativeProperty",
+                "label": "Neutron distributions in energy l0:energy-averaged reaction rates"
+            },
+            "infinite medium multiplication": {
+                "page": [
+                    " 81-2"
+                ],
+                "related words": {},
+                "summary": "The information provided discusses the calculation of the multiplication factor (k1) in an infinite medium for neutron distributions in energy in connection with nuclear reactors. The multiplication factor represents the ratio of the number of fission neutrons produced to the number of neutrons absorbed.\n\nThe calculation of k1 involves determining the reaction rates for neutron production and absorption, considering the energy-dependent flux and energy-averaged cross sections. The numerator of k1 includes only fissionable materials, while the denominator includes absorption cross sections of all reactor core constituents.\n\nIt is noted that in power reactors, different materials may have varying flux magnitudes due to their spatial arrangement. The expressions derived for k1 are valid when interpreted as spatial averages over the constituents of a single cell in the reactor lattice, accounting for differences in flux magnitudes.\n\nThe information also references various sources and provides additional details on nuclear reactor physics, neutron slowing down, thermalization, and cross section calculations.\n\nIn summary, the provided information explains the calculation of the multiplication factor in an infinite medium for neutron distributions in energy, considering the flux and cross sections of reactor core constituents. It highlights the importance of accounting for spatial variations in flux magnitudes within power reactors.",
+                "type": "Physical Property/QuantitativeValue",
+                "label": "Neutron distributions in energy l0:infinite medium multiplication"
+            },
+            "neutron energy spectra": {
+                "page": [
+                    " 63-5"
+                ],
+                "related words": {
+                    "Fast neutrons": {
+                        "page": [
+                            " 65-6"
+                        ],
+                        "related words": {
+                            "summary": "The information provided suggests that in a nuclear reactor, the neutron energy spectrum can be divided into three ranges: fast neutrons, intermediate energy neutrons, and thermal neutrons.\n\nFast neutrons have energies above 0.1 MeV and are primarily produced through fission reactions. The neutron spectrum in this range is dominated by the fission spectrum, which represents the distribution of neutrons emitted directly from fission events. However, the presence of heavy elements and scattering collisions with other materials degrade the fast neutron spectrum. Neutron moderators, such as lightweight materials, are used to slow down the fast neutrons.\n\nIntermediate energy neutrons have energies between 1.0 eV and 0.1 MeV. In this range, there is no fission neutron production, and the spectrum is influenced by inelastic scattering collisions with heavy elements. The slowing down density concept is introduced to describe the number of neutrons slowing down past a certain energy. The slowing down density decreases as neutrons slow down due to absorption processes, but remains constant between resonance absorption peaks.\n\nThermal neutrons have energies below 1.0 eV and are mainly influenced by the thermal motions of surrounding nuclei. The slowing down density is not applicable in this range, and the spectrum is determined by the thermal motion of the nuclei.\n\nIn summary, the neutron energy spectrum in a nuclear reactor is characterized by different ranges: fast neutrons, intermediate energy neutrons, and thermal neutrons. Each range has distinct characteristics and is influenced by factors such as fission, scattering collisions, and thermal motion. Understanding these neutron distributions is crucial for reactor design and operation.",
+                            "type": "Neutron distributions in energy l0:neutron energy spectra l1:Fast neutrons"
+                        }
+                    },
+                    "Neutron slowing down": {
+                        "page": [
+                            " 66-70"
+                        ],
+                        "related words": {
+                            "summary": "In a nuclear reactor, the process of neutron slowing down is crucial for sustaining the chain reaction and maintaining reactor stability. The neutron energy spectrum in a reactor is characterized by different energy ranges.\n\n- Fast Neutrons: In fast reactors, most neutrons are absorbed or scattered before they can slow down to the thermal energy range. Lightweight materials are avoided to prevent excessive neutron absorption.\n\n- Intermediate Energy Neutrons: Neutrons in this energy range slow down past their initial energy through scattering collisions. The slowing down density, which represents the number of neutrons slowing down per unit volume, decreases as neutrons slow down in proportion to the absorption cross section. Between resonance regions, the slowing down density remains constant.\n\n- Thermal Neutrons: In the thermal energy range, neutrons scatter down from higher energies. The source of thermal neutrons is the scattering of neutrons at higher energies, and the slowing down density at the cutoff energy for thermal neutrons plays a significant role. The scattering distribution in the thermal range is complex due to factors like thermal motion and binding of target nuclei.\n\nOverall, the process of neutron slowing down is essential for achieving a proper neutron energy spectrum in a nuclear reactor. It allows for the production of thermal neutrons that are more likely to induce fission reactions and sustain the chain reaction.",
+                            "type": "Neutron distributions in energy l0:neutron energy spectra l1:Neutron slowing down"
+                        }
+                    },
+                    "Thermal neutrons": {
+                        "page": [
+                            " 70-1"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, the neutron distribution in the energy neutron energy spectra for thermal neutrons is of great importance. Thermal neutrons are those with low energies, typically below 1.0 eV. The distribution of thermal neutrons is influenced by various factors, including scattering and absorption.\n\nThe distribution of thermal neutrons can be approximated using the principle of detailed balance, which states that the scattering distribution should satisfy a specific condition. In the case of a purely scattering material, an equilibrium distribution can be achieved, which is proportional to the Maxwell-Boltzmann distribution. This distribution describes the probability of finding neutrons at different energies and is influenced by the temperature of the system.\n\nHowever, in reality, absorption of neutrons also occurs, which affects the thermal neutron spectrum. Absorption causes a shift in the spectrum towards higher energies, known as spectral hardening. The extent of this shift depends on the magnitude of the absorption cross section. Therefore, the actual thermal neutron distribution in a reactor may deviate from the idealized Maxwell-Boltzmann distribution due to the presence of absorption.\n\nUnderstanding the neutron distribution in the energy spectra of thermal neutrons is crucial for reactor design and analysis. It helps in determining the behavior of neutrons, their interaction with materials, and the overall performance of the reactor.",
+                            "type": "Neutron distributions in energy l0:neutron energy spectra l1:Thermal neutrons"
+                        }
+                    }
+                },
+                "summary": "The distribution of neutrons in energy within a nuclear reactor is influenced by scattering and absorption reactions. In thermal reactors, elastic scattering dominates, causing neutrons to lose energy and resulting in a thermal or soft neutron spectrum. In fast reactors, inelastic scattering becomes more important, leading to a degradation of the neutron energy spectrum.\n\nThe neutron distribution in energy can be described in terms of the neutron density distribution or the neutron flux distribution. The neutron flux distribution is often used and is defined as the product of neutron speed and neutron density.\n\nThe neutron energy spectra can be categorized into three ranges: fast neutrons, intermediate energy neutrons, and thermal neutrons. Fast neutrons have energies above the range where fission neutrons are produced and are significantly degraded due to scattering collisions. Intermediate energy neutrons have energies below the fission neutron production range but are still high enough to ignore up-scattering effects. Thermal neutrons have energies below 1.0 eV and are strongly influenced by the thermal motions of surrounding nuclei.\n\nIn a nuclear reactor, the neutron energy spectrum is typically degraded due to inelastic scattering with heavy elements present in the reactor core. Even small amounts of lighter materials, such as structural metals, contribute to this degradation. Neutron moderators, on the other hand, can greatly accelerate the slowing down of neutrons and affect the energy distribution.\n\nOverall, the neutron energy distribution in a nuclear reactor is a complex interplay between scattering, absorption, and the presence of different materials, which can be characterized as either thermal, intermediate, or fast spectra.",
+                "type": "Physical Property/Physical Property",
+                "label": "Neutron distributions in energy l0:neutron energy spectra"
+            },
+            "neutron moderators": {
+                "page": [
+                    " 61-3"
+                ],
+                "related words": {},
+                "summary": "In nuclear reactors, the distribution of neutrons in energy is crucial for efficient operation. Reactor designs typically focus on either fast or thermal neutron spectra, avoiding the intermediate energy range. Fast reactors concentrate neutrons in the high-energy range, requiring enriched fuels to prevent neutron loss through inelastic scattering. On the other hand, thermal reactors utilize moderators, which are low atomic weight materials, to slow down neutrons to the thermal energy range with minimal collisions. This helps prevent resonance capture in uranium-238. Thermal reactors can be fueled with lower enrichments, and some moderators like graphite or heavy water even allow the use of natural uranium. The effectiveness of a moderator depends on its macroscopic scattering cross section and slowing down power. Neutron energy distribution is influenced by the competition between scattering and absorption reactions. A soft or thermal spectrum occurs when scattering dominates, resulting in a distribution close to thermal equilibrium. A hard or fast spectrum occurs when absorption is dominant, and neutrons are absorbed before significant slowing down occurs. The neutron distribution in a reactor is often expressed in terms of neutron flux, which is the product of neutron speed and the density distribution of neutrons in different energy ranges.",
+                "type": "Physical Property/Physical Property",
+                "label": "Neutron distributions in energy l0:neutron moderators"
+            },
+            "nuclear fuel properties": {
+                "page": [
+                    " 58-61"
+                ],
+                "related words": {},
+                "summary": "The neutron distributions in energy nuclear fuel properties play a crucial role in nuclear reactors. The energy dependence of cross sections of fissile and fertile materials determines the physics of reactors. Fissile nuclides have significant fission cross sections over a wide range of neutron energies, while fission of fertile materials is only possible above a certain threshold energy. The number of fission neutrons produced per neutron absorbed, known as eta (/C17(E)), is essential for sustaining a chain reaction. To achieve a neutron economy greater than one, reactors must concentrate neutrons either in the fast or thermal energy range, avoiding the sharp valley in the neutron distribution at intermediate energies. Fast reactors require enriched fuels, while thermal reactors can use low-enriched or even natural uranium with the help of effective moderators. Moderators are materials that reduce neutron energies to the thermal range with minimal collisions, preventing resonance capture in uranium-238. Good moderators have low atomic weight and a sufficiently large scattering cross section. Overall, understanding neutron distributions in energy nuclear fuel properties is crucial for designing and operating efficient nuclear reactors.",
+                "type": "Physical Property/Property",
+                "label": "Neutron distributions in energy l0:nuclear fuel properties"
+            }
+        },
+        "summary": "The neutron distributions in energy are crucial in understanding nuclear reactors. The magnitude of neutron multiplication, which determines the sustainability of a chain reaction, is strongly influenced by the kinetic energy of neutrons. The energy dependence of neutron cross sections defines two broad classes of reactors: thermal and fast reactors.\n\nThe properties of nuclear fuel and materials that moderate the neutron spectrum play a significant role in neutron energy distributions. Fissile materials have significant fission cross sections over a wide range of neutron energies, while fertile materials require higher energy neutrons to undergo fission. The number of fission neutrons produced per neutron absorbed, known as eta (/C17(E)), is a key factor in determining a reactor's neutron economy.\n\nTo sustain a chain reaction, the average value of eta must be greater than one. Neutrons can be lost through absorption in various materials and leakage from the system. The energy dependence of cross sections and the behavior of eta are essential in analyzing the neutron distributions in energy and their impact on nuclear reactors.\n\nIt's important to note that this summary provides a general overview, and further details and complexities exist in the field of nuclear reactor physics.",
+        "type": "Physical Property",
+        "label": "Neutron distributions in energy"
+    },
+    "": {
+        "page": [],
+        "related words": {}
+    },
+    "Neutron distributions in reactors:": {
+        "page": [],
+        "related words": {
+            "control poisons": {
+                "page": [
+                    " 186"
+                ],
+                "related words": {
+                    "control rod bank insertion": {
+                        "page": [
+                            " 190-4"
+                        ],
+                        "related words": {
+                            "summary": "The neutron distribution in reactors is influenced by the presence of control poisons and control rod bank insertion. Control poisons are materials that absorb neutrons and are used to regulate the reactor's power output. Control rod bank insertion refers to the insertion or withdrawal of control rods in unison to control the reactivity of the reactor.\n\nThe neutron distribution in a reactor core with control poisons can be modeled using perturbation techniques. The distribution varies with the radial position of the core, with a higher concentration of neutrons near the centerline compared to the outer regions.\n\nWhen control rods are inserted or withdrawn as a bank, the perturbation technique is no longer applicable due to the significant impact on reactivity and neutron flux distribution. In this case, a different approach is used. The reactivity worth of a control rod bank is determined by considering a uniform cylindrical reactor and analyzing the effects of rod insertion at a specific depth.\n\nThe neutron distribution in a reactor with control rod bank insertion is influenced by factors such as the height-to-diameter ratio of the core and the migration length of neutrons. The power density and migration lengths vary between reactor designs, with thermal reactors generally being more loosely coupled than fast reactors.\n\nOverall, the neutron distribution in reactors is intricately connected to the presence of control poisons and the insertion of control rod banks. These factors play a crucial role in regulating the reactor's power output and ensuring safe and efficient operation.",
+                            "type": "Neutron distributions in reactors: l0:control poisons l1:control rod bank insertion"
+                        }
+                    },
+                    "control rods, partially inserted": {
+                        "page": [
+                            " 188-90"
+                        ],
+                        "related words": {}
+                    },
+                    "reactivity worth": {
+                        "page": [
+                            " 186-8"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses the concept of control poisons in nuclear reactors and their impact on neutron distributions and reactivity worth. Control poisons are neutron absorbers intentionally added to a reactor core, such as control rods, soluble poisons in liquid coolants, or burnable poisons embedded in the fuel. \n\nControl poisons serve various purposes, including controlling the reactor's startup, shutdown, and power level. They can compensate for fuel depletion, fission product buildup, temperature changes, and other factors affecting the multiplication and flux distribution in the core.\n\nThe reactivity worth of a control poison refers to the decrease in reactivity caused by its addition. It is determined by comparing the multiplication and flux distribution before and after the insertion of the absorber. The reactivity worth can be estimated using mathematical equations and approximations.\n\nThe distribution of control poisons within the reactor core can affect the perturbed flux distribution. If the perturbation is small, a first-order perturbation approximation can be used. The reactivity worth of a partially inserted control rod can be estimated based on the volume it occupies and the flux distribution within that volume.\n\nOverall, control poisons play a crucial role in regulating neutron distributions and reactivity in nuclear reactors, allowing for control and safe operation of the reactor.",
+                            "type": "Neutron distributions in reactors: l0:control poisons l1:reactivity worth"
+                        }
+                    }
+                },
+                "summary": "Control poisons are neutron absorbers intentionally introduced into a reactor core to regulate its operation. They can take the form of control rods, soluble poisons in liquid coolants, or burnable poisons embedded in the fuel or other core components. Control poisons serve various purposes such as controlling startup, shutdown, and power level adjustments of the reactor.\n\nThe presence of control poisons affects both the multiplication (k) and flux distribution of the reactor core. The absorber increases the absorption cross section, resulting in a decrease in reactivity (worth of the absorber). The reactivity worth is a measure of the decrease in multiplication and flux distribution caused by the addition of the absorber.\n\nThe specific configuration of control rods and the distribution of burnable poisons can vary. Control rods can be inserted or withdrawn to control the reactor's power level and compensate for fuel depletion, fission product buildup, and temperature changes. Burnable poisons are typically distributed throughout the core in an optimized nonuniform manner.\n\nOverall, control poisons play a crucial role in regulating neutron distributions in reactors by controlling reactivity and flux distribution, ensuring safe and efficient operation of nuclear reactors.",
+                "type": "/ControlPoison",
+                "label": "Neutron distributions in reactors: l0:control poisons"
+            },
+            "neutron leakage": {
+                "page": [
+                    " 174"
+                ],
+                "related words": {
+                    "leakage and design": {
+                        "page": [
+                            " 179-80"
+                        ],
+                        "related words": {}
+                    },
+                    "migration length": {
+                        "page": [
+                            " 178-9"
+                        ],
+                        "related words": {
+                            "summary": "The neutron leakage migration length is an important factor in understanding neutron distributions in nuclear reactors. It refers to the distance that fast neutrons travel before being slowed down to thermal energies. In large reactors, the migration length is used as a replacement for the diffusion length in calculations.\n\nThe migration length is determined by the values of L1 and L2, which represent the diffusion lengths for thermal and fast neutrons, respectively. The migration area (M) is defined as the sum of the squares of L1 and L2. The migration length (M) is then calculated as the square root of the migration area.\n\nDifferent moderators have different values for L1, L2, and M. Water-moderated systems have the largest correction to the thermal diffusion length due to the high thermal absorption cross section of hydrogen. Fast reactors consider the diffusion and migration length to be the same.\n\nNeutron leakage in a reactor is influenced by the reactor's design and the characteristic dimension of the reactor (H), measured in migration lengths. The relationship between neutron leakage and reactor design is given by the equation k = 1 + (M^2B^2k1), where k represents the multiplication factor. The characteristic dimension of the reactor (H) divided by the migration length (M) determines the neutron leakage.\n\nIn summary, the neutron leakage migration length is a parameter that affects neutron distributions in reactors. It is influenced by the diffusion lengths of thermal and fast neutrons and plays a role in determining neutron leakage and reactor design.",
+                            "type": "Neutron distributions in reactors: l0:neutron leakage l1:migration length"
+                        }
+                    },
+                    "two group approximation": {
+                        "page": [
+                            " 174-8"
+                        ],
+                        "related words": {
+                            "summary": "In nuclear reactors, the neutron distribution is an important factor to consider. The neutron leakage two-group approximation is a method used to model neutron behavior in reactors. It involves dividing the neutron spectrum into two energy groups: fast and thermal.\n\nThe approximation takes into account the migration of neutrons as they slow down from fast to thermal energies. It considers factors such as neutron absorption, fission, and diffusion in both energy groups. By using this approximation, the behavior of neutrons in reactors can be analyzed more accurately.\n\nThe neutron leakage refers to the loss of neutrons from the reactor core. In the two-group approximation, the neutron leakage is accounted for by considering the diffusion of both fast and thermal neutrons. The migration length is used to quantify the distance that neutrons travel before being slowed down to thermal energies.\n\nThe two-group approximation is particularly useful for thermal reactors, where the division into fast and thermal neutrons is sufficient for most calculations. However, for more precise analysis, additional energy groups may be considered.\n\nOverall, the neutron distributions in reactors, specifically in the context of the neutron leakage two-group approximation, play a crucial role in understanding and optimizing the performance of nuclear reactors.",
+                            "type": "Neutron distributions in reactors: l0:neutron leakage l1:two group approximation"
+                        }
+                    }
+                },
+                "summary": "The information provided discusses neutron leakage in nuclear reactors. Neutron leakage refers to the loss of neutrons from the reactor core, which can have a significant impact on reactor performance and safety. \n\nThe distribution of neutrons in a reactor core is influenced by various factors, including the reactor power, flux, and geometry. The flux distribution can be described using mathematical equations, such as the diffusion approximation. The diffusion length measures the distance that neutrons travel between birth and death.\n\nIn thermal reactor calculations, it is important to consider the neutron migration during both slowing down and thermal diffusion. Neglecting this migration can lead to significant errors, especially in systems with light water moderators. To account for this, the neutron spectrum is often divided into two groups: fast and thermal.\n\nThe two-group approximation allows for a more accurate modeling of neutron behavior in reactors. It involves defining the fast and thermal flux and considering the source of neutrons for fast diffusion, which includes the absorption of thermal neutrons and the production of fast neutrons from thermal fission.\n\nOverall, understanding neutron leakage and accurately modeling neutron distributions in reactors is crucial for optimizing reactor performance, ensuring safety, and designing efficient nuclear systems.",
+                "type": "/Physical Property",
+                "label": "Neutron distributions in reactors: l0:neutron leakage"
+            },
+            "reflected reactors": {
+                "page": [
+                    " 180-5"
+                ],
+                "related words": {},
+                "summary": "In nuclear reactors, reflected reactors are designed with the use of reflectors to reduce the fraction of neutrons that escape the core. Reflectors are materials that cause neutrons to undergo scattering collisions and redirect them back into the core, thus increasing the nonleakage probability. This helps to maintain criticality and improve the overall performance of the reactor.\n\nThe addition of a reflector in a reactor allows for the reduction of the reactor's volume or the value of k1 (a parameter related to the reactor's reactivity), or a combination of both. Reflectors also have the effect of flattening the neutron flux distribution, resulting in a lower ratio of peak to average flux.\n\nThe significance of reflectors diminishes as the size of the reactor increases, measured by the ratio of the reactor's height to the migration length of neutrons. Larger reactors experience a smaller impact from reflectors compared to smaller reactors. The effect of reflectors on flux flattening also becomes less significant as the reactor size increases.\n\nOverall, the use of reflectors in reflected reactors plays a crucial role in controlling neutron distributions, maintaining criticality, and optimizing the performance of nuclear reactors.",
+                "type": "/Physical Property",
+                "label": "Neutron distributions in reactors: l0:reflected reactors"
+            },
+            "time-independent diffusion equation": {
+                "page": [
+                    " 167-8"
+                ],
+                "related words": {}
+            },
+            "uniform reactors": {
+                "page": [
+                    " 169"
+                ],
+                "related words": {
+                    "finite cylindrical core": {
+                        "page": [
+                            " 170-2"
+                        ],
+                        "related words": {
+                            "summary": "The information provided describes the neutron distribution in a uniform reactor with a finite cylindrical core. The distribution is governed by a partial differential equation and can be expressed in terms of radial and axial coordinates. The solution involves separating variables and finding the buckling and flux distribution.\n\nThe buckling, which represents the spatial variation of neutron flux, depends on the extrapolated radius and height of the core. The flux distribution is determined by Bessel functions and cosine functions, with coefficients determined by the boundary conditions. The flux distribution describes how the neutron density varies within the reactor core.\n\nOverall, this information provides a mathematical understanding of how neutrons are distributed within a uniform reactor with a finite cylindrical core. It is an essential aspect of nuclear reactor physics, as it helps in analyzing and optimizing the performance of nuclear reactors.",
+                            "type": "Neutron distributions in reactors: l0:uniform reactors l1:finite cylindrical core"
+                        }
+                    },
+                    "reactor power": {
+                        "page": [
+                            " 172-4"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses neutron distributions in uniform reactors and their connection to reactor power in nuclear reactors. \n\nIn a cylindrical reactor, the neutron flux distribution can be described using Bessel functions. The flux distribution depends on the reactor power, which is proportional to an arbitrary constant, denoted as C. The flux distribution is expressed as a function of reactor power, with the flux varying with radial distance and axial position within the reactor.\n\nThe neutron leakage in reactors is also discussed. In thermal reactor calculations, it is important to consider the distance that neutrons diffuse while slowing down to thermal energies. Neglecting this can lead to significant errors, especially in systems with light water moderators. To account for this, a two-group approximation is often used, dividing the neutron flux into fast and thermal groups. The source of neutrons for fast diffusion is determined by the number of thermal neutrons absorbed and the number of fast neutrons produced from thermal fission.\n\nOverall, the information highlights the importance of understanding neutron distributions and leakage in reactors, particularly in relation to reactor power and thermal neutron behavior.",
+                            "type": "Neutron distributions in reactors: l0:uniform reactors l1:reactor power"
+                        }
+                    }
+                },
+                "summary": "In the context of nuclear reactors, a uniform reactor refers to a reactor where the neutron distribution is constant throughout, meaning that the cross sections of the reactor do not vary in space. The neutron distribution in such reactors can be analyzed using mathematical equations.\n\nThe multiplication factor (k) is an important parameter in uniform reactors. It represents the ratio of neutrons produced in one generation to the neutrons lost through absorption and leakage. The equation for the multiplication factor in a uniform reactor is given by k = 1 + L^2B^2, where L is a constant related to the neutron leakage and B is the geometric buckling, representing the spatial variation of the neutron flux.\n\nTo determine the buckling (B), a Helmholtz equation needs to be solved, subject to the condition that the neutron flux remains within the reactor boundaries. The buckling is a measure of how the neutron flux changes spatially within the reactor.\n\nThe concepts discussed are applicable to uniform reactors of various shapes, but the specific analysis mentioned focuses on a cylindrical reactor of finite length. By analyzing the reactor's dimensions and material properties, one can determine the neutron multiplication and flux distribution within the reactor.\n\nOverall, the information provided highlights the mathematical analysis and parameters involved in understanding neutron distributions in uniform reactors, particularly in connection with nuclear reactors.",
+                "type": "/\"Neutron Distribution\", \"Reactor\", \"Uniform Reactor\"",
+                "label": "Neutron distributions in reactors: l0:uniform reactors"
+            }
+        }
+    },
+    "Neutron interactions:": {
+        "page": [],
+        "related words": {
+            "cross section energy dependence": {
+                "page": [
+                    " 40-1"
+                ],
+                "related words": {
+                    "compound nucleus formation": {
+                        "page": [
+                            " 41-2"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions involve the formation of compound nuclei, which are excited states of the target nucleus resulting from the absorption of a neutron. The cross section for compound nucleus formation depends on the energy of the neutron. \n\nAt low energies, the scattering cross section is dominant, and it can be approximated as a function of the neutron energy. The magnitude of the scattering cross section is proportional to the cross-sectional area of the nucleus.\n\nAs the neutron energy increases, the compound nucleus formation becomes more significant. The excitation energy of the compound nucleus is determined by the kinetic energy of the neutron and the binding energy of the neutron to the nucleus. The compound nucleus can either scatter the neutron elastically or undergo other reactions, such as emitting gamma rays or undergoing fission.\n\nThe likelihood of compound nucleus formation is enhanced when the neutron energy corresponds to quantum states of the nucleus, resulting in resonance peaks in the scattering and absorption cross sections. The resonance structure of compound nuclei varies with the atomic weight of the nucleus, with heavier nuclei having more closely packed energy states.\n\nIn the context of nuclear reactors, understanding neutron interactions, cross section energy dependence, and compound nucleus formation is crucial for reactor design, control, and safety analysis. These interactions play a significant role in determining the neutron behavior, fuel depletion, and the overall performance of the reactor.",
+                            "type": "Neutron interactions: l0:cross section energy dependence l1:compound nucleus formation"
+                        }
+                    },
+                    "fissionable materials": {
+                        "page": [
+                            " 47-8"
+                        ],
+                        "related words": {
+                            "summary": "The information provided highlights the following points regarding neutron interactions, cross section energy dependence, and fissionable materials in connection with nuclear reactors:\n\n1. Fissionable materials: Fissionable isotopes can undergo fission when bombarded by neutrons. The most commonly used fissile material in nuclear reactors is uranium-235, which occurs naturally. Uranium-238 is fertile and can be converted into fissile plutonium-239 through neutron capture and subsequent decay. Thorium-232 is another fertile isotope that can be converted into fissile uranium-233 through neutron capture and radioactive decay.\n\n2. Cross section energy dependence: The cross section of a material represents the probability of a neutron interacting with that material. The energy dependence of the cross section determines the likelihood of neutron interactions. Different isotopes exhibit different energy dependence patterns. For example, uranium-235 has a threshold energy for fission, while uranium-238 requires higher energy neutrons for fission. Plutonium-239 also has a fission threshold energy. The cross sections of these materials vary with neutron energy, as depicted in the provided figures.\n\n3. Neutron scattering: Neutrons can undergo elastic scattering, where their energy is conserved, or inelastic scattering, where they transfer energy to the target nucleus and leave it in an excited state. Both types of scattering are important in nuclear reactors. The competition between scattering and absorption reactions determines the neutron energy spectrum in a reactor. A high scattering-to-absorption ratio leads to a thermal neutron spectrum, while a low ratio results in a fast neutron spectrum.\n\nIn summary, the information suggests that fissionable materials like uranium-235, plutonium-239, and uranium-233 play a crucial role in nuclear reactors. The energy dependence of their cross sections influences the probability of neutron interactions, and neutron scattering processes affect the neutron energy spectrum within the reactor. Understanding these aspects is essential for designing and operating nuclear reactors efficiently and safely.",
+                            "type": "Neutron interactions: l0:cross section energy dependence l1:fissionable materials"
+                        }
+                    },
+                    "resonance cross sections": {
+                        "page": [
+                            " 42-6"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions involve various processes such as scattering, absorption, and fission. The cross section is a measure of the likelihood of these interactions occurring. Here is a summary of the key points related to neutron interactions in connection with nuclear reactors:\n\n1. Cross Section Energy Dependence: The cross section for neutron interactions depends on the energy of the incident neutrons. Different energy ranges correspond to different types of interactions. For example, at low energies, elastic scattering dominates, while at higher energies, inelastic scattering, absorption, and fission reactions become more significant.\n\n2. Resonance Cross Sections: Resonance occurs when the incident neutron energy matches the quantum states of the target nucleus, leading to a higher probability of compound nucleus formation. Resonance peaks are observed in the scattering and absorption cross sections. The resonance structure varies for different nuclides, with heavier nuclei having more closely packed energy states.\n\n3. Threshold Cross Sections: Threshold reactions refer to interactions that require a minimum energy threshold to occur. Inelastic scattering and fission reactions have threshold energies below which the cross section is zero. The threshold energy depends on the specific nuclide involved. Fertile materials like uranium-238 have a threshold for fission, while inelastic scattering thresholds decrease with increasing atomic number.\n\nUnderstanding these neutron interactions and their energy dependence is crucial for designing and operating nuclear reactors. Reactor physics relies on controlling and optimizing these interactions to achieve desired neutron flux levels, power output, and safety characteristics.",
+                            "type": "Neutron interactions: l0:cross section energy dependence l1:resonance cross sections"
+                        }
+                    },
+                    "threshold cross sections": {
+                        "page": [
+                            " 46-7"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses neutron interactions in the context of nuclear reactors. Here is a summary:\n\n1. Cross Section Energy Dependence: The cross section of neutron interactions depends on the energy of the incident neutrons. Higher energy neutrons can cause additional reactions, while lower energy neutrons may not induce any reaction. The cross section is a measure of the likelihood of a particular interaction occurring.\n\n2. Threshold Cross Sections: Some neutron interactions exhibit threshold behavior, meaning that the cross section is zero below a certain threshold energy. For example, inelastic scattering reactions have a threshold energy because the incident neutron needs enough energy to excite the target nucleus and overcome its binding energy. Fission reactions also have a threshold energy, above which fission becomes possible.\n\n3. Fertile Materials: Fertile materials, such as uranium-238 and thorium-232, have threshold energies above which fission can occur. These materials can capture neutrons and undergo radioactive decay to become fissile isotopes, which can sustain a chain reaction.\n\n4. Fissile Materials: Fissile isotopes, like uranium-235 and plutonium-239, can undergo fission with incident neutrons of any energy. These materials can sustain a chain reaction without the need for neutron capture and subsequent decay.\n\nUnderstanding the cross section energy dependence and threshold cross sections of neutron interactions is crucial for designing and operating nuclear reactors effectively.",
+                            "type": "Neutron interactions: l0:cross section energy dependence l1:threshold cross sections"
+                        }
+                    }
+                },
+                "summary": "The energy dependence of neutron interactions in nuclear reactors is crucial for understanding reactor physics. Neutrons in a reactor can have energies ranging from 0.001 eV to 10 MeV, spanning a wide range of magnitudes.\n\nThe cross section energy dependence is typically divided into three ranges: fast neutrons (0.1 MeV < E < 10 MeV), thermal neutrons (0.001 eV < E < 1.0 eV), and epithermal/intermediate energy neutrons (1.0 eV < E < 0.1 MeV).\n\nThe cross section of hydrogen, which consists of a single proton, is used as an example. Hydrogen has elastic scattering and absorption cross sections. Elastic scattering cross section describes the scattering of neutrons without any energy transfer. Hydrogen's capture (absorption) cross section, known as a 1/v or \"one-over-v\" cross section, is inversely proportional to the square root of neutron energy. Hydrogen's absorption cross section is significant only in the thermal energy range.\n\nOther nuclei also have elastic scattering cross sections, which are energy-independent except at very low or high energies. When a neutron enters a nucleus, a compound nucleus is formed, and it becomes excited. The excitation energy of the compound nucleus is determined by the kinetic energy of the neutron and the binding energy of the neutron.\n\nUnderstanding the energy dependence of neutron cross sections is essential for reactor design, safety analysis, and optimization of reactor performance. It helps in predicting neutron behavior, neutron flux distribution, and determining the efficiency of neutron-induced reactions such as fission and absorption in nuclear reactors.",
+                "type": "/Property",
+                "label": "Neutron interactions: l0:cross section energy dependence"
+            },
+            "neutron cross sections": {
+                "page": [
+                    " 29-30"
+                ],
+                "related words": {
+                    "calculation": {
+                        "page": [
+                            " 36"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses the calculation of neutron cross sections in the context of nuclear reactors. It explains that neutron cross sections are used to determine the probability of neutron interactions with different materials in a reactor. The example given involves calculating the cross sections for enriched uranium dioxide (UO2) mixed with graphite (C) in a specific volume ratio. The microscopic cross sections of the uranium isotopes, oxygen, and carbon are used along with the densities of UO2 and carbon to calculate the composite microscopic cross section for the enriched uranium. The macroscopic cross sections for UO2 and carbon are then determined, taking into account their volume ratio. The concept of total cross section is also introduced, which represents the probability of a neutron undergoing a collision without considering the subsequent reactions.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:calculation"
+                        }
+                    },
+                    "microscopic and macroscopic": {
+                        "page": [
+                            " 30-2"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions are crucial as they determine the behavior of neutrons within the reactor core. Neutron cross sections, both microscopic and macroscopic, play a significant role in understanding these interactions.\n\nMicroscopic cross section refers to the probability of a neutron interacting with a single nucleus. It represents the effective area that a nucleus presents for neutron interactions. It is measured in units of area (typically barns) and provides information about specific nuclear reactions such as scattering, absorption, or fission.\n\nMacroscopic cross section, on the other hand, takes into account the density of nuclei in a material. It is obtained by multiplying the microscopic cross section by the number density of nuclei. The macroscopic cross section provides information about the overall interaction probability for a neutron in a given material.\n\nIn a nuclear reactor, the macroscopic cross section is particularly important as it determines the rate of neutron interactions and influences the overall neutron population and behavior. It affects key reactor parameters such as neutron flux, reactivity, and power distribution.\n\nUnderstanding neutron cross sections, both microscopic and macroscopic, is essential for reactor design, safety analysis, and optimization. It allows engineers and scientists to predict neutron behavior, control reactions, and ensure the efficient and safe operation of nuclear reactors.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:microscopic and macroscopic"
+                        }
+                    },
+                    "nuclide densities": {
+                        "page": [
+                            " 33-4"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions involve neutron cross sections and nuclide densities. Neutron cross sections represent the likelihood of a neutron interacting with a particular nuclide, while nuclide densities refer to the number of nuclides present in a given volume.\n\nThe uncollided neutron flux at a distance from a point source is influenced by both geometrical and material attenuations. The nuclide density (N) and the microscopic cross section (\u03c3) play crucial roles in determining the neutron flux. The nuclide density is the number of molecules/cm3 and is calculated based on the molecular weight and density of the material. The microscopic cross section is typically measured in barns (b) and represents the effective area for neutron interaction.\n\nIn reactor physics, it is common to consider elements as a whole, even if they consist of multiple isotopes, as long as the cross sections are measured for the elements as they exist in nature. However, in some cases, it becomes necessary to express the cross section of an element in terms of the cross sections of its constituent isotopes.\n\nWhen dealing with molecules, the cross sections of individual atoms within the molecule must be taken into account. The composite microscopic cross section for a molecule can be defined by considering the cross sections of its constituent atoms.\n\nMixtures of materials can be combined using volume fractions or mass fractions. Volume fractions consider the relative volumes of the materials, while mass fractions consider the relative masses. The cross section for the mixture is calculated by combining the cross sections and densities of the individual constituents.\n\nOverall, understanding neutron interactions, neutron cross sections, and nuclide densities is essential in analyzing and predicting the behavior of neutrons within a nuclear reactor. These parameters play a significant role in determining the neutron flux and the overall performance of the reactor.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:nuclide densities"
+                        }
+                    },
+                    "reaction types": {
+                        "page": [
+                            " 36-8"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions are characterized by neutron cross sections and reaction types. Cross sections represent the probability of a neutron undergoing a specific type of interaction, while reaction types describe the subsequent behavior of the neutron after the interaction.\n\nThe calculation of cross sections involves considering the microscopic cross sections of various isotopes and materials present in the reactor, such as uranium, oxygen, and carbon. These microscopic cross sections are combined to obtain composite or macroscopic cross sections for the reactor materials. The total cross section represents the overall probability of neutron collision, while other types of reactions, such as scattering or absorption, can be determined separately.\n\nThe energy dependence of cross sections is also crucial in understanding neutron behavior in chain reactions. Neutron energies in fission reactors are distributed over a spectrum, and the fission spectrum approximates this distribution. The fission neutrons are typically born in the MeV energy range. The energy dependence of cross sections is considered by expressing them as functions of neutron energy.\n\nOverall, neutron interactions, cross sections, and reaction types play a fundamental role in understanding and analyzing the behavior of neutrons in nuclear reactors. They are essential for reactor design, safety analysis, and optimizing reactor performance.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:reaction types"
+                        }
+                    },
+                    "uncollided flux": {
+                        "page": [
+                            " 32-3"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions and neutron cross sections are important factors to consider. Neutron cross sections refer to the likelihood of neutrons colliding with atomic nuclei in a material. These cross sections are measured in units of area and provide information about the probability of different types of interactions occurring.\n\nThe uncollided flux, on the other hand, refers to the population of neutrons that have not yet undergone a collision. It represents the neutron beam or flux that travels in a specific direction without interacting with the surrounding material.\n\nIn nuclear reactors, the uncollided flux is crucial for understanding the behavior of neutrons and their interaction with the reactor's fuel and other components. It helps determine the neutron population and distribution within the reactor, which is essential for maintaining a sustainable chain reaction and controlling the reactor's power output.\n\nThe neutron cross sections, combined with the density of the nuclides present in the reactor, provide insights into the probability of different types of neutron interactions, such as scattering or absorption by the fuel or other materials. This information is used to design and optimize reactor cores, fuel compositions, and shielding materials to ensure safe and efficient operation.\n\nOverall, the understanding of neutron interactions, neutron cross sections, and the uncollided flux is fundamental in the study and operation of nuclear reactors, enabling engineers and scientists to analyze and control the behavior of neutrons within the reactor system.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:uncollided flux"
+                        }
+                    },
+                    "uranium, enriched": {
+                        "page": [
+                            " 35-6"
+                        ],
+                        "related words": {
+                            "summary": "The information provided discusses neutron interactions and cross sections specifically related to enriched uranium in the context of nuclear reactors. Enriched uranium refers to increasing the ratio of uranium-235 (fissile material) to uranium-238 (fertile material) in order to enhance the reactor's performance.\n\nThe cross sections for uranium are typically given for natural uranium, but when enriched uranium is used, the cross sections need to be adjusted accordingly. Enrichment can be measured in terms of atomic enrichment (ratio of uranium-235 atoms to total uranium atoms) or mass enrichment (ratio of uranium-235 mass to total uranium mass).\n\nThe cross section calculations involve utilizing the microscopic cross sections of uranium isotopes, as well as the densities of the materials involved. The macroscopic cross section is then determined by combining the microscopic cross sections based on the composition of the materials.\n\nIn the context of a nuclear reactor, the cross sections are crucial for understanding the probability of neutron interactions with enriched uranium. These interactions are vital for sustaining a chain reaction and controlling the reactor's power output.\n\nOverall, the information highlights the importance of neutron interactions and cross sections in relation to enriched uranium and its role in nuclear reactors.",
+                            "type": "Neutron interactions: l0:neutron cross sections l1:uranium, enriched"
+                        }
+                    }
+                },
+                "summary": "In the context of nuclear reactors, neutron interactions and neutron cross sections play a crucial role in determining the behavior of neutrons emitted from fission. The cross section refers to the effective area of a nucleus as seen by an incoming neutron. It provides information about the probability of different types of interactions occurring, such as scattering, absorption, or fission.\n\nNeutrons travel in straight lines until they collide with a nucleus, at which point they can be scattered into a new direction or absorbed. Neutrons typically undergo multiple scattering collisions before being absorbed. The cross section depends on the energy of the neutron, and different types of nuclei have different cross sections.\n\nThe concept of microscopic and macroscopic cross sections is introduced. Microscopic cross section refers to the interaction probability per target nucleus, while macroscopic cross section represents the interaction probability per unit volume of the material. The macroscopic cross section is related to the intensity of the neutron beam and how it diminishes as it penetrates deeper into the material.\n\nUnderstanding neutron interactions and cross sections is essential for studying neutron behavior in nuclear reactors. This knowledge forms the basis for predicting neutron chain reactions and designing safe and efficient reactor systems.",
+                "type": "/Property",
+                "label": "Neutron interactions: l0:neutron cross sections"
+            },
+            "neutron energy range": {
+                "page": [
+                    " 38-40"
+                ],
+                "related words": {},
+                "summary": "In nuclear reactors, neutron interactions occur over a wide range of energy levels. The neutron energy range can be divided into three categories:\n\n1. Fast Neutrons: These are high-energy neutrons with energies between 0.1 MeV and 10 MeV. They are produced during fission reactions and are responsible for sustaining the chain reaction in a nuclear reactor.\n\n2. Thermal Neutrons: These are low-energy neutrons with energies between 0.001 eV and 1.0 eV. Thermal neutrons are significantly affected by the thermal motions of surrounding atoms. They are crucial for inducing fission in fissile materials and are absorbed more readily by certain isotopes.\n\n3. Epithermal or Intermediate Energy Neutrons: These neutrons have energies between 1.0 eV and 0.1 MeV. They fall between the fast and thermal neutron ranges and exhibit characteristics of both.\n\nThe energy dependence of neutron cross sections is important in understanding neutron behavior in a nuclear reactor. Different isotopes have varying cross sections for different types of neutron interactions, such as elastic scattering and absorption. The energy dependence of cross sections determines the probability of these interactions occurring at different neutron energy levels.\n\nOverall, the neutron energy range in a nuclear reactor spans several orders of magnitude, with fast neutrons sustaining the chain reaction, thermal neutrons inducing fission, and epithermal neutrons exhibiting intermediate characteristics. Understanding the energy dependence of neutron cross sections is crucial for reactor design and operation.",
+                "type": "/QuantitativeValue",
+                "label": "Neutron interactions: l0:neutron energy range"
+            },
+            "neutron scattering": {
+                "page": [
+                    " 48"
+                ],
+                "related words": {
+                    "elastic scattering": {
+                        "page": [
+                            " 49-50"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron scattering refers to the interaction of neutrons with atomic nuclei. Elastic scattering is a type of neutron scattering where the neutron collides with a nucleus and changes direction without any change in its energy. Here are some key points regarding neutron scattering elastic scattering in connection with nuclear reactors:\n\n1. Energy Loss: Neutrons can lose a portion of their energy during elastic scattering collisions with atomic nuclei. The amount of energy loss depends on the mass of the nucleus. Light nuclei cause larger energy losses, while heavy nuclei cause smaller energy losses.\n\n2. Isotropic Scattering: In the center of mass system, elastic scattering is isotropic, meaning that all deflection angles are equally likely. This is true for collisions between two spheres. However, in reality, most neutron collisions are glancing collisions resulting in smaller energy losses.\n\n3. Probability Distribution: The probability distribution for neutron energies following elastic scattering collisions can be described mathematically. It depends on the initial neutron energy and the scattering cross section of the nucleus.\n\n4. Slowing Down Decrement: The slowing down decrement is a measure of a nucleus's ability to slow down neutrons through elastic scattering. It represents the mean value of the logarithm of the energy loss ratio. The slowing down decrement is independent of the energy of the scattered neutron and depends only on the atomic mass of the scattering nucleus.\n\nIn nuclear reactors, neutron scattering elastic scattering plays a crucial role in the moderation and slowing down of neutrons. The interaction between neutrons and atomic nuclei through elastic scattering helps control the energy of neutrons and facilitates the sustained chain reaction necessary for nuclear power generation.",
+                            "type": "Neutron interactions: l0:neutron scattering l1:elastic scattering"
+                        }
+                    },
+                    "inelastic scattering": {
+                        "page": [
+                            " 52-3"
+                        ],
+                        "related words": {
+                            "summary": "From the information provided, we can summarize the following points about neutron interactions, specifically neutron scattering and inelastic scattering, in connection with nuclear reactors:\n\n1. Neutron scattering: Neutrons can undergo elastic scattering, where they collide with atomic nuclei and change direction without losing significant energy. Elastic scattering cross sections are significant over the entire energy range of neutrons. However, the effects of elastic scattering on reactor physics are small for heavy isotopes.\n\n2. Inelastic scattering: Neutrons can also undergo inelastic scattering, where they collide with atomic nuclei and lose substantial energy. Inelastic scattering occurs when the neutron excites the target nucleus to an excited state, which then decays by emitting gamma rays. Inelastic scattering is significant for heavier atomic weight materials like uranium. The threshold for inelastic scattering is determined by the energy of the lowest excited state of the target nucleus.\n\n3. Energy levels and energy loss: The unique structure of energy levels in each nuclide determines the energies of inelastically scattered neutrons. The neutron's energy loss is predominantly determined by the energy level of the excited state it induces in the target nucleus. The neutron's energy after inelastic scattering depends on the energy levels of the excited states.\n\n4. Complex scattering spectrum: As the energy of the incident neutron increases, the spectrum of scattered neutrons can become quite complex if many excited states can be reached by the neutron's energy. The spectrum of scattered neutrons is slightly smeared over energy due to conservation of momentum.\n\nThese interactions are important in the context of nuclear reactors as they influence the behavior of neutrons within the reactor core, affecting parameters such as neutron flux, energy distribution, and reaction rates. Understanding neutron scattering and inelastic scattering is crucial for reactor design, control, and safety analysis.",
+                            "type": "Neutron interactions: l0:neutron scattering l1:inelastic scattering"
+                        }
+                    },
+                    "slowing down decrement": {
+                        "page": [
+                            " 50-2"
+                        ],
+                        "related words": {
+                            "summary": "In the context of nuclear reactors, neutron interactions, specifically neutron scattering, play a crucial role in the process of slowing down neutrons. The slowing down decrement is a measure of a nuclide's ability to slow down neutrons through elastic scattering.\n\nThe slowing down decrement is defined as the mean value of the logarithm of the energy loss ratio of neutrons. It represents the average logarithmic fraction of energy that a neutron loses in elastic collisions, regardless of its initial energy. This decrement is independent of the energy of the scattered neutron and depends only on the atomic mass of the scattering nuclide.\n\nInelastic scattering, on the other hand, causes neutrons to lose substantial energy. It occurs when neutrons elevate the target nucleus to an excited state, leading to the emission of gamma rays. Inelastic scattering is significant for heavier atomic weight materials, such as uranium, and is determined by the energy levels of the target nucleus.\n\nUnderstanding neutron interactions, including scattering and energy loss, is essential in the design and operation of nuclear reactors. It helps in controlling the neutron flux, moderating neutron energies, and optimizing reactor performance.",
+                            "type": "Neutron interactions: l0:neutron scattering l1:slowing down decrement"
+                        }
+                    }
+                },
+                "summary": "In the context of nuclear reactors, neutron scattering refers to the interaction of neutrons with the nuclei of surrounding materials. The energy spectrum of neutrons in a reactor is determined by the competition between scattering and absorption reactions.\n\nNeutron scattering can result in the degradation of neutron energy, known as neutron slowing down. This occurs when neutrons with higher energies collide with nuclei and lose energy. On the other hand, neutrons near thermal equilibrium can either gain or lose energy when interacting with the thermal motions of surrounding nuclei.\n\nThe neutron energy distribution in a reactor can be classified as either soft/thermal or hard/fast, depending on the ratio of neutron degradation to absorption. In a medium where the average energy loss per collision and the scattering to absorption cross section ratio is large, the neutron spectrum tends to be close to thermal equilibrium. Conversely, in a system where neutron absorption occurs before significant slowing down, the neutron spectrum is closer to the fission spectrum and is considered hard/fast.\n\nBoth elastic and inelastic scattering are important in nuclear reactors. In elastic scattering, the mechanical energy is conserved, meaning the sum of the kinetic energies of the neutron and target nucleus remains the same before and after the collision. In inelastic scattering, the neutron leaves the target nucleus in an excited state, resulting in a decrease in the sum of kinetic energies.\n\nOverall, understanding neutron scattering is crucial for analyzing neutron behavior and energy distribution within a nuclear reactor, which is essential for reactor design, safety, and optimization.",
+                "type": "/Physical Process",
+                "label": "Neutron interactions: l0:neutron scattering"
+            }
+        }
+    },
+    "Neutron kinetics:": {
+        "page": [],
+        "related words": {
+            "equations": {
+                "page": [
+                    " 125"
+                ],
+                "related words": {},
+                "summary": "The neutron kinetics equations are mathematical expressions that describe the behavior of neutrons in a nuclear reactor. These equations are essential for understanding and analyzing the dynamic response of a reactor.\n\nThe equations involve variables such as the neutron population (n) and the concentrations of precursor groups (Ci) that contribute to neutron production and decay. The equations consider factors like neutron source, neutron lifetime, and the rate of precursor decay.\n\nIn a simplified form, the neutron kinetics equations can be expressed as:\n\n- d/dt n(t) = S(t) + (1/\u03bb) [(1/\u03b2)k - 1]n(t) + \u03a3i \u03b2iCi(t)\n- d/dt Ci(t) = (\u03b2i/\u03bb)k ln(t) / Ci(t)\n\nHere, S(t) represents the time-dependent neutron source, \u03bb is the prompt neutron lifetime, \u03b2i is the delayed neutron fraction for the ith precursor group, and k is the multiplication factor.\n\nThe equations reveal important insights about the behavior of a nuclear reactor. For example:\n\n1. Steady State: The equations can have a steady-state solution where neutron population and precursor concentrations remain constant if certain conditions are met. For a time-independent source, the system is steady-state when k < 1 (subcritical) or k = 1 (critical).\n\n2. Delayed Neutrons: The presence of delayed neutrons does not affect the conditions for achieving steady-state neutron distributions. The requirements for steady state remain the same, regardless of the delayed neutron contribution.\n\nOverall, the neutron kinetics equations provide a mathematical framework to study and analyze the dynamic behavior of neutrons in a nuclear reactor, helping in the design, control, and safety assessment of such systems.",
+                "type": "/mathematical equation",
+                "label": "Neutron kinetics: l0:equations"
+            },
+            "delayed": {
+                "page": [
+                    " 123"
+                ],
+                "related words": {},
+                "summary": "The information provided states that in nuclear reactors, a small fraction of fission neutrons is produced through the decay of neutron-emitting fission products. These neutrons are known as delayed neutrons. They are categorized into six groups based on their half-lives, ranging from fractions of a second to nearly a minute. The delayed fraction of neutrons varies depending on the fissile isotope used in the reactor.\n\nThe average half-life of delayed neutrons is determined by the weighted sum of the half-lives of each group. Similarly, the average decay constant is calculated based on the weighted sum of the decay constants of each group.\n\nThe table provided gives approximate values for the half-lives and delayed neutron fractions for the three most common fissile isotopes: U-233, U-235, and Pu-239. It shows that the delayed neutron fraction is relatively small compared to the total number of neutrons produced per fission.\n\nUnderstanding delayed neutron kinetics is crucial in nuclear reactor operation and control as it affects the overall neutron population and the reactor's response to changes in reactivity.",
+                "type": "/Delayed Neutrons",
+                "label": "Neutron kinetics: l0:delayed"
+            }
+        }
+    },
+    "Neutrons, spatial diffusion of": {
+        "page": [
+            " 139-40"
+        ],
+        "related words": {
+            "boundary conditions": {
+                "page": [
+                    " 145-6"
+                ],
+                "related words": {
+                    "interface conditions": {
+                        "page": [
+                            " 148-9"
+                        ],
+                        "related words": {}
+                    },
+                    "reflected boundaries": {
+                        "page": [
+                            " 147"
+                        ],
+                        "related words": {}
+                    },
+                    "surface sources and albedos": {
+                        "page": [
+                            " 147-8"
+                        ],
+                        "related words": {}
+                    },
+                    "vacuum boundaries": {
+                        "page": [
+                            " 146-7"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "diffusion approximation validity": {
+                "page": [
+                    " 153-7"
+                ],
+                "related words": {}
+            },
+            "multiplying systems": {
+                "page": [
+                    " 157"
+                ],
+                "related words": {
+                    "critical reactor": {
+                        "page": [
+                            " 160-2"
+                        ],
+                        "related words": {}
+                    },
+                    "subcritical assemblies": {
+                        "page": [
+                            " 157-60"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "neutron diffusion equation": {
+                "page": [
+                    " 140"
+                ],
+                "related words": {
+                    "diffusion approximation": {
+                        "page": [
+                            " 142-3"
+                        ],
+                        "related words": {}
+                    },
+                    "spatial neutron balance": {
+                        "page": [
+                            " 140-2"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "nonmultiplying systems": {
+                "page": [
+                    " 143-5",
+                    " 149-53"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Neutronic and thermal effects": {
+        "page": [
+            " 209",
+            " 215"
+        ],
+        "related words": {},
+        "summary": "From the information provided, we can gather the following about neutronic and thermal effects in connection with nuclear reactors:\n\n1. Neutronics: Neutronics refers to the study of the behavior and control of neutrons in a nuclear reactor. It plays a crucial role in determining the reactor's physical characteristics, such as fuel radius, lattice pitch, core volume, and power density. The moderator to fuel volume ratio primarily depends on neutronics considerations. Neutronic effects are strongly coupled with temperature-induced reactivity feedback, which can impact reactor transients.\n\n2. Thermal Effects: Thermal effects are also significant in nuclear reactors. The thermal hydraulics, specifically the coolant temperature and heat flux, need to be carefully controlled to ensure safe and efficient operation. The linear heat rate and surface heat flux are limited to prevent boiling crises and the formation of vapor blankets at the fuel-coolant interface. The coolant inlet and outlet temperatures are determined through thermodynamic analysis to avoid coolant boiling while maintaining the reactor's design pressure.\n\nOverall, neutronic and thermal effects are interconnected in nuclear reactors. Neutronics influences the reactor's physical characteristics, while thermal effects impact the reactor's heat transfer and temperature distribution. Understanding and managing these effects are crucial for the safe and optimal operation of nuclear reactors.",
+        "type": "Property",
+        "label": "Neutronic and thermal effects"
+    },
+    "Neutronics design": {
+        "page": [
+            " 211"
+        ],
+        "related words": {},
+        "summary": "The information provided discusses the neutronics design of a nuclear reactor core. Neutronics design involves determining various parameters such as fuel enrichment, control poison requirements, and neutron multiplication to ensure the safe and efficient operation of the reactor.\n\nThe design process involves making assumptions and calculations to obtain a set of core parameters. However, these calculations may not consider all factors, such as control rod structures or local peaking factors, which can affect the core volume and power density. Therefore, the design process is iterative, and adjustments need to be made to accommodate various constraints.\n\nAdditionally, the information mentions thermal transients, which refer to the heat transfer between the fuel and coolant under steady-state and transient conditions. A lumped parameter model is used to approximate the behavior of thermal transients, considering factors such as fuel mass, specific heat, and heat production.\n\nOverall, the information highlights the complexity and iterative nature of neutronics design in nuclear reactors, where multiple parameters and constraints need to be considered to ensure safe and efficient operation.",
+        "type": "Design",
+        "label": "Neutronics design"
+    },
+    "Noble gases": {
+        "page": [
+            " 258"
+        ],
+        "related words": {},
+        "summary": "The information provided does not specifically mention noble gases in connection with nuclear reactors. However, noble gases, such as helium, neon, argon, krypton, and xenon, are commonly used in nuclear reactors for various purposes. They are used as coolants, heat transfer agents, and in some cases, as a means of detecting leaks in the reactor system. Noble gases are chemically inert and do not readily react with other substances, making them suitable for these applications. Additionally, noble gases are produced as by-products during nuclear fission reactions and can be released into the environment if not properly contained. Their release can have environmental and health implications, and therefore, measures are taken to prevent their release and minimize their impact.",
+        "type": "Chemical Element",
+        "label": "Noble gases"
+    },
+    "Nonescape probability": {
+        "page": [
+            " 115",
+            " 227"
+        ],
+        "related words": {},
+        "summary": "Based on the information provided, the concept of nonescape probability is mentioned in the context of reactor kinetics and the behavior of neutron chain reactions in nuclear reactors. The nonescape probability approximation assumes that neutron leakage from the system is either negligible or can be treated as such. \n\nThe chapter discusses the time-dependent behavior of neutron chain reactions in both nonmultiplying systems (without fissionable materials) and multiplying systems (with fissionable isotopes). In both cases, the assumption of negligible neutron leakage allows for simplified analysis.\n\nIt is important to note that the information provided does not specifically elaborate on the nonescape probability itself or its significance in relation to nuclear reactors. It merely introduces the approximation as a simplifying assumption in the analysis of reactor kinetics. Further details or specific implications of the nonescape probability would require additional information or a more in-depth analysis.",
+        "type": "QuantitativeValue",
+        "label": "Nonescape probability"
+    },
+    "Nonleakage probability": {
+        "page": [
+            " 101",
+            " 119",
+            " 120",
+            " 139",
+            " 161",
+            " 162",
+            " 177",
+            " 180",
+            " 222",
+            " 243"
+        ],
+        "related words": {},
+        "summary": "The nonleakage probability (PNL) is a concept used in the context of nuclear reactors. It represents the probability that a neutron, generated within a reactor, will not leak out of the system but will instead contribute to the sustained nuclear chain reaction. PNL is an important factor in determining the overall efficiency and performance of a reactor.\n\nIn a nuclear reactor, neutrons are produced through various processes, such as fission or external sources. These neutrons undergo scattering collisions and can either be absorbed by fuel or moderator materials, or they can leak out of the reactor system. The nonleakage probability quantifies the likelihood of neutrons being absorbed rather than leaking out.\n\nThe nonleakage probability is influenced by several factors, including the design of the reactor, the characteristics of the fuel and moderator materials, and the presence of control poisons or control rods. These factors affect the absorption and scattering properties of neutrons within the reactor.\n\nA high nonleakage probability is desirable for efficient reactor operation, as it ensures that a greater proportion of neutrons contribute to the sustained chain reaction, leading to more fission events and energy production. On the other hand, a low nonleakage probability would result in a higher number of neutrons escaping the system, reducing the reactor's efficiency.\n\nIt is important to note that the nonleakage probability is calculated for fresh fuel and under ideal conditions, without considering factors like fuel depletion or the presence of control poisons. In an operating reactor, these factors need to be taken into account to determine the overall multiplication factor (k), which indicates whether the reactor is subcritical, critical, or supercritical.\n\nIn summary, the nonleakage probability is a crucial parameter in nuclear reactor design and operation, representing the probability that neutrons generated within the reactor will be absorbed rather than leaking out. It plays a significant role in determining the efficiency and performance of the reactor.",
+        "type": "Class",
+        "label": "Nonleakage probability"
+    },
+    "Nonrelativistic particle": {
+        "page": [
+            " 6"
+        ],
+        "related words": {}
+    },
+    "Notation": {
+        "page": [
+            " 5"
+        ],
+        "related words": {}
+    },
+    "Nuclear reactions": {
+        "page": [
+            " 1-3"
+        ],
+        "related words": {
+            "binding energy, curve of": {
+                "page": [
+                    " 7-8"
+                ],
+                "related words": {}
+            },
+            "energetics": {
+                "page": [
+                    " 5-7"
+                ],
+                "related words": {}
+            },
+            "fissile and fertile materials": {
+                "page": [
+                    " 16-18"
+                ],
+                "related words": {}
+            },
+            "fission reactions": {
+                "page": [
+                    " 9-10"
+                ],
+                "related words": {
+                    "energy release and dissipation": {
+                        "page": [
+                            " 10-11"
+                        ],
+                        "related words": {}
+                    },
+                    "fission products": {
+                        "page": [
+                            " 13-16"
+                        ],
+                        "related words": {}
+                    },
+                    "neutron multiplication": {
+                        "page": [
+                            " 12-13"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "fusion reactions": {
+                "page": [
+                    " 8-9"
+                ],
+                "related words": {}
+            },
+            "notation": {
+                "page": [
+                    " 5"
+                ],
+                "related words": {}
+            },
+            "radioactive decay": {
+                "page": [
+                    " 18-20"
+                ],
+                "related words": {
+                    "decay chains": {
+                        "page": [
+                            " 21-3"
+                        ],
+                        "related words": {}
+                    },
+                    "saturation activity": {
+                        "page": [
+                            " 20-1"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "reaction equations": {
+                "page": [
+                    " 3-4"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Nuclear fuel properties": {
+        "page": [
+            " 58"
+        ],
+        "related words": {}
+    },
+    "Nuclear proliferation, problems of": {
+        "page": [
+            " 60"
+        ],
+        "related words": {}
+    },
+    "Nuclear reaction fundamentals": {
+        "page": [
+            " 2"
+        ],
+        "related words": {}
+    },
+    "Nucleons, conservation of": {
+        "page": [
+            " 3"
+        ],
+        "related words": {}
+    },
+    "Nuclide densities": {
+        "page": [
+            " 33"
+        ],
+        "related words": {}
+    },
+    "On-line refueling machines": {
+        "page": [
+            " 92"
+        ],
+        "related words": {}
+    },
+    "Partial currents": {
+        "page": [
+            " 278"
+        ],
+        "related words": {}
+    },
+    "Partially inserted control rod": {
+        "page": [
+            " 188"
+        ],
+        "related words": {}
+    },
+    "Plane geometry": {
+        "page": [
+            " 143"
+        ],
+        "related words": {}
+    },
+    "Plank's constant": {
+        "page": [
+            " 6"
+        ],
+        "related words": {}
+    },
+    "Plutonium": {
+        "page": [
+            " 17",
+            " 47",
+            " 58-60",
+            " 78",
+            " 223",
+            " 252-5",
+            " 258",
+            " 259"
+        ],
+        "related words": {}
+    },
+    "Poison specifications": {
+        "page": [
+            " 232"
+        ],
+        "related words": {}
+    }
+}

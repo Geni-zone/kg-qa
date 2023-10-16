@@ -1,0 +1,606 @@
+{
+    "Energy transport": {
+        "page": [
+            " 199"
+        ],
+        "related words": {
+            "core power distribution": {
+                "page": [
+                    " 199-200"
+                ],
+                "related words": {
+                    "finite cylindrical core": {
+                        "page": [
+                            " 200-203"
+                        ],
+                        "related words": {}
+                    },
+                    "uniform cylindrical core": {
+                        "page": [
+                            " 203-204"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "heat transport": {
+                "page": [
+                    " 204"
+                ],
+                "related words": {
+                    "heat source characterization": {
+                        "page": [
+                            " 204-205"
+                        ],
+                        "related words": {}
+                    },
+                    "pressurized water reactor": {
+                        "page": [
+                            " 209-211"
+                        ],
+                        "related words": {}
+                    },
+                    "steady state temperatures": {
+                        "page": [
+                            " 205-208"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "thermal transients": {
+                "page": [
+                    " 211-12"
+                ],
+                "related words": {
+                    "coolant temperature transients": {
+                        "page": [
+                            " 213-15"
+                        ],
+                        "related words": {}
+                    },
+                    "fuel temperature transient": {
+                        "page": [
+                            " 212-13"
+                        ],
+                        "related words": {}
+                    }
+                }
+            }
+        }
+    },
+    "Escape probability": {
+        "page": [
+            " 100",
+            " 102",
+            " 104",
+            " 105",
+            " 108-10",
+            " 175",
+            " 224",
+            " 226"
+        ],
+        "related words": {}
+    },
+    "Excess reactivity": {
+        "page": [
+            " 230"
+        ],
+        "related words": {}
+    },
+    "Excitation energy": {
+        "page": [
+            " 37",
+            " 41",
+            " 42"
+        ],
+        "related words": {}
+    },
+    "Exothermic reactions": {
+        "page": [
+            " 3",
+            " 6",
+            " 7"
+        ],
+        "related words": {}
+    },
+    "Fast and thermal reactor": {
+        "page": [
+            " 72"
+        ],
+        "related words": {}
+    },
+    "Fast fission factor": {
+        "page": [
+            " 101"
+        ],
+        "related words": {}
+    },
+    "Fast neutrons": {
+        "page": [
+            " 65"
+        ],
+        "related words": {}
+    },
+    "Fast reactors": {
+        "page": [
+            " 94"
+        ],
+        "related words": {
+            "fuel": {
+                "page": [
+                    " 94"
+                ],
+                "related words": {}
+            },
+            "lattices": {
+                "page": [
+                    " 94"
+                ],
+                "related words": {}
+            },
+            "multiplication": {
+                "page": [
+                    " 97"
+                ],
+                "related words": {}
+            },
+            "temperature coefficients": {
+                "page": [
+                    " 227"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Fertile isotopes": {
+        "page": [
+            " 16",
+            " 17"
+        ],
+        "related words": {}
+    },
+    "Fick's law": {
+        "page": [
+            " 140",
+            " 142",
+            " 155",
+            " 277"
+        ],
+        "related words": {}
+    },
+    "Finite cylindrical core": {
+        "page": [
+            " 170",
+            " 200"
+        ],
+        "related words": {}
+    },
+    "Finite multiplying systems": {
+        "page": [
+            " 119"
+        ],
+        "related words": {}
+    },
+    "First-order perturbation approximation": {
+        "page": [
+            " 188"
+        ],
+        "related words": {}
+    },
+    "Fissile material": {
+        "page": [
+            " 16-18",
+            " 47",
+            " 59",
+            " 60",
+            " 63",
+            " 90",
+            " 252",
+            " 255"
+        ],
+        "related words": {}
+    },
+    "Fission:": {
+        "page": [],
+        "related words": {
+            "energy": {
+                "page": [
+                    " 51",
+                    " 73",
+                    " 177"
+                ],
+                "related words": {}
+            },
+            "fragments": {
+                "page": [
+                    " 9-11",
+                    " 13",
+                    " 14",
+                    " 20",
+                    " 245"
+                ],
+                "related words": {}
+            },
+            "neutrons": {
+                "page": [
+                    " 12",
+                    " 17",
+                    " 38",
+                    " 39",
+                    " 40",
+                    " 58",
+                    " 61",
+                    " 65",
+                    " 67",
+                    " 72",
+                    " 75",
+                    " 81",
+                    " 100",
+                    " 101",
+                    " 106",
+                    " 115",
+                    " 118",
+                    " 119",
+                    " 123",
+                    " 130",
+                    " 140",
+                    " 141",
+                    " 178"
+                ],
+                "related words": {}
+            },
+            "products": {
+                "page": [
+                    " 9-11",
+                    " 13-15",
+                    " 18",
+                    " 20",
+                    " 115",
+                    " 123",
+                    " 124",
+                    " 126",
+                    " 127",
+                    " 232",
+                    " 243-5",
+                    " 247",
+                    " 252",
+                    " 257-9"
+                ],
+                "related words": {}
+            },
+            "radioactive products of": {
+                "page": [
+                    " 243"
+                ],
+                "related words": {}
+            },
+            "reactions": {
+                "page": [
+                    " 1",
+                    " 9",
+                    " 78",
+                    " 99",
+                    " 118",
+                    " 245"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Fissionable nuclide concentrations": {
+        "page": [
+            " 252"
+        ],
+        "related words": {}
+    },
+    "Flux:": {
+        "page": [],
+        "related words": {
+            "averaged cross section": {
+                "page": [
+                    " 96"
+                ],
+                "related words": {}
+            },
+            "depression": {
+                "page": [
+                    " 69",
+                    " 224"
+                ],
+                "related words": {}
+            },
+            "distribution": {
+                "page": [
+                    " 75",
+                    " 78",
+                    " 79",
+                    " 95",
+                    " 139",
+                    " 150",
+                    " 167",
+                    " 169",
+                    " 172",
+                    " 174",
+                    " 180",
+                    " 182",
+                    " 184-6",
+                    " 188",
+                    " 190",
+                    " 193",
+                    " 245"
+                ],
+                "related words": {}
+            },
+            "flattening": {
+                "page": [
+                    " 184"
+                ],
+                "related words": {}
+            },
+            "spectra": {
+                "page": [
+                    " 75"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Fossil fuel": {
+        "page": [
+            " 1",
+            " 2"
+        ],
+        "related words": {}
+    },
+    "Four factor formula": {
+        "page": [
+            " 99",
+            " 100",
+            " 107",
+            " 174",
+            " 222",
+            " 223",
+            " 243"
+        ],
+        "related words": {}
+    },
+    "Fuel assembly segments": {
+        "page": [
+            " 92"
+        ],
+        "related words": {}
+    },
+    "Fuel burnup": {
+        "page": [
+            " 244"
+        ],
+        "related words": {}
+    },
+    "Fuel coolant:": {
+        "page": [],
+        "related words": {
+            "interface": {
+                "page": [
+                    " 209"
+                ],
+                "related words": {}
+            },
+            "moderator lattice structure": {
+                "page": [
+                    " 85"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Fuel depletion": {
+        "page": [
+            " 13",
+            " 91",
+            " 101",
+            " 186",
+            " 232",
+            " 243-5",
+            " 252",
+            " 253"
+        ],
+        "related words": {}
+    },
+    "Fuel element heat transfer": {
+        "page": [
+            " 279",
+            " 281-3"
+        ],
+        "related words": {}
+    },
+    "Fuel enrichment": {
+        "page": [
+            " 87",
+            " 88",
+            " 93",
+            " 95",
+            " 96",
+            " 102",
+            " 108",
+            " 168",
+            " 180",
+            " 181",
+            " 184",
+            " 200",
+            " 255"
+        ],
+        "related words": {}
+    },
+    "Fuel rod radius": {
+        "page": [
+            " 110"
+        ],
+        "related words": {}
+    },
+    "Fuel temperatures": {
+        "page": [
+            " 206",
+            " 223",
+            " 228"
+        ],
+        "related words": {
+            "coefficient": {
+                "page": [
+                    " 212",
+                    " 223",
+                    " 228 see also Coolant temperature"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Fuel thermal conductivity": {
+        "page": [
+            " 206"
+        ],
+        "related words": {}
+    },
+    "Fusion reactions": {
+        "page": [
+            " 7-9"
+        ],
+        "related words": {}
+    },
+    "Gamma rays": {
+        "page": [
+            " 3-6",
+            " 9-11",
+            " 14-16",
+            " 37",
+            " 42",
+            " 52"
+        ],
+        "related words": {}
+    },
+    "Gas-cooled fast reactors (GCFRs)": {
+        "page": [
+            " 94",
+            " 178"
+        ],
+        "related words": {}
+    },
+    "Geometric buckling": {
+        "page": [
+            " 162",
+            " 169"
+        ],
+        "related words": {}
+    },
+    "Graphite-moderated reactors": {
+        "page": [
+            " 90",
+            " 92"
+        ],
+        "related words": {}
+    },
+    "Half-life": {
+        "page": [
+            " 4",
+            " 14",
+            " 17-23",
+            " 123",
+            " 124",
+            " 127",
+            " 129-32",
+            " 245",
+            " 246-8",
+            " 250",
+            " 253",
+            " 258",
+            " 259"
+        ],
+        "related words": {}
+    },
+    "Heat source characterization": {
+        "page": [
+            " 204"
+        ],
+        "related words": {}
+    },
+    "Heat transport": {
+        "page": [
+            " 204"
+        ],
+        "related words": {}
+    },
+    "Heavy water reactors (PHWRs)": {
+        "page": [
+            " 91",
+            " 92"
+        ],
+        "related words": {}
+    },
+    "Helium": {
+        "page": [
+            " 5",
+            " 62"
+        ],
+        "related words": {
+            "coolant": {
+                "page": [
+                    " 93"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Helmholtz equation": {
+        "page": [
+            " 169",
+            " 176"
+        ],
+        "related words": {}
+    },
+    "Hexagonal fuel assemblies": {
+        "page": [
+            " 87"
+        ],
+        "related words": {}
+    },
+    "Hexagonal lattice cells": {
+        "page": [
+            " 94"
+        ],
+        "related words": {}
+    },
+    "High temperature gas-cooled reactor (HTGR)": {
+        "page": [
+            " 93",
+            " 212"
+        ],
+        "related words": {}
+    },
+    "\u2018\u2018hot zero power''": {
+        "page": [
+            " 231"
+        ],
+        "related words": {}
+    },
+    "Hydrogen-2 see Deuterium": {
+        "page": [],
+        "related words": {}
+    },
+    "Hyperbolic:": {
+        "page": [],
+        "related words": {
+            "functions": {
+                "page": [
+                    " 266"
+                ],
+                "related words": {}
+            },
+            "sine": {
+                "page": [
+                    " 152"
+                ],
+                "related words": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+["Startup accident", "Steady state temperatures", "Steam generators", "Step reactivity changes", "Strontium", "Subcritical assemblies", "Surface heat flux", "Surface sources", "Tellurium-135", "Temperature drop across"]

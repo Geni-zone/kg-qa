@@ -1,0 +1,1 @@
+["Physical Component", "MathematicalFunction", "Physical Process", "Class", "BWRs", "PhysicalConstant", "ChemicalElement", "ChemicalCompound", "Class", "mathematical formula"]

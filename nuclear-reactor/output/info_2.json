@@ -1,0 +1,702 @@
+{
+    "Infinite medium multiplication": {
+        "page": [
+            " 81",
+            " 117",
+            " 118",
+            " 177",
+            " 191"
+        ],
+        "related words": {},
+        "summary": "Infinite medium multiplication refers to the calculation of the multiplication factor (k1) in a nuclear reactor. The multiplication factor represents the ratio of the number of fission neutrons produced to the number of neutrons absorbed. It is an important parameter in determining the stability and efficiency of a nuclear reactor.\n\nIn the context of a nuclear reactor, the calculation of k1 involves considering the reaction rates of fission neutrons produced and neutrons absorbed. The fission neutrons produced are determined by the number of neutrons per fission, while the neutrons absorbed are determined by the absorption cross sections of the reactor core's constituents.\n\nThe calculation assumes that the fuel, moderator, coolant, and other core constituents are exposed to the same energy-dependent neutron flux. However, in practical power reactors, there may be variations in flux magnitudes due to the separation of materials. Power reactor cores consist of lattices of cells, and the expressions derived for k1 can be interpreted as spatial averages over the constituents of one cell, accounting for differences in flux magnitudes.\n\nThe neutron lifetime (l1) is a crucial factor in determining the speed at which neutron populations build or decay. Non-multiplying systems have shorter neutron lifetimes, while multiplying systems, where fissionable material is present, have longer neutron lifetimes. The neutron lifetime depends on the rate at which neutrons reach thermal energies before being absorbed.\n\nOverall, the concept of infinite medium multiplication is essential in understanding the behavior and performance of nuclear reactors, particularly in terms of neutron population dynamics and the efficiency of neutron production and absorption.",
+        "type": "Multiplication factor",
+        "label": "Infinite medium multiplication"
+    },
+    "Inhour equation": {
+        "page": [
+            " 128"
+        ],
+        "related words": {},
+        "summary": "The Inhour equation is a mathematical equation used in the field of nuclear reactor physics. It describes the behavior of the neutron population in a nuclear reactor over time. The equation is given by Ci\u00f0t\u00de = Biexp(\u03bbt), where Ci(t) represents the neutron concentration at time t, Bi and \u03bb are constants.\n\nThe equation is derived by inserting the expressions for Ci(t) into the relevant equations and solving for the constants. The Inhour equation allows us to analyze the neutron population dynamics in a reactor and understand how it changes with time.\n\nThe equation has practical implications for nuclear reactors. By solving the Inhour equation, we can determine the neutron population at any given time and assess the reactor's reactivity. The reactivity, which is represented by the constant \u03bb, indicates whether the reactor is critical (\u03bb = 0), subcritical (\u03bb < 0), or supercritical (\u03bb > 0).\n\nThe Inhour equation also helps in predicting the long-term behavior of the neutron population. It shows that the neutron population takes the form of a sum of exponential terms, with each term contributing to the overall behavior. For positive reactivity, only the first term remains significant over time, leading to an asymptotic solution.\n\nOverall, the Inhour equation provides valuable insights into the behavior of neutron populations in nuclear reactors and aids in reactor analysis and control.",
+        "type": "mathematical equation",
+        "label": "Inhour equation"
+    },
+    "Integrating factor technique": {
+        "page": [
+            " 121",
+            " 132",
+            " 212",
+            " 246",
+            " 248",
+            " 254"
+        ],
+        "related words": {},
+        "summary": "The integrating factor technique is a mathematical method used in the analysis of nuclear reactors. It is particularly useful in understanding the behavior of neutron populations in multiplying systems with or without time-independent sources.\n\nIn a critical system, where the multiplication factor (k) is equal to one, the neutron population remains constant over time. For supercritical systems (k > 1), the neutron population increases exponentially, while for subcritical systems (k < 1), the neutron population decreases exponentially.\n\nWhen a time-independent source is present in the system, the integrating factor technique can be applied to solve the equations governing the neutron population. The solution obtained allows us to observe the behavior of the neutron population in the presence of the source.\n\nThe technique is also applicable in scenarios such as rod drop, where a control rod is inserted into a source-free critical reactor. By using the integrating factor technique, the change in neutron population due to the rod insertion can be estimated.\n\nOverall, the integrating factor technique is a valuable tool for analyzing the dynamics of neutron populations in nuclear reactors and understanding the effects of various factors such as sources and control rod movements.",
+        "type": "mathematical method",
+        "label": "Integrating factor technique"
+    },
+    "Interface conditions": {
+        "page": [
+            " 148"
+        ],
+        "related words": {},
+        "summary": "In the context of nuclear reactors, interface conditions refer to the conditions that must be satisfied at the boundaries between different regions within the reactor. These conditions ensure the continuity of flux and net current across the interfaces.\n\nWhen there are multiple regions with different cross sections, the diffusion equation solution requires two conditions at each interface. These conditions state that both the flux and the net current must be continuous across the interface.\n\nThese interface conditions are important for accurately modeling and analyzing the behavior of neutrons within the reactor. By satisfying these conditions, the diffusion equation solution can provide a reliable representation of neutron transport and interactions, aiding in the design and operation of nuclear reactors.",
+        "type": "Class",
+        "label": "Interface conditions"
+    },
+    "Iodine-131": {
+        "page": [
+            " 20",
+            " 21",
+            " 246"
+        ],
+        "related words": {},
+        "summary": "Iodine-131 is one of the fission products produced in nuclear reactors. It has a relatively short half-life of 8.05 days. The activity of Iodine-131 initially increases linearly with time, but after several half-lives, it reaches a saturation activity level. This saturation activity is proportional to the reactor power. \n\nIn comparison to other fission products like strontium-90, which has a much longer half-life, the activity of Iodine-131 reaches saturation relatively quickly, typically within a month. This means that the inventory of Iodine-131 remains constant after reaching saturation, while the inventory of strontium-90 continues to increase linearly with time.\n\nThe activity of Iodine-131 is an important parameter to consider in nuclear reactors as it affects radiation levels and safety considerations. Monitoring and controlling the release of Iodine-131 is crucial to ensure the safety of reactor operations and minimize its impact on the environment.",
+        "type": "Chemical Element",
+        "label": "Iodine-131"
+    },
+    "Iodine-135": {
+        "page": [
+            " 247"
+        ],
+        "related words": {},
+        "summary": "Iodine-135 (I-135) is a fission product that plays a significant role in nuclear reactor operation. It is produced directly and through the decay of other fission products. The decay of I-135 leads to the formation of xenon-135 (Xe-135), which has a very high absorption cross-section. This means that Xe-135 can absorb a large number of neutrons, affecting reactor performance.\n\nThe concentration of I-135 in the reactor core is governed by a rate equation, while the concentration of Xe-135 depends on the concentration of I-135. The presence of Xe-135 can cause xenon poisoning, which refers to the negative impact on reactor operation due to the excessive absorption of neutrons by Xe-135.\n\nTo mitigate xenon poisoning, reactor operators need to carefully manage the concentration of I-135 and Xe-135. This involves monitoring and controlling the neutron flux levels to prevent excessive buildup of Xe-135. Failure to address xenon poisoning can lead to reduced reactor efficiency and potentially affect long-term core behavior.\n\nIn summary, I-135 is a fission product that contributes to xenon poisoning in nuclear reactors, and its management is crucial for maintaining optimal reactor performance.",
+        "type": "Chemical Element",
+        "label": "Iodine-135"
+    },
+    "Isothermal temperature coefficient": {
+        "page": [
+            " 228"
+        ],
+        "related words": {},
+        "summary": "The isothermal temperature coefficient is a concept related to nuclear reactors. It refers to the change in reactivity (a measure of the reactor's ability to sustain a chain reaction) with respect to temperature when the entire core is brought slowly from room temperature to the operating coolant temperature. \n\nDuring this process, the core is assumed to behave isothermally, meaning that the fuel and coolant temperatures are equal. The isothermal temperature coefficient is a measure of how the reactivity changes with this isothermal temperature.\n\nThe prompt coefficient, which is a component of the isothermal temperature coefficient, represents the immediate feedback reactivity due to the heating of the fuel. It is negative for a stable reactor.\n\nThe isothermal temperature coefficient is important for reactor stability. A negative coefficient ensures that as the temperature increases, the reactivity decreases, helping to maintain a stable chain reaction. This coefficient is influenced by factors such as the fuel composition and enrichment level.\n\nOverall, the isothermal temperature coefficient is a crucial parameter in nuclear reactor design and operation, as it helps to understand and control the reactor's response to temperature changes.",
+        "type": "Class",
+        "label": "Isothermal temperature coefficient"
+    },
+    "Isotopes": {
+        "page": [
+            " 3",
+            " 5",
+            " 9",
+            " 13",
+            " 16",
+            " 17",
+            " 21",
+            " 33",
+            " 35",
+            " 36",
+            " 42",
+            " 47",
+            " 52",
+            " 75",
+            " 123",
+            " 129",
+            " 226",
+            " 246",
+            " 247",
+            " 248",
+            " 252",
+            " 255",
+            " 257",
+            " 258"
+        ],
+        "related words": {
+            "decay rate": {
+                "page": [
+                    " 246"
+                ],
+                "related words": {},
+                "summary": "The decay rate of isotopes is an important factor in nuclear reactors. When fission occurs, fission product isotopes are produced, and their concentration over time is influenced by their decay rate. The decay rate determines how quickly the isotopes decay and decrease in concentration.\n\nThe decay rate is represented by the parameter \u03bb (lambda) or the half-life (t1/2). It indicates the time it takes for half of the radioactive material to decay. Isotopes with shorter half-lives decay more rapidly than those with longer half-lives.\n\nIn a nuclear reactor, the concentration of fission product isotopes grows initially due to their production from fission. However, these isotopes also undergo decay and destruction processes. The decay rate and the thermal neutron absorption cross section of the isotope determine the rate of decay and destruction.\n\nThe concentration of isotopes in a reactor depends on the operating time of the reactor relative to the effective half-life. If the operating time is short compared to the effective half-life, the concentration increases linearly with time. However, if the operating time is long compared to the effective half-life, the concentration reaches a saturation value and does not increase further.\n\nThe inventory of isotopes that have reached saturation is proportional to the reactor power, while the inventory of isotopes that increase linearly with time is proportional to the total energy produced by the reactor.\n\nIn summary, the decay rate of isotopes in nuclear reactors affects the concentration and inventory of fission product isotopes. It plays a role in determining the behavior and characteristics of radioactive materials in a reactor system.",
+                "type": "Class/Property",
+                "label": "Isotopes l0:decay rate"
+            },
+            "fissionable": {
+                "page": [
+                    " 11",
+                    " 47",
+                    " 115",
+                    " 129",
+                    " 172"
+                ],
+                "related words": {},
+                "summary": "From the information provided, it can be summarized that fissionable isotopes play a crucial role in nuclear reactors. Fissionable isotopes, such as uranium-235 and plutonium-239, are capable of undergoing nuclear fission when bombarded with neutrons. This fission process releases a significant amount of energy in the form of kinetic energy of fission fragments.\n\nIn a nuclear reactor, the fissionable isotopes are used as fuel. Neutrons are introduced into the fuel, causing fission reactions to occur. The energy released during fission is primarily in the form of kinetic energy of the fission fragments. This energy is recovered as heat within the reactor and is used to generate electricity.\n\nDifferent isotopes have different properties when it comes to fission. Uranium-235 is fissile, meaning it can undergo fission with incident neutrons of any energy. Uranium-238, on the other hand, is fertile and requires higher-energy neutrons to undergo fission. Plutonium-239 is another fissile isotope that can sustain a chain reaction.\n\nIt is important to control the fission reactions in a nuclear reactor to maintain a stable and controlled release of energy. This is achieved through the use of control rods and moderators, which help regulate the neutron population and energy levels.\n\nOverall, fissionable isotopes are essential components of nuclear reactors as they provide the fuel source for sustained nuclear fission reactions, resulting in the production of heat and energy.",
+                "type": "Class/Class",
+                "label": "Isotopes l0:fissionable"
+            },
+            "hydrogen": {
+                "page": [
+                    " 5",
+                    " 9"
+                ],
+                "related words": {},
+                "summary": "From the information provided, it is mentioned that isotopes of hydrogen, specifically deuterium (D) and tritium (T), have been considered for use in nuclear reactions. These reactions involve fusing isotopes of hydrogen together, such as deuterium-deuterium (D-D) and deuterium-tritium (D-T) reactions, to release energy. However, achieving the necessary temperatures for these reactions to occur in a controlled manner has been a challenge.\n\nThe D-T reaction is particularly promising as it can be achieved at lower temperatures compared to the D-D reaction. However, a significant portion of the energy released in the D-T reaction appears as high-energy neutrons, which can cause damage to materials and make them radioactive.\n\nWhile efforts to achieve controlled fusion reactions for power production continue, the focus has shifted towards fission reactions. Fission reactions involve splitting a heavy nucleus, such as uranium-235, into lighter nuclei, releasing energy, neutrons, fission fragments, gamma rays, and neutrinos. The fission fragments undergo radioactive decay, producing additional fission products.\n\nIn summary, isotopes of hydrogen, specifically deuterium and tritium, have potential applications in nuclear reactions for energy production. However, the challenges of achieving controlled fusion reactions have led to a greater emphasis on fission reactions in nuclear reactors.",
+                "type": "Class/ChemicalElement",
+                "label": "Isotopes l0:hydrogen"
+            },
+            "plutonium and uranium": {
+                "page": [
+                    " 255"
+                ],
+                "related words": {},
+                "summary": "In the context of a nuclear reactor, the isotopes plutonium and uranium play important roles. The buildup of higher isotopes of plutonium and uranium occurs through successive neutron captures. The conversion ratio, which measures the ratio of fissile material created to fissile material destroyed, is used to evaluate fuel performance. If the conversion ratio is greater than one, it is referred to as the breeding ratio, indicating that the reactor is producing more fissile material than it consumes.\n\nThe depletion of uranium-235 and the buildup of plutonium have an impact on reactivity. As uranium-235 is depleted and plutonium-239 builds up, the reactivity of the reactor decreases over time. This is due to the competing effects of these phenomena.\n\nTo control excess reactivity and mitigate localized power peaking, burnable poisons are used in nuclear reactors. Burnable poisons are isotopes with a significant neutron absorption cross section that are embedded in the fuel or other core constituents. They limit excess reactivity early in the life of the reactor core. Boron and gadolinium are commonly used as burnable poisons.\n\nOverall, plutonium and uranium isotopes are crucial for the functioning and performance of nuclear reactors, and their behavior and interactions are carefully managed to ensure safe and efficient operation.",
+                "type": "Class/ChemicalElement",
+                "label": "Isotopes l0:plutonium and uranium"
+            },
+            "radium": {
+                "page": [
+                    " 18"
+                ],
+                "related words": {},
+                "summary": "The information provided does not specifically mention isotopes of radium in connection with nuclear reactors. However, it discusses the importance of a neutron source for initiating a chain reaction in a nuclear reactor, and one commonly used source is the radium-beryllium source. This source combines the alpha decay of a naturally occurring radium isotope (radium-226) with the reaction of beryllium-9 to provide the necessary neutrons. The decay of radioactive materials in general is also mentioned, highlighting the characteristic decay constant for each radioisotope.",
+                "type": "Class/Isotope",
+                "label": "Isotopes l0:radium"
+            }
+        },
+        "summary": "Isotopes play a crucial role in nuclear reactors. Nuclear reactions in reactors involve the utilization and transformation of isotopes. The atomic number and atomic weight of isotopes determine their chemical properties and behavior in reactions. Nuclear reactions in reactors follow conservation laws, such as conservation of charge and conservation of nucleons.\n\nNuclear reactions in reactors typically occur in two stages: the formation of a compound nucleus and its subsequent disintegration. The compound nucleus may disintegrate instantaneously or over a longer period of time, depending on its stability. In some cases, intermediate steps are eliminated from the reaction equations for simplicity.\n\nEnergetics of nuclear reactions are governed by Einstein's equation, which relates mass and energy. The total energy of a nucleus depends on its mass and the speed of light. The mass of a particle is influenced by its speed relative to the speed of light.\n\nIn summary, isotopes are essential in nuclear reactors as they participate in nuclear reactions, determine the behavior of nuclei, and contribute to the energy released during these reactions.",
+        "type": "Class",
+        "label": "Isotopes"
+    },
+    "Isotopic:": {
+        "page": [],
+        "related words": {
+            "concentrations": {
+                "page": [
+                    " 252"
+                ],
+                "related words": {},
+                "summary": "The information provided discusses the concept of isotopic concentrations in the context of nuclear reactors. In a nuclear reactor, the fuel used is typically composed of uranium or plutonium. The power density of the reactor is determined by the isotopic concentrations of fissile materials such as uranium-235 and plutonium-239.\n\nThe presence of fertile material, such as uranium-238, can capture neutrons and undergo radioactive decay to become fissile material, contributing to the power production of the reactor. Therefore, the power density equation takes into account the fission in both uranium-235 and plutonium-239.\n\nThe isotopic concentrations of fissile and fertile materials change over time as the fuel is depleted. This depletion is governed by rate equations similar to those used for the buildup and decay of fission products. The flux in the reactor must also be time-dependent to maintain a constant reactor power over long periods.\n\nOverall, the information highlights the importance of monitoring and understanding the isotopic concentrations of different materials in a nuclear reactor to ensure efficient and safe operation.",
+                "type": "/Property",
+                "label": "Isotopic: l0:concentrations"
+            },
+            "distribution": {
+                "page": [
+                    " 153"
+                ],
+                "related words": {},
+                "summary": "From the information provided, it can be inferred that the isotopic distribution of neutrons in a nuclear reactor plays a significant role in determining the spatial distribution of neutrons. The diffusion theory is commonly used to approximate the behavior of neutrons in a reactor, but its validity depends on the specific isotopic distribution.\n\nIf the isotopic distribution of neutrons is highly peaked within a narrow cone of directions, the use of diffusion theory would be inappropriate and lead to significant errors in predicting the spatial distribution of neutrons. However, if the isotopic distribution is more spread out or isotropic (no spatial variation), the diffusion approximation remains valid and can reasonably represent the neutron flux.\n\nIn summary, the isotopic distribution of neutrons in a nuclear reactor affects the accuracy of using diffusion theory to model the spatial distribution of neutrons. A highly peaked distribution requires more sophisticated approaches, while a more spread out or isotropic distribution allows for the use of diffusion theory.",
+                "type": "/Class",
+                "label": "Isotopic: l0:distribution"
+            }
+        }
+    },
+    "Kinetic:": {
+        "page": [],
+        "related words": {
+            "energy": {
+                "page": [
+                    " 6",
+                    " 8-11",
+                    " 29",
+                    " 37-9",
+                    " 41",
+                    " 42",
+                    " 46",
+                    " 57",
+                    " 63",
+                    " 116",
+                    " 228"
+                ],
+                "related words": {},
+                "summary": "In the context of nuclear reactors, the concept of kinetic energy is important for understanding the behavior of particles involved in nuclear reactions. Kinetic energy refers to the energy possessed by a particle due to its motion. In nuclear reactors, the particles involved are typically neutrons, nuclei, and high-energy electrons.\n\nFor nonrelativistic particles (such as neutrons and nuclei in reactors), their kinetic energy can be described using the equation E = 1/2MXv^2, where E is the kinetic energy, MX is the rest mass of the particle, and v is its velocity.\n\nIn nuclear reactions, the conservation of total energy is crucial. The law of conservation of energy states that the total energy before and after a reaction must remain constant. This is expressed mathematically as the sum of the kinetic energy and rest mass energy of the particles before the reaction being equal to the sum of the kinetic energy and rest mass energy of the particles after the reaction.\n\nThe Q value of a reaction determines whether it is exothermic (releases energy) or endothermic (absorbs energy). A positive Q value indicates an exothermic reaction, resulting in the creation of kinetic energy and a net loss of rest mass. Conversely, a negative Q value indicates an endothermic reaction, resulting in a net increase in rest mass.\n\nIn nuclear reactors, fusion reactions (such as the reaction between deuterium and tritium) are of interest. These reactions involve charged particles and require high speeds to overcome the coulomb repulsion between nuclei. Fusion reactions can be achieved by accelerating particles or by reaching high temperatures to create a plasma where the kinetic energy overpowers the electrical repulsion.\n\nUnderstanding the kinetic energy of particles and the conservation of energy is essential for analyzing and predicting the behavior of nuclear reactions in reactors.",
+                "type": "/Physical Quantity",
+                "label": "Kinetic: l0:energy"
+            },
+            "theory": {
+                "page": [
+                    " 39",
+                    " 70"
+                ],
+                "related words": {},
+                "summary": "The information provided highlights the role of kinetic theory in understanding the behavior of neutrons in a nuclear reactor. Kinetic theory helps explain the energy distribution and interactions of neutrons within the reactor.\n\nIn a nuclear reactor, fission reactions produce high-energy neutrons. These neutrons undergo scattering collisions with stationary nuclei, losing energy in the process. The scattering is influenced by the random thermal motions of the nuclei, which are described by kinetic theory.\n\nThe mean kinetic energy of the scattering nuclei is determined by the temperature, and at room temperature, it is significantly lower than the energy of fission neutrons. Neutrons continue to scatter and lose energy until they are absorbed or slowed down to the thermal energy range.\n\nThe behavior of neutrons in a reactor can be described by the Maxwell-Boltzmann distribution, which represents the equilibrium distribution of neutrons' energies. However, the presence of absorption prevents complete thermal equilibrium.\n\nIn the thermal neutron range, neutrons can be considered as a scattering source, with some neutrons scattering down from higher energies. The scattering distribution is influenced by factors such as thermal motion and binding of target nuclei.\n\nUnderstanding the kinetic behavior of neutrons is crucial for reactor design and operation. It helps in predicting neutron flux, energy distribution, and the effectiveness of neutron interactions. Kinetic theory provides valuable insights into the behavior of neutrons in a nuclear reactor, aiding in the optimization and safety of reactor systems.",
+                "type": "/Concept",
+                "label": "Kinetic: l0:theory"
+            },
+            "equations": {
+                "page": [
+                    " 124-7",
+                    " 134",
+                    " 168",
+                    " 233"
+                ],
+                "related words": {},
+                "summary": "The kinetic equations are a set of mathematical equations used to describe the behavior of neutrons in a nuclear reactor. These equations take into account both prompt and delayed neutrons and are essential for understanding the dynamics of a nuclear reactor.\n\nThe equations include terms for neutron production through fission reactions, neutron absorption, and neutron decay. They also consider the effects of delayed neutrons, which are produced by the decay of fission products. The average neutron lifetime, which is influenced by both prompt and delayed neutrons, plays a crucial role in these equations.\n\nThe kinetic equations are used to determine the neutron population and its changes over time in response to changes in reactivity (a measure of the reactor's departure from criticality). They help in analyzing the transient behavior of a reactor during startup, shutdown, and other operational conditions.\n\nReactivity feedback effects, such as those caused by temperature changes, can significantly impact the neutron population and stability of a reactor. Negative feedback is desirable to ensure safe and stable reactor operation.\n\nOverall, the kinetic equations provide a fundamental framework for studying the behavior of neutrons in a nuclear reactor and are essential for reactor design, control, and safety analysis.",
+                "type": "/Class",
+                "label": "Kinetic: l0:equations"
+            }
+        }
+    },
+    "Laplace transforms": {
+        "page": [
+            " 133"
+        ],
+        "related words": {},
+        "summary": "The information provided suggests that Laplace transforms are used in analyzing the time-dependent behavior of chain reactions in nuclear reactors. In particular, Laplace transforms are used to solve equations that involve reactivity changes, such as in the rod oscillator experiment where a sinusoidal reactivity is present. By applying Laplace transforms, the neutron population and its oscillations can be determined, providing insights into the reactor dynamics. Additionally, the use of Laplace transforms allows for the consideration of thermal feedback effects, which account for changes in material densities and macroscopic cross sections due to temperature variations in the reactor system.",
+        "type": "mathematical_transform",
+        "label": "Laplace transforms"
+    },
+    "Lattice cell:": {
+        "page": [],
+        "related words": {
+            "compositions": {
+                "page": [
+                    " 174"
+                ],
+                "related words": {},
+                "summary": "The provided information discusses the concept of lattice cell compositions in the context of nuclear reactors. Lattice cell compositions refer to the arrangement and types of materials present in the lattice structure of a nuclear reactor core.\n\nThe text mentions equations and formulas related to flux distribution, reactor power, neutron leakage, and neutron migration. It highlights the importance of accurately considering the neutron migration during both slowing down and thermal diffusion in reactor calculations, particularly in systems with light water moderators.\n\nTo model a reactor using two-group theory, the fast and thermal fluxes are defined as variables. The source of neutrons for fast diffusion is determined by considering the absorption of thermal neutrons, the absorption in fuel, and the production of fast neutrons from thermal fission.\n\nOverall, the information provided gives a technical overview of the mathematical aspects related to lattice cell compositions and their significance in nuclear reactor physics.",
+                "type": "/Class",
+                "label": "Lattice cell: l0:compositions"
+            },
+            "pitch": {
+                "page": [
+                    " 139"
+                ],
+                "related words": {},
+                "summary": "From the information provided, the concept of lattice cell pitch is mentioned in the context of spatial distributions of neutrons in nuclear reactors. The lattice cell refers to the repeating unit of the reactor core structure, typically composed of fuel, coolant, and/or moderator materials. The pitch refers to the distance between adjacent lattice cells.\n\nThe discussion highlights that when analyzing the spatial distributions of neutrons, the flux and cross sections are spatially averaged over the lattice cell. Therefore, the focus is on global variations of the neutron distribution rather than the spatial fluctuations within the lattice cell pitch.\n\nThe neutron diffusion equation is mentioned as a means to determine the spatial distributions of neutrons. However, the chapter primarily focuses on applying diffusion theory to non-multiplying media and idealized one-dimensional geometries (plane and spherical) to introduce solution techniques.\n\nIn summary, the information suggests that the lattice cell pitch plays a role in determining the spatial distribution of neutrons in a nuclear reactor, but the chapter does not delve into specific details or applications related to the lattice cell pitch.",
+                "type": "/string",
+                "label": "Lattice cell: l0:pitch"
+            }
+        }
+    },
+    "Lattice structure": {
+        "page": [
+            " 81",
+            " 85",
+            " 88",
+            " 204"
+        ],
+        "related words": {},
+        "summary": "The lattice structure in nuclear reactors refers to the arrangement of fuel elements, coolant channels, and moderators within the reactor core. It plays a crucial role in determining the behavior of neutrons and heat transfer within the core. \n\nIn power reactors, the core is typically composed of a lattice structure consisting of fuel elements, coolant channels, and sometimes a separate moderator region. The fuel elements contain the nuclear fuel, which undergoes fission to produce heat. The coolant channels allow the coolant (usually water) to flow through and remove the heat generated. The moderator, if present, slows down the fast neutrons produced during fission, increasing the likelihood of further fission reactions.\n\nThe lattice structure affects the neutron distribution and the multiplication factor (k1), which is the ratio of the number of fission neutrons produced to the number of neutrons absorbed. The neutron flux within the lattice can vary due to differences in the geometry and spacing of the fuel, coolant, and moderator regions. This can result in variations in the neutron behavior and affect the overall performance and criticality of the reactor.\n\nUnderstanding and modeling the lattice structure is essential for designing and operating nuclear reactors. It allows for the optimization of neutron behavior, heat transfer, and criticality control within the core.",
+        "type": "Class",
+        "label": "Lattice structure"
+    },
+    "Leakage:": {
+        "page": [],
+        "related words": {
+            "effects": {
+                "page": [
+                    " 117",
+                    " 222"
+                ],
+                "related words": {},
+                "summary": "In the context of nuclear reactors, leakage refers to the loss of neutrons from the system. The effects of leakage can have significant implications for reactor behavior and performance. Here are the key points:\n\n1. Neutron Lifetime: The neutron lifetime (l1) is a measure of how long neutrons remain in the system before leaking out. It is determined by the average time it takes for a neutron to be absorbed or escape from the reactor.\n\n2. Non-Multiplying Systems: In non-multiplying systems, where no fissionable material is present, neutron populations build or decay rapidly. The neutron lifetime in such systems is relatively short, ranging from 10^-8 to 10^-4 seconds.\n\n3. Multiplying Systems: In multiplying systems, where fissionable material is present, the effects of leakage are more complex. Assuming an infinitely large system, the neutron population stabilizes at a certain level determined by the neutron lifetime.\n\n4. Reactivity Feedback: Reactivity, a measure of the deviation from criticality, can be affected by changes in temperature and material densities caused by power production. This feedback loop influences the reactivity and, in turn, the multiplication of the reactor.\n\n5. Approximations: To analyze reactivity effects, an approximation is often used, relating incremental reactivity changes to reactor multiplication. The logarithmic form of the approximation allows for additive terms for infinite medium and leakage effects.\n\n6. Importance of Leakage Probability: The leakage probability (PL) represents the likelihood of neutrons leaking out of the reactor. In large power reactors, where leakage is typically small, changes in the infinite medium multiplication factor (k1) often dominate the overall reactivity.\n\nIn summary, leakage effects in nuclear reactors can impact neutron populations, reactivity, and overall reactor behavior. Understanding and managing these effects are crucial for safe and efficient reactor operation.",
+                "type": "/Physical Phenomenon",
+                "label": "Leakage: l0:effects"
+            },
+            "probability": {
+                "page": [
+                    " 180",
+                    " 222"
+                ],
+                "related words": {},
+                "summary": "From the information provided, the leakage probability is a concept related to nuclear reactors. It refers to the likelihood of neutrons escaping from the reactor core instead of being absorbed by the fuel. The leakage probability depends on various factors such as the core design, lattice parameters, and the presence of reflectors.\n\nReflectors are materials surrounding the core that can reflect neutrons back into the core, reducing the leakage probability. The size of the reactor also affects the importance of reflectors, with smaller cores benefiting more from their presence.\n\nThe leakage probability is influenced by the fuel enrichment, but its effect is relatively weak compared to other factors. The migration length, which determines the neutron behavior, is largely determined by the core materials and lattice parameters.\n\nControlling the leakage probability is crucial for maintaining reactor performance and safety. Understanding the reactivity feedback loop, which relates incremental reactivity changes to reactor multiplication, is essential in analyzing reactor behavior. The logarithmic form of the reactivity equation facilitates the analysis of reactivity effects.\n\nIn summary, the leakage probability is a key consideration in nuclear reactor design and operation, and it is influenced by core design, reflectors, fuel enrichment, and the reactivity feedback loop.",
+                "type": "/float",
+                "label": "Leakage: l0:probability"
+            }
+        }
+    },
+    "Light water reactors (LWRs)": {
+        "page": [
+            " 88",
+            " 90-2"
+        ],
+        "related words": {},
+        "summary": "Light water reactors (LWRs) are a type of nuclear reactor that utilize ordinary water as both coolant and moderator. They have square lattice cells with uranium dioxide fuel pellets clad in zirconium. LWRs have a compact design with high power densities and small reactor volumes due to the small moderator to fuel volume ratio. However, the large thermal absorption cross section of water requires slightly enriched fuel (2-5%) to achieve criticality. LWRs operate in batch mode fuel cycles, with regular shutdown intervals for refueling. Pressurized water reactors (PWRs) have a vessel pressurized to prevent coolant boiling, while boiling water reactors (BWRs) allow boiling to take place in the coolant channels.",
+        "type": "nuclear reactor",
+        "label": "Light water reactors (LWRs)"
+    },
+    "Linear heat rate": {
+        "page": [
+            " 86",
+            " 88",
+            " 205",
+            " 206",
+            " 208-10",
+            " 279"
+        ],
+        "related words": {},
+        "summary": "The linear heat rate is an important parameter in nuclear reactors that refers to the power per unit length of a fuel element. It is limited by thermal constraints on the heat flux crossing the fuel element's surface and the temperature along its centerline. The allowable linear heat rates typically range from a few to tens of kW/m.\n\nTo accommodate the high power requirements of a reactor, fuel elements are grouped together to form fuel assemblies, which can be moved as a whole during refueling procedures. The design of fuel assemblies allows for efficient heat transfer and optimal power densities within the heat removal capabilities of the coolant.\n\nThe linear heat rate, along with other factors such as the volume ratio of coolant/moderator to fuel, influences the average power density achievable in a reactor. Different reactor classes, such as pressurized water reactors (PWRs) and boiling water reactors (BWRs), have their own specific designs and parameters.\n\nOverall, the linear heat rate is a crucial factor in reactor design and operation as it determines the power output and influences the critical state of a nuclear reactor.",
+        "type": "datatype property",
+        "label": "Linear heat rate"
+    },
+    "Liquid coolants": {
+        "page": [
+            " 93",
+            " 186",
+            " 212",
+            " 214"
+        ],
+        "related words": {},
+        "summary": "From the information provided, it can be summarized that liquid coolants are used in certain types of nuclear reactors, such as the RBMK reactor design. These reactors employ water as a coolant, which circulates through the reactor core to remove heat generated by the nuclear reactions. Liquid coolants, in combination with moderators like graphite, help control the reactor's temperature and facilitate the transfer of heat. Control poisons, which are neutron absorbers, can also be added to liquid coolants to regulate the reactor's power level and maintain criticality. Liquid coolants play a crucial role in maintaining the safe and efficient operation of nuclear reactors.",
+        "type": "Class",
+        "label": "Liquid coolants"
+    },
+    "Liquid cooled reactors": {
+        "page": [
+            " 110",
+            " 208",
+            " 213",
+            " 226",
+            " 227"
+        ],
+        "related words": {},
+        "summary": "Liquid-cooled reactors are a type of nuclear reactor that utilize a liquid coolant, such as water or liquid metal, to remove heat generated by the nuclear fission process. The use of liquid coolant allows for efficient heat transfer and helps maintain stable operating conditions. \n\nIn liquid-moderated systems, the core is typically designed to be undermoderated, meaning there is less moderator (liquid) than the optimum amount. This is done to ensure stability, as the liquid expands more rapidly than the solid fuel as the core temperature increases. This undermoderation creates a negative feedback mechanism that helps maintain system stability.\n\nThe design and operation of liquid-cooled reactors involve considerations such as the moderator density, fuel temperature, and other phenomena to ensure stability under all operating conditions. The interaction between fuel, coolant, and moderator temperatures must be carefully managed. The temperature drop from fuel to coolant is typically larger than the temperature increase in the coolant, especially in reactors using oxide or carbide fuels.\n\nOverall, liquid-cooled reactors offer efficient heat transfer and stability, making them a viable option for nuclear power generation.",
+        "type": "Liquid-cooled reactor",
+        "label": "Liquid cooled reactors"
+    },
+    "Lumped boron": {
+        "page": [
+            " 257"
+        ],
+        "related words": {},
+        "summary": "Lumped boron refers to the practice of concentrating the burnable poison (boron) in lumps instead of distributing it uniformly across the fuel in a nuclear reactor. This technique helps in further leveling the excess reactivity curve and smoothing the suppression of excess reactivity over a longer time period. By lumping the poison, neutron capture in the burnable poison is limited early in the fuel life, resulting in a minimized maximum excess reactivity. This facilitates the design of the control system and can also help in flattening the spatial distribution of power density over the life of a core. Lumped boron is a technique used to optimize reactor performance and enhance safety by controlling reactivity levels.",
+        "type": "Chemical Element",
+        "label": "Lumped boron"
+    },
+    "Macroscopic cross section": {
+        "page": [
+            " 29-31",
+            " 33",
+            " 34",
+            " 36",
+            " 37",
+            " 61",
+            " 62",
+            " 64",
+            " 75",
+            " 81",
+            " 96",
+            " 108",
+            " 133"
+        ],
+        "related words": {},
+        "summary": "In the context of nuclear reactors, the macroscopic cross section is a fundamental concept that describes the interaction of neutrons with matter. It represents the effective cross-sectional area of a nucleus as perceived by an oncoming neutron. The behavior of neutrons as they travel through space and interact with nuclei determines the nature of neutron chain reactions in reactors.\n\nThe macroscopic cross section is derived from the product of the microscopic cross section (which measures the interaction probability of a single nucleus) and the number density of nuclei in the material. It is expressed in units of cm^-1 and provides information about the likelihood of neutron-nucleus interactions within a given material.\n\nThe macroscopic cross section is crucial for understanding neutron behavior in reactors. It influences the probability of scattering, absorption, and other reaction types. By considering the macroscopic cross section, one can determine the range of neutron energies present in a reactor and analyze the dependence of cross section on neutron energy.\n\nOverall, the macroscopic cross section is a key parameter in reactor physics, as it provides essential data for designing and analyzing nuclear reactors, ensuring the sustainability and safety of nuclear chain reactions.",
+        "type": "Class",
+        "label": "Macroscopic cross section"
+    },
+    "Maxwell-Boltzmann distribution": {
+        "page": [
+            " 39",
+            " 45",
+            " 58",
+            " 71",
+            " 73",
+            " 79",
+            " 80",
+            " 134",
+            " 224"
+        ],
+        "related words": {},
+        "summary": "The Maxwell-Boltzmann distribution is relevant in the context of nuclear reactors as it describes the energy distribution of neutrons in thermal equilibrium with the surrounding nuclei. Neutrons born from fission reactions undergo scattering collisions with stationary nuclei, losing energy in the process. The scattering nuclei possess random thermal motions due to their temperature, and this motion causes the neutrons to lose kinetic energy until they are absorbed or reach thermal equilibrium.\n\nThe Maxwell-Boltzmann distribution describes the energy distribution of neutrons in thermal equilibrium, with the most probable energy being relatively low compared to the MeV energies of fission neutrons. The distribution is characterized by a peak at lower energies and a gradual decrease towards higher energies. However, the presence of absorption in a nuclear reactor prevents complete thermal equilibrium, causing a slight upward shift in the energy spectrum.\n\nIn the context of nuclear reactors, the Maxwell-Boltzmann distribution helps in understanding the energy range of neutrons and their interactions with various materials. It provides insights into potential scattering, resonance scattering, and Doppler broadening effects. Doppler broadening refers to the smearing of resonances in energy due to the thermal motion of target nuclei, which becomes more pronounced at higher temperatures.\n\nOverall, the Maxwell-Boltzmann distribution is a fundamental concept in understanding the energy distribution and behavior of neutrons in nuclear reactors.",
+        "type": "Statistical Distribution",
+        "label": "Maxwell-Boltzmann distribution"
+    },
+    "Mean free path": {
+        "page": [
+            " 32"
+        ],
+        "related words": {}
+    },
+    "Microscopic cross section": {
+        "page": [
+            " 31",
+            " 33-6",
+            " 38",
+            " 73",
+            " 97",
+            " 108",
+            " 109",
+            " 222"
+        ],
+        "related words": {}
+    },
+    "Migration length": {
+        "page": [
+            " 178"
+        ],
+        "related words": {}
+    },
+    "Moderator": {
+        "page": [
+            " 61-3",
+            " 65",
+            " 67-9",
+            " 72",
+            " 73",
+            " 81",
+            " 85",
+            " 87",
+            " 88",
+            " 90-4",
+            " 98-110",
+            " 139",
+            " 168",
+            " 177",
+            " 179",
+            " 204",
+            " 209",
+            " 212",
+            " 221",
+            " 223",
+            " 225-7"
+        ],
+        "related words": {
+            "temperature coefficient": {
+                "page": [
+                    " 225"
+                ],
+                "related words": {}
+            }
+        }
+    },
+    "Momentum, conservation of": {
+        "page": [
+            " 41",
+            " 49",
+            " 53"
+        ],
+        "related words": {}
+    },
+    "Movable control poison": {
+        "page": [
+            " 230",
+            " 232",
+            " 244"
+        ],
+        "related words": {}
+    },
+    "Multigroup methods": {
+        "page": [
+            " 75"
+        ],
+        "related words": {}
+    },
+    "Multiplying systems behavior": {
+        "page": [
+            " 120"
+        ],
+        "related words": {}
+    },
+    "Negative feedback impacts": {
+        "page": [
+            " 134"
+        ],
+        "related words": {}
+    },
+    "Neptunium": {
+        "page": [
+            " 253",
+            " 258"
+        ],
+        "related words": {}
+    },
+    "Neutrinos": {
+        "page": [
+            " 4",
+            " 5",
+            " 9-11"
+        ],
+        "related words": {}
+    },
+    "Neutron:": {
+        "page": [],
+        "related words": {
+            "balance equations": {
+                "page": [
+                    " 116"
+                ],
+                "related words": {}
+            },
+            "beam": {
+                "page": [
+                    " 32"
+                ],
+                "related words": {}
+            },
+            "capture": {
+                "page": [
+                    " 47",
+                    " 104",
+                    " 109",
+                    " 243",
+                    " 253",
+                    " 255-7"
+                ],
+                "related words": {}
+            },
+            "chain reactions": {
+                "page": [
+                    " 29",
+                    " 57",
+                    " 115 see also Chain reaction"
+                ],
+                "related words": {}
+            },
+            "colliding/collisions": {
+                "page": [
+                    " 61",
+                    " 97"
+                ],
+                "related words": {}
+            },
+            "cross sections": {
+                "page": [
+                    " 29"
+                ],
+                "related words": {}
+            },
+            "cycle in thermal reactors": {
+                "page": [
+                    " 100"
+                ],
+                "related words": {}
+            },
+            "density": {
+                "page": [
+                    " 74"
+                ],
+                "related words": {}
+            },
+            "diffusion": {
+                "page": [
+                    " 139",
+                    " 140",
+                    " 142",
+                    " 149",
+                    " 157",
+                    " 174"
+                ],
+                "related words": {
+                    "properties, derivation of": {
+                        "page": [
+                            " 273",
+                            " 275-9"
+                        ],
+                        "related words": {}
+                    }
+                }
+            },
+            "distributions": {
+                "page": [
+                    " 57",
+                    " 167"
+                ],
+                "related words": {}
+            },
+            "energy": {
+                "page": [
+                    " 29",
+                    " 48",
+                    " 49",
+                    " 51",
+                    " 53",
+                    " 58",
+                    " 64",
+                    " 74",
+                    " 95",
+                    " 97",
+                    " 98",
+                    " 100",
+                    " 115",
+                    " 174",
+                    " 225",
+                    " 273"
+                ],
+                "related words": {}
+            },
+            "emitting fission products": {
+                "page": [
+                    " 123",
+                    " 126",
+                    " 127"
+                ],
+                "related words": {}
+            },
+            "flux": {
+                "page": [
+                    " 63",
+                    " 64",
+                    " 73",
+                    " 101",
+                    " 107",
+                    " 151",
+                    " 153",
+                    " 193",
+                    " 221",
+                    " 222",
+                    " 224"
+                ],
+                "related words": {}
+            },
+            "leakage": {
+                "page": [
+                    " 58",
+                    " 115",
+                    " 119",
+                    " 174",
+                    " 175",
+                    " 179",
+                    " 227"
+                ],
+                "related words": {}
+            },
+            "lifetime": {
+                "page": [
+                    " 12",
+                    " 116",
+                    " 117",
+                    " 120",
+                    " 122",
+                    " 124",
+                    " 127",
+                    " 129",
+                    " 212",
+                    " 236",
+                    " 243"
+                ],
+                "related words": {}
+            },
+            "moderators see Moderator multiplication": {
+                "page": [
+                    " 12",
+                    " 57",
+                    " 211"
+                ],
+                "related words": {}
+            },
+            "nonleakage probability": {
+                "page": [
+                    " 58",
+                    " 167",
+                    " 180"
+                ],
+                "related words": {}
+            },
+            "poison": {
+                "page": [
+                    " 87",
+                    " 91",
+                    " 180",
+                    " 186",
+                    " 200",
+                    " 230",
+                    " 244",
+                    " 245"
+                ],
+                "related words": {}
+            },
+            "spectrum": {
+                "page": [
+                    " 48",
+                    " 61",
+                    " 62",
+                    " 95",
+                    " 106",
+                    " 174",
+                    " 226",
+                    " 227"
+                ],
+                "related words": {}
+            }
+        }
+    }
+}
