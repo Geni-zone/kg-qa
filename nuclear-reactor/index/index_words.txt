@@ -1,0 +1,484 @@
+Absorption
+Actinides
+Albedos
+Alpha and Beta particles
+Americium
+Atom density
+Atomic enrichment
+Atomic mass
+Avogadro’s number
+Axial buckling
+- Axial distribution:
+- - cosine
+- - power
+Axial reflector
+Bessel functions
+Billiard ball collision
+Binding Energy
+Boiling water reactors (BWRs)
+Boltzmann constant
+Boron and gadolinium
+- Boron poison
+Boundary condition
+Breit-Wigner formula
+Burnable poisons
+CANDU reactors
+Calandria
+Carbon dioxide-cooled graphite-moderated systems
+Cartesian geometries
+- Cesium
+- - decay of
+- Chain reaction
+- - time-independent
+Charge
+Circular fuel assembles
+Coal-fired power plant
+Composite coefficients
+Control Poisons
+Coolant channels
+- Coolant temperature
+- - coefficients
+- - transients
+Coolant velocity
+Core power distribution
+Core-averaged power density
+Cosmic rays
+Coulomb repulsion
+Critical reactor
+- Criticality
+- Cross section:
+- - calculation
+- - energy dependence
+- - measurements
+Crystal lattices
+Cylindrical fuel element
+Cylindrical geometry
+Dancoff correction
+Decay chains
+Definite integrals
+Delayed neutrons
+Derivatives and Integrals
+Deuterium
+Differential Equations
+- Diffusion:
+- - approximation
+- - coefficient
+- - equation
+- - length
+- - heory
+Divergence theorem
+- Doppler
+- - importance of
+Eigenvalues and eigenfunctions
+Elastic collisions
+Electrical repulsion of the nuclei
+Electromagnetic radiation
+Endothermic reactions
+Energetics
+Energy averaged reaction rates
+Energy degradation
+Energy from nuclear power
+Energy release and dissipation
+Energy self-shielding
+- Energy transport
+- - core power distribution
+- - - finite cylindrical core
+- - - uniform cylindrical core
+- - heat transport
+- - - heat source characterization
+- - - pressurized water reactor
+- - - steady state temperatures
+- - thermal transients
+- - - coolant temperature transients
+- - - fuel temperature transient
+Escape probability
+Excess reactivity
+Excitation energy
+Exothermic reactions
+Fast and thermal reactor
+Fast fission factor
+Fast neutrons
+- Fast reactors
+- - fuel
+- - lattices
+- - multiplication
+- - temperature coefficients
+Fertile isotopes
+Fick’s law
+Finite cylindrical core
+Finite multiplying systems
+First-order perturbation approximation
+Fissile material
+- Fission:
+- - energy
+- - fragments
+- - neutrons
+- - products
+- - radioactive products of
+- - reactions
+Fissionable nuclide concentrations
+- Flux:
+- - averaged cross section
+- - depression
+- - distribution
+- - flattening
+- - spectra
+Fossil fuel
+Four factor formula
+Fuel assembly segments
+Fuel burnup
+- Fuel coolant:
+- - interface
+- - moderator lattice structure
+Fuel depletion
+Fuel element heat transfer
+Fuel enrichment
+Fuel rod radius
+- Fuel temperatures
+- - coefficient
+Fuel thermal conductivity
+Fusion reactions
+Gamma rays
+Gas-cooled fast reactors (GCFRs)
+Geometric buckling
+Graphite-moderated reactors
+Half-life
+Heat source characterization
+Heat transport
+Heavy water reactors (PHWRs)
+- Helium
+- - coolant
+Helmholtz equation
+Hexagonal fuel assemblies
+Hexagonal lattice cells
+- High temperature gas-cooled reactor (HTGR)
+‘‘hot zero power’’
+- Hydrogen-2 see Deuterium
+- Hyperbolic:
+- - functions
+- - sine
+Infinite medium multiplication
+Inhour equation
+Integrating factor technique
+Interface conditions
+Iodine-131
+Iodine-135
+Isothermal temperature coefficient
+- Isotopes
+- - decay rate
+- - fissionable
+- - hydrogen
+- - plutonium and uranium
+- - radium
+- Isotopic:
+- - concentrations
+- - distribution
+- Kinetic:
+- - energy
+- - theory
+- - equations
+Laplace transforms
+- Lattice cell:
+- - compositions
+- - pitch
+Lattice structure
+- Leakage:
+- - effects
+- - probability
+Light water reactors (LWRs)
+Linear heat rate
+Liquid coolants
+Liquid cooled reactors
+Lumped boron
+Macroscopic cross section
+Maxwell-Boltzmann distribution
+Mean free path
+Microscopic cross section
+Migration length
+- Moderator
+- - temperature coefficient
+Momentum
+Movable control poison
+Multigroup methods
+Multiplying systems behavior
+Negative feedback impacts
+Neptunium
+Neutrinos
+- Neutron:
+- - balance equations
+- - beam
+- - capture
+- - chain reactions
+- - colliding/collisions
+- - cross sections
+- - cycle in thermal reactors
+- - density
+- - diffusion
+- - - properties
+- - distributions
+- - energy
+- - emitting fission products
+- - flux
+- - leakage
+- - lifetime
+- - moderators see Moderator multiplication
+- - nonleakage probability
+- - poison
+- - spectrum
+- Neutron distributions in energy
+- - energy-averaged reaction rates
+- - - Fast cross section averages
+- - - Resonance cross section averages
+- - - Thermal cross section averages
+- - infinite medium multiplication
+- - neutron energy spectra
+- - - Fast and thermal reactor spec- tra
+- - - Fast neutrons
+- - - Neutron slowing down
+- - - Thermal neutrons
+- - neutron moderators
+- - nuclear fuel properties
+
+- Neutron distributions in reactors:
+- - control poisons
+- - - control rod bank insertion
+- - - control rods
+- - - reactivity worth
+- - neutron leakage
+- - - leakage and design
+- - - migration length
+- - - two group approximation
+- - reflected reactors
+- - time-independent diffusion equation
+- - uniform reactors
+- - - finite cylindrical core
+- - - reactor power
+- Neutron interactions:
+- - cross section energy dependence
+- - - compound nucleus formation
+- - - fissionable materials
+- - - resonance cross sections
+- - - threshold cross sections
+- - neutron cross sections
+- - - calculation
+- - - microscopic and macroscopic
+- - - nuclide densities
+- - - reaction types
+- - - uncollided flux
+- - - uranium
+- - neutron energy range
+- - neutron scattering
+- - - elastic scattering
+- - - inelastic scattering
+- - - slowing down decrement
+- Neutron kinetics:
+- - equations
+- - delayed
+- Neutrons
+- - boundary conditions
+- - - interface conditions
+- - - reflected boundaries
+- - - surface sources and albedos
+- - - vacuum boundaries
+- - diffusion approximation validity
+- - multiplying systems
+- - - critical reactor
+- - - subcritical assemblies
+- - neutron diffusion equation
+- - - diffusion approximation
+- - - spatial neutron balance
+- - nonmultiplying systems
+Neutronic and thermal effects
+Neutronics design
+Noble gases
+Nonescape probability
+Nonleakage probability
+Nonrelativistic particle
+Notation
+- Nuclear reactions
+- - binding energy
+- - energetics
+- - fissile and fertile materials
+- - fission reactions
+- - - energy release and dissipation
+- - - fission products
+- - - neutron multiplication
+- - fusion reactions
+- - notation
+- - radioactive decay
+- - - decay chains
+- - - saturation activity
+- - reaction equations
+Nuclear fuel properties
+Nuclear proliferation
+Nuclear reaction fundamentals
+Nucleons
+Nuclide densities
+On-line refueling machines
+Partial currents
+Partially inserted control rod
+Plane geometry
+Plank’s constant
+Plutonium
+Poison specifications
+- Power:
+- - coefficient
+- - defects
+- - density
+- - peaking factor
+- - reactors
+- Power reactor core
+- - core composition
+- - - Fast reactors
+- - - Graphite-moderated reactors
+- - - Heavy water reactors
+- - - Light water reactors
+- - - RBMK reactors
+- - fast reactor lattices
+- - thermal reactor lattices
+- - - Four factor formula
+- - - Pressurized water reactor example
+- Power reactor core
+- - fission product and actinide inventories
+- - fission product buildup and decay
+- - - samarium poisoning
+- - - xenon positioning
+- - fuel depletion
+- - - burnable poisons
+- - - fissionable nuclide concentrations
+- - reactivity control
+Pressurized water reactor
+Prompt coefficient
+Prompt jump approximation
+Quasi-static model
+Radial and axial peaking factors
+Radial flux distribution
+Radial peaking factor
+Radial reflector
+Radioactive decay
+- Radioactivity
+Radioiodine
+- Radioisotopes
+- Radionuclides
+- - decay of
+Radiostrontium
+Radiotoxicity
+Ramp rate
+RBMK reactors
+Reaction equations
+- Reactivity:
+- - coefficients
+- - control
+- - feedback
+- - formulation
+- - worth
+- Reactor:
+- - dynamics
+- - lattices
+- - multiplication
+- - period
+- - power
+- - transients
+- Reactor kinetics
+- - delayed neutron kinetics
+- - - Kinetics equations
+- - - Reactivity formulation
+- - multiplying systems behavior
+- - neutron balance equations
+- - - Finite multiplying systems
+- - - Infinite medium multiplying systems
+- - - Infinite medium nonmultiply- ing systems
+- - prologue to reactor dynamics
+- - step reactivity changes
+- - - Prompt jump approximation
+- - - Reactor period
+Reflected boundaries
+- Reflector:
+- - diminishing effect
+- - savings
+- Resonance:
+- - absorption
+- - cross sections
+- - escape probability
+- - self-shielding
+Rod bank
+Rod drop
+Rod oscillator
+- Samarium
+- - concentration
+- - poisoning
+Saturation activity
+Scalar flux
+- Scattering:
+- - anisotropic
+- - collisions
+- - cross section
+- - inelastic
+- - isotopic
+- - neutron
+Semi-infinite medium
+Shutdown margin
+Slowing down decrement
+Sodium-cooled fast reactor (SFRs)
+Solid-moderated reactors
+- Source jerk
+Spatial diffusion
+Spatial neutron balance
+Spectral hardening
+Spherical Geometry
+Startup accident
+Steady state temperatures
+Steam generators
+Step reactivity changes
+Strontium
+Subcritical assemblies
+Surface heat flux
+- Surface sources
+Tellurium-135
+Temperature drop across
+Thermal cross section averages
+Thermal diffusion
+Thermal disadvantage factor
+Thermal energies
+- Thermal expansion
+Thermal fission
+Thermal hydraulic considerations
+- Thermal neutrons
+- - flux
+- - leakage
+- - measurments
+- - range
+- - spectrum
+Thermal reactor lattices
+Thermal time constant
+Thermal transients
+Thermal utilization
+Thermodynamic analysis
+Thermonuclear reaction
+Thorium
+Threshold cross sections
+Transient analysis
+Transport equation
+Transuranic nuclei
+Two group theory
+Uncollided flux
+Uniform cylindrical core
+Uniform source
+- Uranium
+- - cross sections
+- - fueled reactor
+- - nuclear fission of
+- Uranium-235
+- - depletion of
+Uranium-238
+Vacuum boundaries
+Waste disposal
+Water-cooled reactors
+Wigner-way formula
+- Xenon
+- - poisoning
+Zero flux boundary condition
+- Zero power:
+- - kinetics
+- - temperature
+Zirconium

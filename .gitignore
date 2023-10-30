@@ -5,5 +5,11 @@ lib
 
 pyvenv.cfg
 
+# mac
+.*/.DS_Store
+
 # kglab
 share
+
+# papers
+paper/*
