@@ -1,1 +1,0 @@
-["Event", "Temperature", "Physical Component", "ReactivityChange", "ChemicalElement", "\"Nuclear Reactor Component\"", "Physical Property", "ChemicalElement"]
