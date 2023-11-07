@@ -208,7 +208,7 @@ if __name__ == '__main__':
         print(207)
         split_labels = [f'{word.strip()}_L{cur_level+1}' for word in split_words]
         if not (f'{node}_{level}' in all_nodes):
-            all_nodes[f'{node}_{level}'] = {}
+            all_nodes[f'{node}_{level}'.strip()] = {}
         all_nodes[f'{node}_{level}']['children'] = split_labels
         print(209)
         # if not (f'L{cur_level+1}' in all_nodes):
@@ -218,7 +218,6 @@ if __name__ == '__main__':
         calc_cost(model, completion['usage']['prompt_tokens'], completion['usage']['completion_tokens'])
         
         # exec_retry(comp, 3, f"extract_next_layer({node}, {level})")
-
 
     def check_constraints():
         pass
