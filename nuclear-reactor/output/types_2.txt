@@ -1,1 +1,0 @@
-["/Class", "/string", "Class", "/Physical Phenomenon", "/float", "nuclear reactor", "datatype property", "Class", "Liquid-cooled reactor", "Chemical Element", "Class", "Statistical Distribution"]
