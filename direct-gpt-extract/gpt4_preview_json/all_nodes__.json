@@ -1,0 +1,659 @@
+{
+   "Nuclear Engineering_L0": {
+      "parent": "",
+      "children": [
+         "Radiation Protection and Shielding_L1",
+         "Nuclear Policy_L1",
+         "Nuclear Decommissioning and Remediation_L1",
+         "Medical and Health Physics_L1",
+         "Nuclear Physics_L1",
+         "Nuclear Safety_L1",
+         "Reactor Physics_L1",
+         "Nuclear Fusion_L1",
+         "Nuclear Fission_L1",
+         "Nuclear Instrumentation and Measurement_L1",
+         "Thermal Hydraulics_L1",
+         "Nuclear Materials_L1",
+         "Nuclear Fuels_L1",
+         "Computational Nuclear Engineering_L1",
+         "Nuclear Chemistry_L1",
+         "Nuclear Waste Management_L1",
+         "Nuclear Systems Engineering_L1",
+         "Nuclear Weapons_L1",
+         "Nuclear Propulsion_L1",
+         "Radioisotope Production and Application_L1"
+      ]
+   },
+   "Radiation Protection and Shielding_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Policy_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Decommissioning and Remediation_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Medical and Health Physics_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Physics_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Safety_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Reactor Physics_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": [
+         "Neutron Transport Theory_L2",
+         "Neutron Diffusion Theory_L2",
+         "Reactor Kinetics_L2",
+         "Reactor Dynamics_L2",
+         "Fuel Burnup and Depletion_L2",
+         "Reactor Core Design_L2",
+         "Neutronics_L2",
+         "Thermal-Hydraulics_L2",
+         "Reactor Safety Analysis_L2",
+         "Reactor Control Systems_L2",
+         "Monte Carlo Methods_L2",
+         "Deterministic Methods_L2",
+         "Cross Section Data Analysis_L2",
+         "Reactor Operation and Regulation_L2",
+         "Radiation Shielding and Protection_L2"
+      ]
+   },
+   "Nuclear Fusion_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Fission_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": [
+         "Nuclear Reactor Design_L2",
+         "Nuclear Fuel Cycle_L2",
+         "Neutronics_L2",
+         "Thermal-Hydraulics_L2",
+         "Reactor Physics_L2",
+         "Reactor Safety_L2",
+         "Radiation Protection_L2",
+         "Radioactive Waste Management_L2",
+         "Nuclear Materials_L2",
+         "Nuclear Systems Engineering_L2",
+         "Nuclear Plant Operations_L2",
+         "Nuclear Decommissioning_L2",
+         "Proliferation Resistance_L2",
+         "Nuclear Forensics_L2"
+      ]
+   },
+   "Nuclear Instrumentation and Measurement_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Thermal Hydraulics_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Materials_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Fuels_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Computational Nuclear Engineering_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Chemistry_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Waste Management_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Systems Engineering_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Weapons_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Propulsion_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Radioisotope Production and Application_L1": {
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Fission_L2_L2": {
+      "children": [
+         "Nuclear Reactor Design_L3",
+         "Fuel Cycle and Waste Management_L3",
+         "Neutron Kinetics_L3",
+         "Thermal Hydraulics_L3",
+         "Reactor Physics_L3",
+         "Safety and Risk Assessment_L3",
+         "Materials in Nuclear Engineering_L3",
+         "Radiation Protection and Shielding_L3",
+         "Nuclear Systems and Applications_L3",
+         "Decommissioning and Remediation_L3"
+      ]
+   },
+   "Nuclear Reactor Design_L3": {
+      "children": [
+         "Reactor Core Design_L4",
+         "Neutronics_L4",
+         "Thermal-Hydraulics_L4",
+         "Fuel Design_L4",
+         "Control Systems_L4",
+         "Safety Systems_L4",
+         "Containment Design_L4",
+         "Materials Selection_L4",
+         "Waste Management_L4",
+         "Structural Analysis_L4",
+         "Cooling Systems_L4",
+         "Instrumentation and Diagnostics_L4",
+         "Human-Machine Interface_L4",
+         "Power Conversion Systems_L4",
+         "Reactor Kinetics_L4",
+         "Licensing and Regulation Compliance_L4",
+         "Advanced Reactor Concepts_L4",
+         "Multiphysics Simulation_L4",
+         "Reactor Physics_L4",
+         "Radiological Protection_L4",
+         "Decommissioning Planning_L4"
+      ]
+   },
+   "Fuel Cycle and Waste Management_L3": {
+      "children": [
+         "Uranium Mining and Milling_L4",
+         "Conversion_L4",
+         "Enrichment_L4",
+         "Fuel Fabrication_L4",
+         "Reactor Operation_L4",
+         "Spent Fuel Storage_L4",
+         "Reprocessing_L4",
+         "Waste Treatment_L4",
+         "Waste Disposal_L4",
+         "Transportation of Nuclear Materials_L4",
+         "Decommissioning_L4",
+         "Environmental Restoration_L4",
+         "Non-Proliferation and Safeguards_L4"
+      ]
+   },
+   "Neutron Kinetics_L3": {
+      "children": [
+         "Point Kinetics_L4",
+         "Spatial Kinetics_L4",
+         "Time-Dependent Neutron Transport_L4",
+         "Reactor Kinetics_L4",
+         "Reactor Dynamics_L4",
+         "Prompt Neutrons_L4",
+         "Delayed Neutrons_L4",
+         "Neutron Diffusion Theory_L4",
+         "Neutron Transport Theory_L4",
+         "Kinetic Equations_L4",
+         "Feedback Effects_L4",
+         "Reactivity Coefficients_L4",
+         "Transient Analysis_L4",
+         "Stability Analysis_L4"
+      ]
+   },
+   "Thermal Hydraulics_L3": {
+      "children": [
+         "Single-phase flow_L4",
+         "Two-phase flow_L4",
+         "Heat transfer_L4",
+         "Fluid dynamics_L4",
+         "Safety analysis_L4",
+         "Reactor core thermal design_L4",
+         "Coolant behavior_L4",
+         "Flow instability_L4",
+         "Thermal-hydraulic modeling and simulation_L4",
+         "Experimental thermal hydraulics_L4",
+         "Thermal-hydraulic codes and methods_L4",
+         "Thermal-hydraulic transients_L4",
+         "Accident scenario analysis_L4",
+         "Thermal margins and limits_L4",
+         "Natural circulation_L4",
+         "Thermal-hydraulic test facilities_L4",
+         "Multiphase flow dynamics_L4",
+         "Thermal-hydraulic coupling_L4",
+         "Thermal-hydraulic feedback effects_L4"
+      ]
+   },
+   "Reactor Physics_L3": {
+      "children": [
+         "Neutron Transport Theory_L4",
+         "Neutron Diffusion Theory_L4",
+         "Reactor Kinetics_L4",
+         "Reactor Dynamics_L4",
+         "Fuel Burnup and Depletion_L4",
+         "Reactor Control_L4",
+         "Reactor Safety Analysis_L4",
+         "Neutronics_L4",
+         "Thermal-Hydraulics_L4",
+         "Reactor Core Design_L4",
+         "Reactor Operation_L4",
+         "Monte Carlo Methods_L4",
+         "Perturbation and Variational Methods_L4",
+         "Cross Section Data Analysis_L4",
+         "Reactor Shielding_L4"
+      ]
+   },
+   "Safety and Risk Assessment_L3": {
+      "children": [
+         "Reactor safety_L4",
+         "Probabilistic risk assessment (PRA)_L4",
+         "Human reliability analysis (HRA)_L4",
+         "Severe accident analysis_L4",
+         "External event analysis_L4",
+         "Internal hazard analysis_L4",
+         "Safety system effectiveness_L4",
+         "Risk-informed decision making_L4",
+         "Defense-in-depth strategy_L4",
+         "Safety culture and management_L4",
+         "Emergency preparedness and response_L4",
+         "Regulatory framework and compliance_L4",
+         "Fire protection_L4",
+         "Radiation protection_L4",
+         "Decommissioning and waste management_L4",
+         "Software reliability_L4",
+         "Structural integrity_L4",
+         "Thermal-hydraulics and coolant behavior_L4",
+         "Nuclear material security_L4",
+         "Vulnerability assessment_L4",
+         "Safety margins and uncertainty analysis_L4",
+         "Accident tolerant fuels and materials._L4"
+      ]
+   },
+   "Materials in Nuclear Engineering_L3": {
+      "children": [
+         "Structural materials_L4",
+         "Fuel materials_L4",
+         "Moderator materials_L4",
+         "Coolant materials_L4",
+         "Shielding materials_L4",
+         "Control materials_L4",
+         "Neutron reflector materials_L4",
+         "Neutron absorber materials_L4",
+         "Radiation-resistant materials_L4",
+         "Corrosion-resistant materials_L4",
+         "Wear-resistant materials_L4",
+         "Thermal insulation materials_L4",
+         "Electrical insulation materials_L4",
+         "Magnetic materials_L4",
+         "Optical materials_L4",
+         "Composite materials_L4"
+      ]
+   },
+   "Radiation Protection and Shielding_L3": {
+      "children": [
+         "Radiation Source Control_L4",
+         "Exposure Time Management_L4",
+         "Distance Maximization_L4",
+         "Shielding Material Selection_L4",
+         "Structural Shielding Design_L4",
+         "Radiation Monitoring_L4",
+         "Personal Protective Equipment_L4",
+         "Regulatory Compliance_L4",
+         "Waste Management_L4",
+         "Contamination Control_L4",
+         "Emergency Response Planning_L4",
+         "Radiation Dose Assessment_L4",
+         "Biological Shielding_L4",
+         "Shielding Analysis and Design_L4",
+         "Shielding Effectiveness Evaluation_L4"
+      ]
+   },
+   "Nuclear Systems and Applications_L3": {
+      "children": [
+         "Nuclear Reactor Design_L4",
+         "Nuclear Power Plants_L4",
+         "Nuclear Safety_L4",
+         "Nuclear Fuel Cycle_L4",
+         "Radioisotope Production_L4",
+         "Nuclear Medicine Applications_L4",
+         "Nuclear Propulsion_L4",
+         "Radiation Detection and Measurement_L4",
+         "Nuclear Waste Management_L4",
+         "Nuclear Non-Proliferation and Security_L4",
+         "Fusion Energy Systems_L4",
+         "Nuclear Materials_L4",
+         "Nuclear System Modeling and Simulation_L4",
+         "Environmental Applications of Nuclear Technology_L4",
+         "Nuclear Emergency Response_L4"
+      ]
+   },
+   "Decommissioning and Remediation_L3": {
+      "children": [
+         "Planning and Assessment_L4",
+         "Regulatory Compliance_L4",
+         "Decontamination_L4",
+         "Dismantling and Demolition_L4",
+         "Waste Management_L4",
+         "Site Cleanup_L4",
+         "Environmental Restoration_L4",
+         "Radiation Protection_L4",
+         "Surveillance and Maintenance_L4",
+         "Stakeholder Engagement_L4",
+         "Cost Estimation and Financial Assurance_L4",
+         "Project Management_L4",
+         "Safety and Risk Management_L4",
+         "Technology and Innovation_L4",
+         "Legacy Site Management_L4"
+      ]
+   },
+   "Reactor Physics_L2_L2": {
+      "children": [
+         "Neutron Life Cycle_L3",
+         "Neutron Diffusion Theory_L3",
+         "Neutron Moderation_L3",
+         "Neutron Cross Sections_L3",
+         "Reactor Kinetics_L3",
+         "Reactor Operation_L3",
+         "Fuel Burnup_L3",
+         "Reactor Control_L3",
+         "Reactor Safety_L3",
+         "Thermal Hydraulics_L3",
+         "Neutron Transport Theory_L3",
+         "Reactor Dynamics_L3",
+         "Core Design_L3",
+         "Fuel Management_L3",
+         "Radiation Shielding_L3"
+      ]
+   },
+   "Neutron Life Cycle_L3": {
+      "children": [
+         "Six-Factor Formula_L4",
+         "Resonance Escape Probability_L4",
+         "Thermal Utilization Factor_L4",
+         "Fast Fission Factor_L4",
+         "Reproduction Factor_L4",
+         "Neutron Leakage_L4"
+      ]
+   },
+   "Neutron Diffusion Theory_L3": {
+      "children": [
+         "Neutron Transport Theory_L4",
+         "Neutron Diffusion Equation_L4",
+         "Neutron Life Cycle_L4",
+         "Neutron Moderation_L4",
+         "Neutron Flux Distribution_L4",
+         "Neutron Leakage_L4",
+         "Neutron Absorption_L4",
+         "Neutron Scattering_L4",
+         "Neutron Reflectors_L4",
+         "Neutron Sources_L4",
+         "Criticality Calculations_L4",
+         "Reactor Kinetics_L4",
+         "Reactor Dynamics_L4",
+         "Multi-Group Diffusion Theory_L4",
+         "Homogeneous and Heterogeneous Reactor Theory_L4",
+         "Boundary Conditions_L4",
+         "Reactor Core Design_L4",
+         "Perturbation Theory_L4",
+         "Neutron Spectra_L4",
+         "Thermal Neutron Diffusion_L4",
+         "Fast Neutron Diffusion_L4",
+         "Neutron Cross Sections_L4",
+         "Numerical Methods in Neutron Diffusion_L4"
+      ]
+   },
+   "Neutron Moderation_L3": {
+      "children": [
+         "Neutron energy spectrum_L4",
+         "neutron thermalization_L4",
+         "moderating materials_L4",
+         "moderation ratio_L4",
+         "neutron flux distribution_L4",
+         "neutron diffusion_L4",
+         "neutron slowing down_L4",
+         "resonance escape probability_L4",
+         "fast neutrons_L4",
+         "thermal neutrons_L4",
+         "neutron temperature_L4",
+         "neutron scattering_L4",
+         "neutron absorption_L4",
+         "neutron leakage_L4",
+         "neutron reflectors_L4",
+         "neutron lifetime_L4",
+         "neutron cross sections_L4",
+         "neutron spectrum shift_L4"
+      ]
+   },
+   "Neutron Cross Sections_L3": {
+      "children": [
+         "Total cross section_L4",
+         "elastic scattering cross section_L4",
+         "inelastic scattering cross section_L4",
+         "absorption cross section_L4",
+         "fission cross section_L4",
+         "capture cross section_L4",
+         "(n_L4",
+         "2n) reaction cross section_L4",
+         "(n_L4",
+         "p) reaction cross section_L4",
+         "(n_L4",
+         "\u03b1) reaction cross section_L4",
+         "(n_L4",
+         "\u03b3) reaction cross section_L4",
+         "threshold reaction cross section_L4"
+      ]
+   },
+   "Reactor Kinetics_L3": {
+      "children": [
+         "Point Kinetics_L4",
+         "Spatial Kinetics_L4",
+         "Prompt Neutrons_L4",
+         "Delayed Neutrons_L4",
+         "Reactivity Feedback_L4",
+         "Reactivity Insertion_L4",
+         "Neutron Life Cycle_L4",
+         "Kinetic Equations_L4",
+         "Reactor Period_L4",
+         "Reactor Stability_L4",
+         "Reactor Transients_L4",
+         "Reactor Oscillations_L4",
+         "Neutron Flux Distribution_L4",
+         "Neutron Diffusion Theory_L4",
+         "Neutron Transport Theory_L4"
+      ]
+   },
+   "Reactor Operation_L3": {
+      "children": [
+         "Reactor Startup_L4",
+         "Power Operation_L4",
+         "Shutdown Procedures_L4",
+         "Reactor Safety_L4",
+         "Fuel Management_L4",
+         "Reactor Kinetics_L4",
+         "Thermal Hydraulics_L4",
+         "Control Systems_L4",
+         "Emergency Response_L4",
+         "Maintenance and Inspection_L4",
+         "Outage Management_L4",
+         "Radioactive Waste Handling_L4",
+         "Regulatory Compliance_L4",
+         "Human Factors and Operator Training_L4",
+         "Performance Monitoring and Optimization_L4"
+      ]
+   },
+   "Fuel Burnup_L3": {
+      "children": [
+         "Initial burnup_L4",
+         "discharge burnup_L4",
+         "average burnup_L4",
+         "peak burnup_L4",
+         "burnup distribution_L4",
+         "burnup credit_L4",
+         "high burnup_L4",
+         "low burnup_L4",
+         "burnup limits_L4",
+         "burnup extension_L4"
+      ]
+   },
+   "Reactor Control_L3": {
+      "children": [
+         "Reactor Kinetics_L4",
+         "Control Rods Management_L4",
+         "Neutron Flux Monitoring_L4",
+         "Reactor Dynamics_L4",
+         "Feedback Mechanisms_L4",
+         "Power Distribution Control_L4",
+         "Safety Systems_L4",
+         "Automatic Control Systems_L4",
+         "Stability Analysis_L4",
+         "Load Following Operations_L4",
+         "Scram Systems_L4",
+         "Core Management_L4",
+         "Burnup Control_L4",
+         "Thermal Limits Monitoring_L4",
+         "Reactor Startup and Shutdown Procedures_L4",
+         "Human-Machine Interface_L4",
+         "Control System Reliability_L4",
+         "Redundancy and Diversity_L4",
+         "Reactor Protection Systems_L4",
+         "Surveillance and Testing Procedures_L4",
+         "Cybersecurity for Control Systems_L4"
+      ]
+   },
+   "Reactor Safety_L3": {
+      "children": [
+         "Core design and analysis_L4",
+         "Thermal-hydraulics_L4",
+         "Probabilistic risk assessment_L4",
+         "Severe accident analysis_L4",
+         "Human factors and human reliability_L4",
+         "Emergency preparedness and response_L4",
+         "Radiation protection_L4",
+         "Structural integrity_L4",
+         "Materials degradation and life extension_L4",
+         "Fire safety_L4",
+         "Natural hazards assessment_L4",
+         "External events risk analysis_L4",
+         "Safety culture and management systems_L4",
+         "Regulatory framework and compliance_L4",
+         "Operational safety and performance_L4",
+         "Aging management_L4",
+         "Decommissioning safety_L4",
+         "Waste management and disposal safety_L4",
+         "Cybersecurity and digital systems safety_L4"
+      ]
+   },
+   "Neutron Transport Theory_L3": {
+      "children": [
+         "Neutron diffusion theory_L4",
+         "neutron moderation_L4",
+         "neutron slowing down_L4",
+         "neutron thermalization_L4",
+         "neutron scattering theory_L4",
+         "neutron absorption_L4",
+         "neutron cross-sections_L4",
+         "neutron flux distribution_L4",
+         "neutron leakage_L4",
+         "neutron multiplication_L4",
+         "neutron spectrum calculations_L4",
+         "Monte Carlo methods_L4",
+         "deterministic methods_L4",
+         "reactor kinetics_L4",
+         "reactor core design_L4",
+         "fuel management_L4",
+         "radiation shielding_L4",
+         "criticality safety_L4",
+         "reactor physics_L4",
+         "point kinetics_L4",
+         "multi-group theory_L4",
+         "homogenization techniques_L4",
+         "perturbation theory_L4",
+         "adjoint theory_L4",
+         "neutron noise analysis_L4",
+         "burnup calculations_L4",
+         "transport-diffusion theory coupling._L4"
+      ]
+   },
+   "Reactor Dynamics_L3": {
+      "children": [
+         "Neutron kinetics_L4",
+         "reactor kinetics_L4",
+         "reactor control_L4",
+         "thermal-hydraulics_L4",
+         "feedback effects_L4",
+         "stability analysis_L4",
+         "transient analysis_L4",
+         "safety analysis_L4",
+         "point kinetics_L4",
+         "space-time kinetics_L4",
+         "core design dynamics_L4",
+         "fuel behavior during transients_L4"
+      ]
+   },
+   "Core Design_L3": {
+      "children": [
+         "Neutronics_L4",
+         "Thermal-hydraulics_L4",
+         "Fuel management_L4",
+         "Safety analysis_L4",
+         "Reactor kinetics_L4",
+         "Core materials_L4",
+         "Structural analysis_L4",
+         "Burnup analysis_L4",
+         "Control systems design_L4",
+         "Core loading patterns_L4",
+         "Reactivity control mechanisms_L4"
+      ]
+   },
+   "Fuel Management_L3": {
+      "children": [
+         "Core design_L4",
+         "Burnup analysis_L4",
+         "Fuel reloading strategies_L4",
+         "Fuel cycle optimization_L4",
+         "In-core fuel management_L4",
+         "Out-of-core fuel management_L4",
+         "Spent fuel storage_L4",
+         "Fuel fabrication_L4",
+         "Fuel performance and reliability_L4",
+         "Fuel transportation and handling_L4",
+         "Radioactive waste management_L4",
+         "Safety analysis_L4",
+         "Economic analysis_L4",
+         "Regulatory compliance_L4",
+         "Environmental impact assessment_L4"
+      ]
+   },
+   "Radiation Shielding_L3": {
+      "children": [
+         "Material Selection_L4",
+         "Shielding Design and Analysis_L4",
+         "Structural Shielding_L4",
+         "Biological Shielding_L4",
+         "Neutron Shielding_L4",
+         "Gamma/X-ray Shielding_L4",
+         "Charged Particle Shielding_L4",
+         "Shielding for Space Applications_L4",
+         "Shielding for Medical Facilities_L4",
+         "Shielding for Nuclear Reactors_L4",
+         "Shielding for Waste Management_L4",
+         "Shielding for Transportation_L4",
+         "Shielding for Emergency Response_L4",
+         "Shielding for Military Applications_L4",
+         "Shielding for Research Laboratories_L4",
+         "Shielding for Industrial Applications_L4",
+         "Shielding Standards and Regulations_L4",
+         "Shielding Testing and Evaluation_L4",
+         "Shielding Maintenance and Decommissioning_L4",
+         "Shielding Simulation and Modeling_L4"
+      ]
+   }
+}

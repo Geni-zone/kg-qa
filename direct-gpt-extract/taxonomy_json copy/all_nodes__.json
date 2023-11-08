@@ -1,0 +1,510 @@
+{
+   "Nuclear Engineering_L0": {
+      "taxonomy": "Nuclear Engineering",
+      "parent": "",
+      "children": [
+         "Radiation Protection and Shielding_L1",
+         "Nuclear Policy_L1",
+         "Nuclear Decommissioning and Remediation_L1",
+         "Medical and Health Physics_L1",
+         "Nuclear Physics_L1",
+         "Nuclear Safety_L1",
+         "Reactor Physics_L1",
+         "Nuclear Fusion_L1",
+         "Nuclear Fission_L1",
+         "Nuclear Instrumentation and Measurement_L1",
+         "Thermal Hydraulics_L1",
+         "Nuclear Materials_L1",
+         "Nuclear Fuels_L1",
+         "Computational Nuclear Engineering_L1",
+         "Nuclear Chemistry_L1",
+         "Nuclear Waste Management_L1",
+         "Nuclear Systems Engineering_L1",
+         "Nuclear Weapons_L1",
+         "Nuclear Propulsion_L1",
+         "Radioisotope Production and Application_L1"
+      ]
+   },
+   "Radiation Protection and Shielding_L1": {
+      "taxonomy": "Nuclear Engineering -> Radiation Protection and Shielding",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Policy_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Policy",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Decommissioning and Remediation_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Decommissioning and Remediation",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Medical and Health Physics_L1": {
+      "taxonomy": "Nuclear Engineering -> Medical and Health Physics",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Physics_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Physics",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Safety_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Safety",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Reactor Physics_L1": {
+      "taxonomy": "Nuclear Engineering -> Reactor Physics",
+      "parent": "Nuclear Engineering_L0",
+      "children": [
+         "Neutron Transport Theory_L2",
+         "Neutron Diffusion Theory_L2",
+         "Reactor Kinetics_L2",
+         "Reactor Dynamics_L2",
+         "Fuel Burnup and Depletion_L2",
+         "Reactor Core Design_L2",
+         "Neutronics_L2",
+         "Thermal-Hydraulics_L2",
+         "Reactor Safety Analysis_L2",
+         "Reactor Control Systems_L2",
+         "Monte Carlo Methods_L2",
+         "Deterministic Methods_L2",
+         "Cross Section Data Analysis_L2",
+         "Reactor Operation and Regulation_L2",
+         "Radiation Shielding and Protection_L2"
+      ]
+   },
+   "Nuclear Fusion_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Fusion",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Fission_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission",
+      "parent": "Nuclear Engineering_L0",
+      "children": [
+         "Nuclear Reactor Design_L2",
+         "Nuclear Fuel Cycle_L2",
+         "Neutronics_L2",
+         "Thermal-Hydraulics_L2",
+         "Reactor Physics_L2",
+         "Reactor Safety_L2",
+         "Radiation Protection_L2",
+         "Radioactive Waste Management_L2",
+         "Nuclear Materials_L2",
+         "Nuclear Systems Engineering_L2",
+         "Nuclear Plant Operations_L2",
+         "Nuclear Decommissioning_L2",
+         "Proliferation Resistance_L2",
+         "Nuclear Forensics_L2"
+      ]
+   },
+   "Nuclear Instrumentation and Measurement_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Instrumentation and Measurement",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Thermal Hydraulics_L1": {
+      "taxonomy": "Nuclear Engineering -> Thermal Hydraulics",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Materials_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Materials",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Fuels_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Fuels",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Computational Nuclear Engineering_L1": {
+      "taxonomy": "Nuclear Engineering -> Computational Nuclear Engineering",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Chemistry_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Chemistry",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Waste Management_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Waste Management",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Systems Engineering_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Systems Engineering",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Weapons_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Weapons",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Propulsion_L1": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Propulsion",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Radioisotope Production and Application_L1": {
+      "taxonomy": "Nuclear Engineering -> Radioisotope Production and Application",
+      "parent": "Nuclear Engineering_L0",
+      "children": []
+   },
+   "Nuclear Reactor Design_L2": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design",
+      "parent": "Nuclear Fission_L1",
+      "children": [
+         "Reactor types_L3",
+         "Fuel selection_L3",
+         "Coolant systems_L3",
+         "Control systems_L3",
+         "Safety features_L3"
+      ]
+   },
+   "Reactor Kinetics_L2": {
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics",
+      "parent": "Reactor Physics_L1",
+      "children": [
+         "Reactivity_L3",
+         "Neutron flux_L3",
+         "Power distribution_L3",
+         "Reactor control_L3",
+         "Kinetic parameters_L3"
+      ]
+   },
+   "Reactor Core Design_L3": {
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor Core Design",
+      "parent": "Nuclear Reactor Design_L2",
+      "children": []
+   },
+   "Reactor types_L3": {
+      "parent": "Nuclear Reactor Design_L2",
+      "children": [
+         "Pressurized Water Reactor_L4",
+         "Boiling Water Reactor_L4",
+         "Fast Breeder Reactor_L4",
+         "High Temperature Gas-Cooled Reactor_L4",
+         "Molten Salt Reactor_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types"
+   },
+   "Fuel selection_L3": {
+      "parent": "Nuclear Reactor Design_L2",
+      "children": [
+         "Uranium enrichment_L4",
+         "Fuel fabrication_L4",
+         "Fuel performance_L4",
+         "Fuel recycling_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Fuel selection"
+   },
+   "Coolant systems_L3": {
+      "parent": "Nuclear Reactor Design_L2",
+      "children": [
+         "Liquid metal coolant_L4",
+         "Pressurized water reactor coolant_L4",
+         "Boiling water reactor coolant_L4",
+         "Gas coolant_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Coolant systems"
+   },
+   "Control systems_L3": {
+      "parent": "Nuclear Reactor Design_L2",
+      "children": [
+         "Feedback control_L4",
+         "Instrumentation and measurement_L4",
+         "Safety systems_L4",
+         "Reactor protection systems_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Control systems"
+   },
+   "Safety features_L3": {
+      "parent": "Nuclear Reactor Design_L2",
+      "children": [
+         "- Containment systems_L4",
+         "Emergency cooling systems_L4",
+         "Reactor shutdown systems_L4",
+         "Radiation shielding_L4",
+         "Emergency core cooling systems_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features"
+   },
+   "Pressurized Water Reactor_L4": {
+      "parent": "Reactor types_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types -> Pressurized Water Reactor"
+   },
+   "Boiling Water Reactor_L4": {
+      "parent": "Reactor types_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types -> Boiling Water Reactor"
+   },
+   "Fast Breeder Reactor_L4": {
+      "parent": "Reactor types_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types -> Fast Breeder Reactor"
+   },
+   "High Temperature Gas-Cooled Reactor_L4": {
+      "parent": "Reactor types_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types -> High Temperature Gas-Cooled Reactor"
+   },
+   "Molten Salt Reactor_L4": {
+      "parent": "Reactor types_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Reactor types -> Molten Salt Reactor"
+   },
+   "Uranium enrichment_L4": {
+      "parent": "Fuel selection_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Fuel selection -> Uranium enrichment"
+   },
+   "Fuel fabrication_L4": {
+      "parent": "Fuel selection_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Fuel selection -> Fuel fabrication"
+   },
+   "Fuel performance_L4": {
+      "parent": "Fuel selection_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Fuel selection -> Fuel performance"
+   },
+   "Fuel recycling_L4": {
+      "parent": "Fuel selection_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Fuel selection -> Fuel recycling"
+   },
+   "Liquid metal coolant_L4": {
+      "parent": "Coolant systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Coolant systems -> Liquid metal coolant"
+   },
+   "Pressurized water reactor coolant_L4": {
+      "parent": "Coolant systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Coolant systems -> Pressurized water reactor coolant"
+   },
+   "Boiling water reactor coolant_L4": {
+      "parent": "Coolant systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Coolant systems -> Boiling water reactor coolant"
+   },
+   "Gas coolant_L4": {
+      "parent": "Coolant systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Coolant systems -> Gas coolant"
+   },
+   "Feedback control_L4": {
+      "parent": "Control systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Control systems -> Feedback control"
+   },
+   "Instrumentation and measurement_L4": {
+      "parent": "Control systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Control systems -> Instrumentation and measurement"
+   },
+   "Safety systems_L4": {
+      "parent": "Control systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Control systems -> Safety systems"
+   },
+   "Reactor protection systems_L4": {
+      "parent": "Control systems_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Control systems -> Reactor protection systems"
+   },
+   "- Containment systems_L4": {
+      "parent": "Safety features_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features -> - Containment systems"
+   },
+   "Emergency cooling systems_L4": {
+      "parent": "Safety features_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features -> Emergency cooling systems"
+   },
+   "Reactor shutdown systems_L4": {
+      "parent": "Safety features_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features -> Reactor shutdown systems"
+   },
+   "Radiation shielding_L4": {
+      "parent": "Safety features_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features -> Radiation shielding"
+   },
+   "Emergency core cooling systems_L4": {
+      "parent": "Safety features_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Nuclear Fission -> Nuclear Reactor Design -> Safety features -> Emergency core cooling systems"
+   },
+   "Reactivity_L3": {
+      "parent": "Reactor Kinetics_L2",
+      "children": [
+         "Negative reactivity_L4",
+         "Positive reactivity_L4",
+         "Doppler reactivity coefficient_L4",
+         "Moderator temperature coefficient_L4",
+         "Fuel temperature coefficient_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity"
+   },
+   "Neutron flux_L3": {
+      "parent": "Reactor Kinetics_L2",
+      "children": [
+         "Neutron flux_L4",
+         "Neutron distribution_L4",
+         "Neutron transport_L4",
+         "Neutron moderation_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Neutron flux"
+   },
+   "Power distribution_L3": {
+      "parent": "Reactor Kinetics_L2",
+      "children": [
+         "Axial power distribution_L4",
+         "Radial power distribution_L4",
+         "Power peaking factor_L4",
+         "Power flattening techniques_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Power distribution"
+   },
+   "Reactor control_L3": {
+      "parent": "Reactor Kinetics_L2",
+      "children": [
+         "Reactivity control_L4",
+         "Power control_L4",
+         "Shutdown systems_L4",
+         "Control rod design_L4",
+         "Instrumentation and control._L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control"
+   },
+   "Kinetic parameters_L3": {
+      "parent": "Reactor Kinetics_L2",
+      "children": [
+         "Reactivity_L4",
+         "Delayed neutron fraction_L4",
+         "Prompt neutron lifetime_L4",
+         "Generation time_L4"
+      ],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Kinetic parameters"
+   },
+   "Negative reactivity_L4": {
+      "parent": "Reactivity_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity -> Negative reactivity"
+   },
+   "Positive reactivity_L4": {
+      "parent": "Reactivity_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity -> Positive reactivity"
+   },
+   "Doppler reactivity coefficient_L4": {
+      "parent": "Reactivity_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity -> Doppler reactivity coefficient"
+   },
+   "Moderator temperature coefficient_L4": {
+      "parent": "Reactivity_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity -> Moderator temperature coefficient"
+   },
+   "Fuel temperature coefficient_L4": {
+      "parent": "Reactivity_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactivity -> Fuel temperature coefficient"
+   },
+   "Neutron flux_L4": {
+      "parent": "Neutron flux_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Neutron flux -> Neutron flux"
+   },
+   "Neutron distribution_L4": {
+      "parent": "Neutron flux_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Neutron flux -> Neutron distribution"
+   },
+   "Neutron transport_L4": {
+      "parent": "Neutron flux_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Neutron flux -> Neutron transport"
+   },
+   "Neutron moderation_L4": {
+      "parent": "Neutron flux_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Neutron flux -> Neutron moderation"
+   },
+   "Axial power distribution_L4": {
+      "parent": "Power distribution_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Power distribution -> Axial power distribution"
+   },
+   "Radial power distribution_L4": {
+      "parent": "Power distribution_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Power distribution -> Radial power distribution"
+   },
+   "Power peaking factor_L4": {
+      "parent": "Power distribution_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Power distribution -> Power peaking factor"
+   },
+   "Power flattening techniques_L4": {
+      "parent": "Power distribution_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Power distribution -> Power flattening techniques"
+   },
+   "Reactivity control_L4": {
+      "parent": "Reactor control_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Reactivity control"
+   },
+   "Power control_L4": {
+      "parent": "Reactor control_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Power control"
+   },
+   "Shutdown systems_L4": {
+      "parent": "Reactor control_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Shutdown systems"
+   },
+   "Control rod design_L4": {
+      "parent": "Reactor control_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Control rod design"
+   },
+   "Instrumentation and control._L4": {
+      "parent": "Reactor control_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Instrumentation and control."
+   },
+   "Reactivity_L4": {
+      "parent": "Kinetic parameters_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Kinetic parameters -> Reactivity"
+   },
+   "Delayed neutron fraction_L4": {
+      "parent": "Kinetic parameters_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Kinetic parameters -> Delayed neutron fraction"
+   },
+   "Prompt neutron lifetime_L4": {
+      "parent": "Kinetic parameters_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Kinetic parameters -> Prompt neutron lifetime"
+   },
+   "Generation time_L4": {
+      "parent": "Kinetic parameters_L3",
+      "children": [],
+      "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Kinetic parameters -> Generation time"
+   }
+}

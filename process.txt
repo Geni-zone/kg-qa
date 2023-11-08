@@ -1,0 +1,23 @@
+346 Nuclear Fission_L1
+Extracting next layer for Nuclear Fission, at level: L1
+253 ['Nuclear Chain Reaction', 'Fission Reactors', 'Fission Products', 'Neutron Moderation', 'Nuclear Fuel Cycle']
+272 Nuclear Chain Reaction_L2
+278 {'parent': 'Nuclear Fission_L1', 'children': [], 'taxonomy': 'Nuclear Engineering -> Nuclear Fission -> Nuclear Chain Reaction'}
+283 ['Nuclear Reactor Design_L2', 'Nuclear Fuel Cycle_L2', 'Neutronics_L2', 'Thermal-Hydraulics_L2', 'Reactor Physics_L2', 'Reactor Safety_L2', 'Radiation Protection_L2', 'Radioactive Waste Management_L2', 'Nuclear Materials_L2', 'Nuclear Systems Engineering_L2', 'Nuclear Plant Operations_L2', 'Nuclear Decommissioning_L2', 'Proliferation Resistance_L2', 'Nuclear Forensics_L2']
+272 Fission Reactors_L2
+278 {'parent': 'Nuclear Fission_L1', 'children': [], 'taxonomy': 'Nuclear Engineering -> Nuclear Fission -> Fission Reactors'}
+283 ['Nuclear Reactor Design_L2', 'Nuclear Fuel Cycle_L2', 'Neutronics_L2', 'Thermal-Hydraulics_L2', 'Reactor Physics_L2', 'Reactor Safety_L2', 'Radiation Protection_L2', 'Radioactive Waste Management_L2', 'Nuclear Materials_L2', 'Nuclear Systems Engineering_L2', 'Nuclear Plant Operations_L2', 'Nuclear Decommissioning_L2', 'Proliferation Resistance_L2', 'Nuclear Forensics_L2', 'Nuclear Chain Reaction_L2']
+272 Fission Products_L2
+278 {'parent': 'Nuclear Fission_L1', 'children': [], 'taxonomy': 'Nuclear Engineering -> Nuclear Fission -> Fission Products'}
+283 ['Nuclear Reactor Design_L2', 'Nuclear Fuel Cycle_L2', 'Neutronics_L2', 'Thermal-Hydraulics_L2', 'Reactor Physics_L2', 'Reactor Safety_L2', 'Radiation Protection_L2', 'Radioactive Waste Management_L2', 'Nuclear Materials_L2', 'Nuclear Systems Engineering_L2', 'Nuclear Plant Operations_L2', 'Nuclear Decommissioning_L2', 'Proliferation Resistance_L2', 'Nuclear Forensics_L2', 'Nuclear Chain Reaction_L2', 'Fission Reactors_L2']
+272 Neutron Moderation_L2
+278 {'parent': 'Nuclear Fission_L1', 'children': [], 'taxonomy': 'Nuclear Engineering -> Nuclear Fission -> Neutron Moderation'}
+283 ['Nuclear Reactor Design_L2', 'Nuclear Fuel Cycle_L2', 'Neutronics_L2', 'Thermal-Hydraulics_L2', 'Reactor Physics_L2', 'Reactor Safety_L2', 'Radiation Protection_L2', 'Radioactive Waste Management_L2', 'Nuclear Materials_L2', 'Nuclear Systems Engineering_L2', 'Nuclear Plant Operations_L2', 'Nuclear Decommissioning_L2', 'Proliferation Resistance_L2', 'Nuclear Forensics_L2', 'Nuclear Chain Reaction_L2', 'Fission Reactors_L2', 'Fission Products_L2']
+272 Nuclear Fuel Cycle_L2
+278 {'parent': 'Nuclear Fission_L1', 'children': [], 'taxonomy': 'Nuclear Engineering -> Nuclear Fission -> Nuclear Fuel Cycle'}
+283 ['Nuclear Reactor Design_L2', 'Nuclear Fuel Cycle_L2', 'Neutronics_L2', 'Thermal-Hydraulics_L2', 'Reactor Physics_L2', 'Reactor Safety_L2', 'Radiation Protection_L2', 'Radioactive Waste Management_L2', 'Nuclear Materials_L2', 'Nuclear Systems Engineering_L2', 'Nuclear Plant Operations_L2', 'Nuclear Decommissioning_L2', 'Proliferation Resistance_L2', 'Nuclear Forensics_L2', 'Nuclear Chain Reaction_L2', 'Fission Reactors_L2', 'Fission Products_L2', 'Neutron Moderation_L2']
+completed 1/2
+
+{'gpt-3.5-turbo': 0, 'gpt-3.5-turbo-16k': 0, 'gpt-3.5-turbo-1106': 0.000113, 'gpt-4': 0.3013800000000001, 'gpt-4-1106-preview': 0.07314000000000001}
+346 Nuclear Reactor Design_L2
+Extracting next layer for Nuclear Reactor Design, at level: L2
