@@ -189,7 +189,7 @@ void dumpResults(const string& prefix)
             order.push_back(make_pair(patterns[i].quality, i));
         }
     }
-    dumpRankingList(prefix + "_multi-words.txt", order);
+    dumpRankingList(prefix + "_Multi-words.txt", order);
 
     order.clear();
     for (PATTERN_ID_TYPE i = 0; i < patterns.size(); ++ i) {
@@ -205,7 +205,7 @@ void dumpResults(const string& prefix)
             order.push_back(make_pair(patterns[i].quality, i));
         }
     }
-    dumpRankingList(prefix + "_salient.txt", order);
+    dumpRankingList(prefix + "_Salient.txt", order);
 }
 
 };

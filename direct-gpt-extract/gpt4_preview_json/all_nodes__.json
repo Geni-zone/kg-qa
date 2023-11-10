@@ -274,7 +274,7 @@
          "Nuclear material security_L4",
          "Vulnerability assessment_L4",
          "Safety margins and uncertainty analysis_L4",
-         "Accident tolerant fuels and materials._L4"
+         "Accident tolerant fuels and materials_L4"
       ]
    },
    "Materials in Nuclear Engineering_L3": {
@@ -579,7 +579,7 @@
          "adjoint theory_L4",
          "neutron noise analysis_L4",
          "burnup calculations_L4",
-         "transport-diffusion theory coupling._L4"
+         "transport-diffusion theory coupling_L4"
       ]
    },
    "Reactor Dynamics_L3": {

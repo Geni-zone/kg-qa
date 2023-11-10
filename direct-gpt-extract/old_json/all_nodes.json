@@ -110,7 +110,7 @@
             "Nuclear Power Plant Training and Education_L2",
             "Nuclear Power Plant Research and Development_L2",
             "Nuclear Power Plant Quality Assurance_L2",
-            "Nuclear Power Plant Risk Assessment._L2"
+            "Nuclear Power Plant Risk Assessment_L2"
         ]
     },
     "Nuclear Propulsion_L1": {
@@ -377,7 +377,7 @@
             "Thermal-hydraulic modeling and simulation_L4",
             "Reactor thermal-hydraulic codes_L4",
             "Reactor thermal-hydraulic instability_L4",
-            "Thermal-hydraulic phenomena in severe accidents._L4"
+            "Thermal-hydraulic phenomena in severe accidents_L4"
         ]
     },
     " Neutronics_L3": {
@@ -446,7 +446,7 @@
             "Advanced Boiling Water Reactors_L4",
             "Advanced Pressurized Water Reactors_L4",
             "Integral Pressurized Water Reactors_L4",
-            "Modular High-Temperature Gas-Cooled Reactors._L4"
+            "Modular High-Temperature Gas-Cooled Reactors_L4"
         ]
     },
     " Reactor Decommissioning and Waste Management_L3": {
@@ -470,7 +470,7 @@
             "Waste Minimization and Recycling_L4",
             "Public and Stakeholder Engagement_L4",
             "Nuclear Policy and Legislation_L4",
-            "Health and Radiation Protection._L4"
+            "Health and Radiation Protection_L4"
         ]
     },
     " Nuclear Fuel Cycle_L2": {
@@ -509,7 +509,7 @@
             "Mine Surveying_L4",
             "Mining Geology_L4",
             "Mining Economics_L4",
-            "Mining Legislation and Policy._L4"
+            "Mining Legislation and Policy_L4"
         ]
     },
     " Conversion_L3": {
@@ -629,7 +629,7 @@
             "Reprocessing and Non-Proliferation Issues_L4",
             "Reprocessing Plant Operation and Maintenance_L4",
             "Reprocessing Plant Decommissioning_L4",
-            "Reprocessing Research and Development._L4"
+            "Reprocessing Research and Development_L4"
         ]
     },
     " Waste Disposal_L3": {
@@ -678,7 +678,7 @@
             "Emergency Preparedness_L4",
             "Nuclear Fuel Removal_L4",
             "Reactor Defueling_L4",
-            "Post-Operational Clean Out._L4"
+            "Post-Operational Clean Out_L4"
         ]
     },
     " Transportation_L3": {
@@ -1197,7 +1197,7 @@
             "Neutron Radiography_L4",
             "Neutron Dosimetry_L4",
             "Neutron Detection_L4",
-            "Neutron Interactions with Matter._L4"
+            "Neutron Interactions with Matter_L4"
         ]
     },
     " Neutron Reflectors_L3": {
@@ -1222,7 +1222,7 @@
             "Neutron Reflectors in Nuclear Non-Proliferation_L4",
             "Neutron Reflectors in Nuclear Emergency Response_L4",
             "Neutron Reflectors in Nuclear Security_L4",
-            "Neutron Reflectors in Nuclear Forensics._L4"
+            "Neutron Reflectors in Nuclear Forensics_L4"
         ]
     },
     " Neutron Shields_L3": {
@@ -1241,7 +1241,7 @@
             "Advanced Neutron Shielding Materials_L4",
             "Neutron Shielding for Radiation Protection_L4",
             "Neutron Shielding for Nuclear Waste Storage_L4",
-            "Neutron Shielding for Nuclear Power Plants._L4"
+            "Neutron Shielding for Nuclear Power Plants_L4"
         ]
     },
     " Neutron Multiplication Factor_L3": {
@@ -1647,7 +1647,7 @@
             "Operational Safety_L4",
             "Safety Inspection and Auditing_L4",
             "Safety Management Systems_L4",
-            "Nuclear Safety Research._L4"
+            "Nuclear Safety Research_L4"
         ]
     },
     " Risk Assessment_L3": {
@@ -1687,7 +1687,7 @@
             "Nuclear Reactor Safety_L4",
             "Nuclear Power Plant Accident Simulation_L4",
             "Accident Sequence Analysis_L4",
-            "Nuclear Material Safety._L4"
+            "Nuclear Material Safety_L4"
         ]
     },
     " Human Factors and Safety_L3": {
@@ -1803,7 +1803,7 @@
             "Insider Threat Prevention_L4",
             "Physical Protection of Nuclear Materials and Facilities_L4",
             "Transport Security of Nuclear Materials_L4",
-            "Cyber Security in Nuclear Facilities._L4"
+            "Cyber Security in Nuclear Facilities_L4"
         ]
     },
     " Nuclear Non-Proliferation_L3": {
@@ -1883,7 +1883,7 @@
             "Waste Volume Reduction_L4",
             "Waste Characterization_L4",
             "Waste Monitoring and Control_L4",
-            "Waste Safety and Risk Assessment._L4"
+            "Waste Safety and Risk Assessment_L4"
         ]
     },
     " Waste Treatment_L3": {
@@ -1971,7 +1971,7 @@
             "Waste Minimization Policies and Regulations_L4",
             "Waste Minimization Practices in Nuclear Power Plants_L4",
             "Waste Minimization in Nuclear Medicine_L4",
-            "Waste Minimization in Research and Development._L4"
+            "Waste Minimization in Research and Development_L4"
         ]
     },
     " Radioactive Waste Handling_L3": {
@@ -2023,7 +2023,7 @@
             "Nuclear Reactor Decommissioning_L4",
             "Decommissioning and Decontamination Technology Development_L4",
             "Nuclear Fuel Cycle Facilities Decommissioning_L4",
-            "Decommissioning Workforce Training._L4"
+            "Decommissioning Workforce Training_L4"
         ]
     },
     " Environmental Impact Assessment_L3": {
@@ -2047,7 +2047,7 @@
             "Sustainability Assessment_L4",
             "Emergency Preparedness Assessment_L4",
             "Environmental Monitoring and Reporting_L4",
-            "Environmental Policy and Regulation Compliance._L4"
+            "Environmental Policy and Regulation Compliance_L4"
         ]
     },
     " Regulatory Compliance_L3": {
@@ -2215,7 +2215,7 @@
             "Safety and Security in Reprocessing and Recycling_L4",
             "Reprocessing Plant Design and Operation_L4",
             "Waste Minimization and Reduction_L4",
-            "Radioactive Waste Management._L4"
+            "Radioactive Waste Management_L4"
         ]
     },
     " Waste Isolation_L3": {
@@ -3580,7 +3580,7 @@
             "AGR in Nuclear Energy Production_L4",
             "AGR in Nuclear Weapon Production_L4",
             "AGR in Nuclear Propulsion_L4",
-            "AGR in Nuclear Safety and Security._L4"
+            "AGR in Nuclear Safety and Security_L4"
         ]
     },
     " Light Water Graphite Reactors (LWGR)_L3": {
@@ -3709,7 +3709,7 @@
             "Health Physics_L4",
             "Nuclear Accident Simulation_L4",
             "Safety of Nuclear Fuel Cycle_L4",
-            "Nuclear Safety Research._L4"
+            "Nuclear Safety Research_L4"
         ]
     },
     " Materials and Structural Analysis_L3": {
@@ -3737,7 +3737,7 @@
             "Advanced Structural Materials_L4",
             "Aging Management_L4",
             "Material Processing and Characterization_L4",
-            "Welding and Joining Technologies._L4"
+            "Welding and Joining Technologies_L4"
         ]
     },
     " Thermal-Hydraulics_L3": {
@@ -3786,7 +3786,7 @@
             "Space and Astrophysical Plasmas_L4",
             "Low-Temperature Plasmas_L4",
             "High-Energy Density Plasmas_L4",
-            "Quantum Plasmas._L4"
+            "Quantum Plasmas_L4"
         ]
     },
     " Fusion Technology_L3": {
@@ -3834,7 +3834,7 @@
             "Fission Reactor Safety Analysis_L4",
             "Fission Reactor Core Design_L4",
             "Fission Reactor Fuel Fabrication_L4",
-            "Fission Reactor Instrumentation and Control._L4"
+            "Fission Reactor Instrumentation and Control_L4"
         ]
     },
     " Waste Management and Disposal_L3": {
@@ -3860,7 +3860,7 @@
             "Waste Site Remediation_L4",
             "Nuclear Waste Policy_L4",
             "Waste Management Economics_L4",
-            "Public Perception and Communication in Waste Management._L4"
+            "Public Perception and Communication in Waste Management_L4"
         ]
     },
     " Regulatory and Policy Considerations_L3": {
@@ -3885,7 +3885,7 @@
             "Public Communication and Transparency Policies_L4",
             "Nuclear Research and Development Policies_L4",
             "Nuclear Energy Economics_L4",
-            "Nuclear Power Plant Operation Regulations._L4"
+            "Nuclear Power Plant Operation Regulations_L4"
         ]
     },
     " Economic Analysis_L3": {
@@ -3983,7 +3983,7 @@
             "Nuclear Safety Analysis_L4",
             "Nuclear Energy Policy_L4",
             "Nuclear Decommissioning and Remediation_L4",
-            "Nuclear Non-Proliferation._L4"
+            "Nuclear Non-Proliferation_L4"
         ]
     },
     " Maintenance and Inspection Techniques_L3": {
@@ -4025,7 +4025,7 @@
             "Security Inspection_L4",
             "Environmental Inspection_L4",
             "Waste Management Inspection_L4",
-            "Decommissioning Inspection._L4"
+            "Decommissioning Inspection_L4"
         ]
     },
     " Decommissioning and Dismantling Techniques_L3": {
@@ -4044,7 +4044,7 @@
             "Robotics in Decommissioning_L4",
             "Material and Waste Minimization_L4",
             "Residual Radioactivity Measurement_L4",
-            "Final Site Release and Reuse._L4"
+            "Final Site Release and Reuse_L4"
         ]
     },
     " Advanced Nuclear Systems_L2": {
@@ -4148,7 +4148,7 @@
             "Advanced Composites for Nuclear Applications_L4",
             "Advanced Coatings for Nuclear Systems_L4",
             "Advanced Sensors for Nuclear Materials_L4",
-            "Advanced Modeling and Simulation for Nuclear Materials._L4"
+            "Advanced Modeling and Simulation for Nuclear Materials_L4"
         ]
     },
     " Advanced Nuclear Waste Management_L3": {
@@ -4172,7 +4172,7 @@
             "Advanced Waste Forms_L4",
             "Waste Conditioning_L4",
             "Radioactive Waste Characterization_L4",
-            "Nuclear Waste Site Selection._L4"
+            "Nuclear Waste Site Selection_L4"
         ]
     },
     " Advanced Safety Systems_L3": {
@@ -4213,7 +4213,7 @@
             "Nuclear Fusion Simulations_L4",
             "Uncertainty Quantification in Nuclear Simulations_L4",
             "High Performance Computing in Nuclear Engineering_L4",
-            "Machine Learning in Nuclear Simulations._L4"
+            "Machine Learning in Nuclear Simulations_L4"
         ]
     },
     " Advanced Nuclear Instrumentation and Control_L3": {
@@ -4357,7 +4357,7 @@
             "Legacy Site Cleanup_L3",
             "Decommissioning Technology Development_L3",
             "Nuclear Facility Deactivation_L3",
-            "Post-decommissioning Monitoring._L3"
+            "Post-decommissioning Monitoring_L3"
         ]
     },
     "Site Characterization_L3": {
@@ -4543,7 +4543,7 @@
             "Regulatory and Policy Issues_L4",
             "Environmental Impact and Risk Assessment_L4",
             "Public Perception and Communication_L4",
-            "Technological Innovations in Waste Disposal._L4"
+            "Technological Innovations in Waste Disposal_L4"
         ]
     },
     " Decommissioning Planning_L3": {
@@ -4691,7 +4691,7 @@
             "Robotics in Decommissioning_L4",
             "Remote Handling Techniques_L4",
             "Residual Radioactivity Measurement_L4",
-            "Final Site Release._L4"
+            "Final Site Release_L4"
         ]
     },
     " Nuclear Facility Deactivation_L3": {
@@ -4718,7 +4718,7 @@
             "Radioactive Waste Disposal_L4"
         ]
     },
-    " Post-decommissioning Monitoring._L3": {
+    " Post-decommissioning Monitoring_L3": {
         "children": [
             "Radiation Monitoring_L4",
             "Environmental Impact Assessment_L4",
@@ -4739,7 +4739,7 @@
             "Surveillance and Maintenance_L4",
             "Decommissioning Waste Management_L4",
             "Public Health Protection_L4",
-            "Emergency Preparedness._L4"
+            "Emergency Preparedness_L4"
         ]
     },
     " Nuclear Physics_L2": {
@@ -4847,7 +4847,7 @@
             "Fission Reactor Licensing and Regulation_L4",
             "Fission Reactor Economics_L4",
             "Fission Reactor Environmental Impact_L4",
-            "Fission Reactor Security and Nonproliferation._L4"
+            "Fission Reactor Security and Nonproliferation_L4"
         ]
     },
     " Nuclear Fusion_L3": {
@@ -4886,7 +4886,7 @@
             "Chiral Symmetry Breaking_L4",
             "Confinement_L4",
             "Gluon Field_L4",
-            "Quark Model._L4"
+            "Quark Model_L4"
         ]
     },
     " Quantum Electrodynamics_L3": {
@@ -4901,7 +4901,7 @@
             "Electromagnetic Interactions_L4",
             "Feynman Diagrams_L4",
             "Quantum Tunneling_L4",
-            "Quantum Entanglement._L4"
+            "Quantum Entanglement_L4"
         ]
     },
     " Particle Physics_L3": {
@@ -5410,7 +5410,7 @@
             "Radiation Exposure Control_L4",
             "Radioactive Material Handling_L4",
             "Radiation Protection Training_L4",
-            "Computational Methods in Radiation Shielding._L4"
+            "Computational Methods in Radiation Shielding_L4"
         ]
     },
     " Nuclear Instrumentation and Measurement Techniques_L3": {
@@ -5438,7 +5438,7 @@
             "Flow Measurement in Nuclear Systems_L4",
             "Temperature Measurement in Nuclear Systems_L4",
             "Pressure Measurement in Nuclear Systems_L4",
-            "Level Measurement in Nuclear Systems._L4"
+            "Level Measurement in Nuclear Systems_L4"
         ]
     },
     "Uranium Mining_L3": {
@@ -5540,7 +5540,7 @@
             "Transmutation of Nuclear Waste_L4",
             "Reprocessing in Fast Reactors_L4",
             "Reprocessing in Thermal Reactors_L4",
-            "Reprocessing in Molten Salt Reactors._L4"
+            "Reprocessing in Molten Salt Reactors_L4"
         ]
     },
     " Decommissioning of Nuclear Facilities_L3": {
@@ -5568,7 +5568,7 @@
             "Decommissioning Case Studies_L4",
             "Decommissioning Technology Development_L4",
             "International Decommissioning Standards_L4",
-            "Decommissioning Policy and Legislation._L4"
+            "Decommissioning Policy and Legislation_L4"
         ]
     },
     " Nuclear Proliferation Prevention_L3": {
@@ -5716,7 +5716,7 @@
             "Nuclear Material Security Risk Assessment_L4",
             "Nuclear Facility Decommissioning Risk Assessment_L4",
             "Nuclear Accident Consequence Analysis_L4",
-            "Risk Communication in Nuclear Engineering._L4"
+            "Risk Communication in Nuclear Engineering_L4"
         ]
     },
     " Nuclear Accident Analysis_L3": {
@@ -5881,7 +5881,7 @@
             "Physical Security Integration_L4",
             "Security Testing and Evaluation_L4",
             "Nuclear Forensics_L4",
-            "Cyber Threat Intelligence in Nuclear Sector._L4"
+            "Cyber Threat Intelligence in Nuclear Sector_L4"
         ]
     },
     " Physical Protection of Nuclear Facilities_L3": {
@@ -5950,7 +5950,7 @@
             "Performance Monitoring and Improvement_L3",
             "Risk Management_L3",
             "Decommissioning and Dismantling_L3",
-            "Environmental Impact Assessment._L3"
+            "Environmental Impact Assessment_L3"
         ]
     },
     "Plant Safety Procedures_L3": {
@@ -6041,7 +6041,7 @@
             "Performance Monitoring_L4",
             "Quality Assurance in Maintenance_L4",
             "Maintenance Safety Procedures_L4",
-            "Emergency Response Planning._L4"
+            "Emergency Response Planning_L4"
         ]
     },
     " Equipment Inspection and Testing_L3": {
@@ -6109,7 +6109,7 @@
             "Outage Recovery Planning_L4",
             "Technical Support_L4",
             "Quality Assurance_L4",
-            "Outage Evaluation and Improvement._L4"
+            "Outage Evaluation and Improvement_L4"
         ]
     },
     " Emergency Response Planning_L3": {
@@ -6178,7 +6178,7 @@
             "Cost Efficiency Analysis_L4",
             "Technological Innovations and Upgrades_L4",
             "Training and Development_L4",
-            "Nuclear Security Enhancement._L4"
+            "Nuclear Security Enhancement_L4"
         ]
     },
     " Risk Management_L3": {
@@ -6224,10 +6224,10 @@
             "Decommissioning Technology_L4",
             "Decommissioning Experience and Lessons Learned_L4",
             "Decommissioning Policy and Legislation_L4",
-            "Decommissioning Economics and Financing._L4"
+            "Decommissioning Economics and Financing_L4"
         ]
     },
-    " Environmental Impact Assessment._L3": {
+    " Environmental Impact Assessment_L3": {
         "children": [
             "Radiological Impact Assessment_L4",
             "Thermal Pollution Assessment_L4",
@@ -6246,7 +6246,7 @@
             "Decommissioning Impact Assessment_L4",
             "Climate Change Impact Assessment_L4",
             "Sustainability Assessment_L4",
-            "Environmental Monitoring and Auditing._L4"
+            "Environmental Monitoring and Auditing_L4"
         ]
     },
     " Nuclear Power Plant Decommissioning_L2": {
@@ -6270,7 +6270,7 @@
             "Decommissioning Workforce Training_L3",
             "Post-Decommissioning Monitoring_L3",
             "Emergency Preparedness_L3",
-            "Decommissioning Project Management._L3"
+            "Decommissioning Project Management_L3"
         ]
     },
     "Planning and Management_L3": {
@@ -6507,7 +6507,7 @@
             "Nuclear Accident Response Policies_L4",
             "Nuclear Power and Energy Security Policies_L4",
             "Nuclear Power and Public Health Policies_L4",
-            "Nuclear Power and Renewable Energy Policies._L4"
+            "Nuclear Power and Renewable Energy Policies_L4"
         ]
     }
 }

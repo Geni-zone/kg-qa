@@ -8,7 +8,8 @@ import threading
 from dotenv import load_dotenv
 load_dotenv()
 
-openai.api_key = os.getenv("PROF_OPENAI_API_KEY")
+# openai.api_key = os.getenv("PROF_OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # from .utils.exec_retry import exec_retry
 # from utils.exec_retry import *
@@ -186,16 +187,16 @@ def load_files(path : str = 'direct-gpt-extract/'):
     with open(f'{path}/total_cost.json', 'r') as f:
         total_cost = json.load(f)
 
-    # write all_nodes to a JSON file
-    with open(f'{path}/all_nodes.json', 'r') as f:
+    # load all_nodes
+    with open(f'{path}/all_nodes__.json', 'r') as f:
         all_nodes = json.load(f)
 
-    # write all_levels to a JSON file
-    with open(f'{path}/all_levels.json', 'r') as f:
+    # load all_levels
+    with open(f'{path}/all_levels__.json', 'r') as f:
         all_levels = json.load(f)
     
-    # write tree to a JSON file
-    with open(f'{path}/tree.json', 'r') as f:
+    # load tree
+    with open(f'{path}/tree__.json', 'r') as f:
         tree = json.load(f)
 
     return total_cost, all_nodes, all_levels, tree
@@ -205,7 +206,7 @@ if __name__ == '__main__':
     start_time = time.time()
 
     out_path = 'direct-gpt-extract/gpt3.5_1106_taxonomy_json'
-    total_cost, all_nodes, all_levels, tree = load_files()
+    total_cost, all_nodes, all_levels, tree = load_files(out_path)
     # print(207, tree["Nuclear Engineering"])
 
     def calc_cost(model : str, in_tokens : int, out_tokens : int) -> float:
@@ -227,6 +228,28 @@ if __name__ == '__main__':
             total_cost["gpt-4-1106-preview"] += cost
         
         return cost
+    
+    def capitalize_first_letter(word: str) -> str:
+        new_word = ''
+        cap = True
+        for letter in word:
+            letter_to_add = letter
+            if cap:
+                letter_to_add = letter.upper()
+                cap = False
+            elif not cap:
+                letter_to_add = letter.lower()
+
+
+            if letter == '_':
+                cap = True
+            elif letter == ' ':
+                cap = True
+            
+            new_word += letter_to_add
+
+        return new_word
+
 
     def extract_next_layer(label : str, level : str, taxonomy : str = ""):
         # parnent_info = "" if parent == "" else f" {parent}"
@@ -235,12 +258,13 @@ if __name__ == '__main__':
             word = label.split('_')[-2]
         print(f'Extracting next layer for {word}, at level: {level}')
         # model = "gpt-4"
-        # model = "gpt-4-1106-preview"
-        model = "gpt-3.5-turbo-1106"
+        model = "gpt-4-1106-preview"
+        # model = "gpt-3.5-turbo-1106"
         messages = [
             # {"role": "user", "content": f"In the broad topic of {topic + parnent_info}, what is the sub categories of {node}? Give me a only a comma-separated list"},
-            {"role": "user", "content": f"In the broad topic of {topic}, given a part of the taxonomy: {taxonomy}. What would be the topics or detailed subjects in {word}. Give me only a comma separated list."},
-            {"role": "assistant", "content": "The topics or detailed subjects in {word} as comma-separated-list are:"},
+            # {"role": "system", "content": "A comma-separated list (csv), is a list of values separated by commas. For example, \"a,b,c,d\" is a comma-separated list of four variables"},
+            {"role": "user", "content": f"A comma-separated list (csv), is a list of values separated by commas. For example, \"a,b,c,d\" is a comma-separated list of four variables. In the broad topic of {topic}, given a part of the taxonomy: {taxonomy}. What would be the topics or detailed subjects in {word}. Give me only a comma-separated list."},
+            {"role": "assistant", "content": "The topics or detailed subjects in {word} as comma-separated list are:"},
             # {"role": "user", "content": f"In the broad topic of {topic}, given a part of the taxonomy: Nuclear Engineering -> Nuclear Fission -> Reactor Physics -> Reactor Kinetics. What would be the subcategories or topics in Reactor Kinetics. Give me only a comma separated list."},
         ]
         
@@ -256,7 +280,7 @@ if __name__ == '__main__':
             )
             next_level_words : str = completion["choices"][0]["message"]["content"]
             split_words = [word.strip() for word in next_level_words.split(',')]
-            # print(253, split_words)
+            print(260, split_words)
 
             cur_level = int(level[1:])
             next_level = f'L{cur_level+1}'
@@ -273,6 +297,10 @@ if __name__ == '__main__':
             for i in range(len(split_labels)):
                 word_label = split_labels[i]
                 cur_word = split_words[i]
+
+                # capitalize the first letter of each word delimited by ' '
+                word_label = capitalize_first_letter(word_label)
+                cur_word = capitalize_first_letter(cur_word)
                 if word_label in all_nodes:
                     word_label = '_' + word_label
                     cur_word = '_' + cur_word
@@ -343,16 +371,52 @@ if __name__ == '__main__':
         for label in labels:
             if cur_level == stop_level:
                 break
-            # print(346, label)
-            extract_next_layer(label, f'L{cur_level}', taxonomy=all_nodes[f'{label}']["taxonomy"])
+            print(374, label)
+            extract_next_layer(label, f'L{cur_level}', taxonomy=all_nodes[label]["taxonomy"])
 
             idx += 1
             print(f'completed {idx}/{len(labels)}\n')
             log_to_files(out_path, total_cost, all_nodes, all_levels, tree)
             extract(tree[label], cur_level+1, stop_level)
 
-    thread1 = threading.Thread(target=extract(['Nuclear Reactor Design_L2'], 2, 6))
-    thread2 = threading.Thread(target=extract(['Reactor Kinetics_L2'], 2, 6))
+    # "Control systems_L3's children",
+    # "Safety systems_L3's children"
+    # "Reactor core design_L3's children"
+    # "Fast Breeder Reactor_L4's children"
+    # "Power distribution_L3's children"
+    # "Reactor control_L3's children"
+    # "Fuel loading and unloading_L4's children"
+    # "Fuel storage and disposal_L4's children"
+    # "Neutron flux measurement_L4's children"
+    # "Reactor control_L4's children"
+    # "High Temperature Gas-Cooled Reactor_L4's children"
+    # "Molten Salt Reactor_L4's children"
+    # "Reactor kinetics_L4's children"
+    # "Materials properties_L4's children"
+    wrong_words = [
+        ["Feedback Control_L4", "Stability Analysis_L4", "Reactor Power Control_L4", "Instrumentation And Control Systems_L4", "__Safety Systems_L4"],
+        ["Containment Systems_L4", "Emergency Cooling Systems_L4", "Reactor Protection Systems_L4", "Radiation Shielding_L4", "Emergency Shutdown Systems_L4"],
+        ["Control Systems_L4", "Core Materials_L4", "Safety Systems_L4"], 
+        ["Safety Features_L5", "Prototype Reactors_L5"],
+
+        ["Power Peaking Factor_L4"],
+        ["Control Rods_L4"],
+        ["Spent Fuel Storage_L5"],
+        ["Fuel Storage_L5", "Interim Storage_L5", "Dry Cask Storage_L5"],
+
+        ["Neutron Flux Sensors_L5"],
+        ["Reactor Start-up Procedures_L5"],
+        ["Control Systems_L5", "_Safety Features_L5", "Maintenance And Inspection_L5"],
+        ["Passive Safety Features_L5"],
+        
+        ["Delayed Neutrons_L5"],
+        ["Radiation Resistance_L5"]
+    ]
+
+    # thread1 = threading.Thread(target=extract(['Nuclear Reactor Design_L2'], 2, 6))
+    # thread2 = threading.Thread(target=extract(['Reactor Kinetics_L2'], 2, 6))
+    thread1 = threading.Thread(target=extract(wrong_words[12], 5, 6))
+    thread2 = threading.Thread(target=extract(wrong_words[13], 5, 6))
     # thread1 = threading.Thread(target=extract(['Nuclear Fission_L1'], 1, 6))
     # thread2 = threading.Thread(target=extract(['Nuclear Physics_L1'], 1, 6))
         # [

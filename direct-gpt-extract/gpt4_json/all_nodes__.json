@@ -536,7 +536,7 @@
          "Fission Reactor Licensing_L4",
          "Fission Reactor Risk Assessment_L4",
          "Fission Reactor Accident Analysis_L4",
-         "Fission Reactor Nuclear Proliferation._L4"
+         "Fission Reactor Nuclear Proliferation_L4"
       ]
    },
    "Fission Neutrons_L3": {
@@ -727,7 +727,7 @@
          "Neutron Source_L4",
          "Neutron Transport Equation_L4",
          "Monte Carlo Methods in Neutron Transport_L4",
-         "Deterministic Methods in Neutron Transport._L4"
+         "Deterministic Methods in Neutron Transport_L4"
       ]
    },
    "Reactor Kinetics_L3": {
@@ -801,7 +801,7 @@
          "Neutron Transport Theory_L4",
          "Perturbation Theory_L4",
          "Numerical Methods in Neutron Diffusion_L4",
-         "Boundary Conditions in Neutron Diffusion Theory._L4"
+         "Boundary Conditions in Neutron Diffusion Theory_L4"
       ]
    },
    "Reactor Core Design_L3": {
@@ -858,7 +858,7 @@
          "Reactor thermal-hydraulic codes and modeling_L4",
          "Thermal-hydraulic phenomena in severe accidents_L4",
          "Thermal-hydraulic aspects of fuel behavior_L4",
-         "Thermal-hydraulic aspects of reactor operation and maintenance._L4"
+         "Thermal-hydraulic aspects of reactor operation and maintenance_L4"
       ]
    },
    "Nuclear Fuel Cycle_L3": {
@@ -1013,7 +1013,7 @@
          "Training and Workforce Issues_L4",
          "International Decommissioning Experience_L4",
          "Decommissioning Case Studies_L4",
-         "Future Trends in Decommissioning._L4"
+         "Future Trends in Decommissioning_L4"
       ]
    },
    "Nuclear Waste Management_L3": {
@@ -1040,7 +1040,7 @@
          "Nuclear Waste Cleanup and Remediation_L4",
          "Waste Management Economics_L4",
          "Nuclear Waste Legislation and Compliance_L4",
-         "Nuclear Waste Site Selection._L4"
+         "Nuclear Waste Site Selection_L4"
       ]
    },
    "Radiation Protection and Shielding_L3": {

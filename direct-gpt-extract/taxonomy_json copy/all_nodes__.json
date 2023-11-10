@@ -383,7 +383,7 @@
          "Power control_L4",
          "Shutdown systems_L4",
          "Control rod design_L4",
-         "Instrumentation and control._L4"
+         "Instrumentation and control_L4"
       ],
       "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control"
    },
@@ -482,7 +482,7 @@
       "children": [],
       "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Control rod design"
    },
-   "Instrumentation and control._L4": {
+   "Instrumentation and control_L4": {
       "parent": "Reactor control_L3",
       "children": [],
       "taxonomy": "Nuclear Engineering -> Reactor Physics -> Reactor Kinetics -> Reactor control -> Instrumentation and control."
