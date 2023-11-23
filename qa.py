@@ -83,7 +83,6 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
         messages = [{"role": "system", "content": "You will be given a question related to an entity, convert the question into a statement and replace the entity asked with [ENTITY]\n\nFor example: question \"Who is the Chancellor of UIUC at 2015-2016?\" should be convert to \"[Entity] is the Chancellor of UIUC at 2015-2016.\""}, {"role": "user", "content": question_modified}]
         text = gpt_chat(messages, model="gpt-4")
         print(text)
-        # text = '[ENTITY] is the Chancellor of UIUC at 2015-2016.'
 
         # # Read subgraph from the pkl file
         # with open('./kg_save/subgraph.pkl', 'rb') as file:
@@ -109,25 +108,7 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
                 continue
             path = subgraph.find_path(entity, subgraph.entities["[ENTITY]"])
 
-            if entity_name in knowledge_graph.entities:
-                kg_corresponding_entity: KGEntity = knowledge_graph.entities[entity_name]
-            else:
-                vector = subgraph.entity_vdb.query_id(entity.id)
-                scores_list = knowledge_graph.entity_vdb.query_index(vector)
-                i = 0
-                if scores_list[i]['id'] == entity.id:
-                    i += 1
-                    if scores_list[i]['score'] < 0.90:
-                        raise Exception("Fail since one entity in question doesn't exist in KG")
-                        
-                    while (not scores_list[i]['id'] in knowledge_graph.entities_vdb_map) and (i < 3):
-                        i += 1
-                if i >= 3:
-                    raise Exception("Fail since one entity in question doesn't exist in KG")
-                    
-                kg_corresponding_entity: KGEntity = knowledge_graph.entities_vdb_map[scores_list[i]['id']]
-            
-            result_entities = knowledge_graph.find_matching_entities(question=question_modified, start_entity=kg_corresponding_entity, relations=path, subgraph=subgraph)
+            result_entities = knowledge_graph.find_matching_entities(relations=path, subgraph=subgraph, question=question_modified)
             print(result_entities)
             if len(result_entities) != 0:
                 if final_entities == None:
