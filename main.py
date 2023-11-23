@@ -13,18 +13,16 @@ if __name__ == '__main__':
     start_time = time.time()
     with open ('source' , 'r') as f:
         text = f.read()
-    text_chunks = split_text(text)
-    # text_chunks = [text]
+    text_chunks = split_text(text, 6000, 1500, '.')
 
     knowledge_graph = KnowledgeGraph(entities=dict(), relations=set(), types=set(), vdb_path='./vdb')
 
     iter = 0
     for text_chunk in text_chunks:
-        print('iter: ', iter)
-        # try:
+        print('iteration: ', iter)
         entities = entity_extract(text_chunk)
-        for entity_name in entities:
-            knowledge_graph.add_entity(KGEntity(name=entity_name, description=entities[entity_name]["description"], types=entities[entity_name]["types"], relations=[]))
+        for entity in entities:
+            knowledge_graph.add_entity(entity)
         
         text_chunk = entity_disambiguation(text_chunk)
         

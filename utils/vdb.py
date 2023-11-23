@@ -6,20 +6,41 @@ import json
 import os
 
 class VDB:
+    """
+    Class to manage a vector database, currently one vector database is stored in one JSON file
+    """
     def __init__(self, vdb_file: str, empty_db=True):
         self.vdb_file = vdb_file
         if empty_db:
             self.empty_db()
 
     # query the vector of the id
-    def query_id(self, id: str):
+    def query_id(self, id: str) -> list[float]:
+        """
+        query the vector of the id
+
+        Parameters:
+        id (str): id of interest
+
+        Returns:
+        list[float]: vector corresponding to id
+        """
         with open(self.vdb_file, 'r') as infile:
             data = json.load(infile)
         return data[id]
         
 
-    # query the most similar vectors from the vector database
-    def query_index(self, input_vector: list[int], count: int=15):
+    def query_index(self, input_vector: list[float], count: int=15) -> list[dict]:
+        """
+        query the most similar vectors from the vector database
+
+        Parameters:
+        input_vector (list[float]): the vector to compare to
+        count (int): number of vectors want
+
+        Returns:
+         [{'id': str, 'score': float}]: a list of id's and their cosine similarity with input
+        """
         with open(self.vdb_file, 'r') as infile:
             data = json.load(infile)
         
@@ -29,11 +50,16 @@ class VDB:
             #print(score)
             scores.append({'id': id, 'score': score})
         ordered = sorted(scores, key=lambda d: d['score'], reverse=True)
-        # ordered_id = [x['id'] for x in ordered]
         return ordered[0:count]
 
-    # insert data into the vector database
-    def insert_index(self, in_data: {str: list[int]}):
+
+    def insert_index(self, in_data: {str: list[float]}) -> None:
+        """
+        Insert data into the vector database
+
+        Parameters:
+        in_data ({str: list[float]}): Dictionary maps id to the vector
+        """
         data = {}
         # Read existing data from file
         with open(self.vdb_file, 'r') as infile:
@@ -46,7 +72,9 @@ class VDB:
         with open(self.vdb_file, 'w') as outfile:
             json.dump(data, outfile, indent=2)
 
-    # empty the current database file
-    def empty_db(self):
+    def empty_db(self) -> None:
+        """
+        empty the current database file
+        """
         with open(self.vdb_file, 'w') as f:
             json.dump({}, f)
