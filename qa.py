@@ -12,8 +12,8 @@ openai.api_key = os.getenv("PROF_OPENAI_API_KEY")
 
 
 def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
-    messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You will be given a question, output whether the answer to this question would be an distinct entity, relationship between two entities, or properties of a relationship."}, {"role": "user", "content": f"Question: {question}"}]
-    question_type_res = gpt_chat(messages, model="gpt-4")
+    messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You will be given a question, output whether the answer to this question would be an distinct entity, relationship between two entities, or attributes of a relationship."}, {"role": "user", "content": f"Question: {question}"}]
+    question_type_res = gpt_chat(messages, model="gpt-4-1106-preview")
 
     print(question_type_res)
 
@@ -26,7 +26,7 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
         
         ## Question about properties/attributes
         messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You are given two entities, and a text chunk. You help extract relations between the two entities. Do not add any external information outside of the text to the relations. Your output should be a triplet in this list format: ['Head_entity', 'relation', 'Tail_entity']"}, {"role": "user", "content": f"Entity 1: {entities_names[0]}\nEntity 2: {entities_names[1]}\nText: {question}"}]
-        triplet_res = gpt_chat(messages, model="gpt-4")
+        triplet_res = gpt_chat(messages, model="gpt-4-1106-preview")
         print(triplet_res)
         triplet: [] = ast.literal_eval(triplet_res)
 
@@ -69,19 +69,19 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
         is_number_question = False
 
         messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You will be given a question, output whether this question is about an entity/entities, or number of entity/entities"}, {"role": "user", "content": question}]
-        entity_or_number_res = gpt_chat(messages, model="gpt-4")
+        entity_or_number_res = gpt_chat(messages, model="gpt-4-1106-preview")
 
         if 'number' in entity_or_number_res:
             is_number_question = True
             messages = [{"role": "system", "content": "You will be given a question of finding the number of something, convert this question to \"Who\" or \"What\" type of question.\n\nExample:\n\"How many presidents were there between 2010-2020?\" Should be converted to \"Who are presidents between 2010-2020?\""}, {"role": "user", "content": question}]
-            question_modified = gpt_chat(messages, model="gpt-4")
+            question_modified = gpt_chat(messages, model="gpt-4-1106-preview")
             
         messages = [{"role": "system", "content": "If the question is about multiple entities, convert it to a question about single entity, else output the same question. don't change content of question.\n\nExample: \n\"Where are all the restaurants in this town?\" should be converted to \"Where is the restaurant in this town?\"\n\n\"Who is the CEO of Meta\" should be the same."}, {"role": "user", "content": question}]
-        question_modified = gpt_chat(messages, model="gpt-4")
+        question_modified = gpt_chat(messages, model="gpt-4-1106-preview")
         print(question_modified)
 
         messages = [{"role": "system", "content": "You will be given a question related to an entity, convert the question into a statement and replace the entity asked with [ENTITY]\n\nFor example: question \"Who is the Chancellor of UIUC at 2015-2016?\" should be convert to \"[Entity] is the Chancellor of UIUC at 2015-2016.\""}, {"role": "user", "content": question_modified}]
-        text = gpt_chat(messages, model="gpt-4")
+        text = gpt_chat(messages, model="gpt-4-1106-preview")
         print(text)
 
         # # Read subgraph from the pkl file
@@ -130,7 +130,7 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
         return final_answer
     else:
         messages = [{"role": "system", "content": ""}, {"role": "user", "content": question}]
-        return gpt_chat(messages, model="gpt-4")
+        return gpt_chat(messages, model="gpt-4-1106-preview")
 
 
 if __name__ == '__main__':
@@ -141,9 +141,25 @@ if __name__ == '__main__':
     # Read knowledge graph from the pkl file
     with open('./kg_save/knowledge_graph.pkl', 'rb') as file:
        knowledge_graph: KnowledgeGraph = pickle.load(file)
+
+    messages = [{"role": "system", "content": "I have a QA engine based on knowledge graph. It only accepts questions about the name of one or more entities given other information, relation between two entities, attributes of an entity, and attributes of a relation. \n\nYou will be given a question. Can you list all the questions that my QA engine accepts and that combining answers to them gives answer to this question?\n\nYour output should be in this list format: [\"question1\", \"question2\", ...]"}, {"role": "user", "content": question}]
     
-    answer = kg_qa(question, knowledge_graph)
-    print(answer)
+    questions_list_res = gpt_chat(messages, model="gpt-4-1106-preview")
+
+    questions: [] = ast.literal_eval(format_list_answer(questions_list_res))
+
+    final_prompt = ""
+    for idx, sub_question in enumerate(questions):
+        answer = kg_qa(sub_question, knowledge_graph)
+        final_prompt += f"Question {idx + 1}: {sub_question}\nAnswer: {answer}\n\n"
+    
+    final_prompt += f"Given answers to those questions, provide an answer to this final question:\n{question}"
+    print("Final prompt: ", final_prompt)
+    messages = [{"role": "system", "content": ""}, {"role": "user", "content": final_prompt}]
+    
+    final_answer = gpt_chat(messages, model="gpt-4-1106-preview")
+
+    print("Final Answer: ", final_answer)
 
     end_time = time.time()
     print(f"Time elapsed: {end_time - start_time} seconds")

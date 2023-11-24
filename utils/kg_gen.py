@@ -60,10 +60,40 @@ def format_json_answer(s: str) -> str:
     end_tag = "```"
 
     if start_tag in s and end_tag in s:
-        return s[s.index(start_tag) + len(start_tag): s.rindex(end_tag)]
-    else:
-        return s
+        s = s[s.index(start_tag) + len(start_tag): s.rindex(end_tag)]
+
+    # remove all the line breaks
+    s = s.replace("\n", "")
     
+    new_s = ""
+    for i in range(0, len(s)):
+        if s[i] == "\'" and i < len(s) - 2 and i > 2 and s[i-2] != "," and s[i+1] != "," and s[i-2] != ":" and s[i+1] != ":":
+            new_s += "\\\'"
+        elif s[i] == "\"" and i < len(s) - 2 and i > 2 and s[i-2] != "," and s[i+1] != "," and s[i-2] != ":" and s[i+1] != ":":
+            new_s += "\\\""
+        else:
+            new_s += s[i]
+    return new_s
+
+    
+def format_list_answer(s: str) -> str:
+    """
+    If the answer contains text other than list we want, extract the list from the answer
+
+    Parameters:
+    a (str): the input string containing a list of interest
+
+    Returns:
+    str: list as a string
+    """
+    start_index = s.find('[')
+    end_index = s.rfind(']')
+
+    if start_index != -1 and end_index != -1 and start_index < end_index:
+        return s[start_index: end_index + 1]
+    else:
+        return None
+
 
 def entity_disambiguation(text: str) -> str:
     """
@@ -122,7 +152,7 @@ def entity_extract(text: str, entity_question: bool=False) -> list[KGEntity]:
         # validation part
         messages = [{"role": "system", "content": ""}, {"role": "user", "content": f"In the following text chunk \"{phrase}\", is \"{entity_name}\" a distinct entity or an attribute of a relation"}]
         response = gpt_chat(messages=messages, model = "gpt-4-1106-preview", max_tokens=1024)
-        print(response)
+        print("validation: ", response)
 
         # convert the answer to True/False
         messages = [{"role": "system", "content": ""}, {"role": "user", "content": f"Does the response \"{response}\" mean \"{entity_name}\" is a distinct entity? If so, output True, else False. Only output True/False and nothing else"}]
@@ -132,23 +162,25 @@ def entity_extract(text: str, entity_question: bool=False) -> list[KGEntity]:
 
         if is_distinct_entity:
             # This entity is valid, continue extract data property
-            next_system_prompt: str = "You are an expert in linguistics and knowledge graph, and Ontology Web Language (OWL). You are given an entity and a text chunk. You will help extract the data properties of this entity. Data properties for a relation means the attributes for that entity, do not include relations about that entity. Do not add any external information outside of the given text chunk. Your output should be a well-formatted JSON that has all property names and their respective values in this format: {'property_name': 'value'}\n\nFor example given:\nEntity: Christine\nText: Christine, an 89 year old woman, has breast tumor.\n\nYou should output:\n{'age': '89', 'breast_tumor': 'true'}\n\nFor another example:\nEntity: Barbara Wilson\nText: Barbara Wilson is the Chancellor of UIUC from 2015-2016\n\nYou should output:\n{} Since everything is about the \"Chancellor of\" relation."
+            next_system_prompt: str = "You are an expert in linguistics and knowledge graph. You are given an entity and a text chunk. You will help extract the attributes of this entity. Do not add any external information outside of the given text chunk. Your output should be a well-formatted JSON that has all property names and their respective values in this format: {'property_name': 'value'}\n\nFor example given:\nEntity: Christine\nText: Christine, an 89 year old woman, has breast tumor.\n\nYou should output:\n{'age': '89', 'breast_tumor': 'true'}\n\nFor another example:\nEntity: Barbara Wilson\nText: Barbara Wilson is the Chancellor of UIUC from 2015-2016\n\nYou should output:\n{} Since everything is about the \"Chancellor of\" relation."
             
             next_prompt: str = f"Entity: {result[entity_name]}\nText: {phrase}"
             next_messages = [{"role": "system", "content": next_system_prompt}, {"role": "user", "content": next_prompt}]
             
             next_response = gpt_chat(messages=next_messages, model = "gpt-4-1106-preview", max_tokens=1024)
-            print(next_response)
+            print("Attributes: ", next_response)
             try:
                 attributes = ast.literal_eval(format_json_answer(next_response))
             except:
                 attributes = {}
-            
+
             entity_to_add = KGEntity(name=entity_name, data_properties=attributes ,description=result[entity_name]["description"], types=result[entity_name]["types"], relations=[])
 
             final_entities.append(entity_to_add)
 
-    print(final_entities)
+    print("Entities: ")
+    for entity in final_entities:
+        print(entity)
     return final_entities
 
 
@@ -227,9 +259,10 @@ def predicate_extract(text: str, entities: list[KGEntity], entity_question: bool
         prompt: str = f"Target Entity: {entity}\nEntities: {entity_list}\nText: {text_chunk}\n\n" + ("(treat [Entity] as an actual entity)" if entity_question else "")
 
         messages = [{"role": "system", "content": system_prompt}, {"role": "user", "content": prompt}]
-        response = gpt_chat(messages=messages, model = ("gpt-4-1106-preview" if entity_question else "gpt-3.5-turbo-1106"), max_tokens=2048)
+        response = gpt_chat(messages=messages, model = "gpt-4-1106-preview", max_tokens=2048)
+        print("Relations", response)
         
-        triplets: [] = ast.literal_eval(response)
+        triplets: list = ast.literal_eval(format_list_answer(response))
 
         # filter the result so that now triplets only contains valid triplets where the first value in the triplet is the input head entity and the last one is in the input entity list
         triplets_tmp = []
@@ -263,18 +296,19 @@ def predicate_extract(text: str, entities: list[KGEntity], entity_question: bool
 
             messages = [{"role": "system", "content": this_system_prompt}, {"role": "user", "content": this_prompt}]
             response = gpt_chat(messages=messages, model = "gpt-3.5-turbo-1106", max_tokens=1024)
-            
+            print("Relation description:", response)
             this_result = ast.literal_eval(format_json_answer(response))
 
             relation_text_chunk = this_result["source"]
             
             # extract data properties of relation
-            next_system_prompt: str = "You are an expert in linguistics, knowledge graph, and Ontology Web Language (OWL). You are given a head entity, relation, tail entity, and a text chunk. You will help extract the data properties of the relation between head and tail entity. Data properties for a relation means the attributes for that relation. Do not add any external information outside of the given text chunk. Your output should be a well-formatted JSON that has all property names and their respective values in this format: {'property_name': 'value'}\n\nFor example given:\nHead Entity: Christine\nRelation: Diagnosis\nTail Entity: Breast Tumor\nText: At the age of 89, Christine has breast tumor with high probability.\n\nThis 'Diagnosis' relation should have attributes for example 'age' and 'probability'; so, you should output:\n{'age': '89', 'probability': 'high probability'}"
+            next_system_prompt: str = "You are an expert in linguistics and knowledge graph. You are given a relation, and a text chunk. You will help extract the attributes of the relation. Do not add any external information outside of the given text chunk. Your output should be a well-formatted JSON that has all property names and their respective values in this format: {'property_name': 'value'}\n\nFor example given:\nHead Entity of Relation: Barbara Wilson\nRelation: Chancellor_of_Relation\nTail Entity of Relation: UIUC\nText: Barbara Wilson is the Chancellor of UIUC from 2015 to 2016\n\nThis 'Chancellor_of_Relation' should have attributes for example 'start_time' and 'end_time'; so, you should output:\n{'start_time': '2015', 'end_time': '2016'}\n\nNote: Only include attribute of the relation, do not include attribute of the entities.\n\nFor example, for the sentence \"Philip is 25 years old, and he is the teacher of Isaac\", 25 years old is the attribute of the entity \"Philip\", not attribute of the relation \"teacher_of\"."
             
             next_prompt: str = f"Head Entity: {head}\nRelation: {relation}\nTail Entity: {tail}\nText: {relation_text_chunk}\n\n" + ("(treat [Entity] as an actual entity)" if entity_question else "")
             next_messages = [{"role": "system", "content": next_system_prompt}, {"role": "user", "content": next_prompt}]
             
             next_response = gpt_chat(messages=next_messages, model = "gpt-4-1106-preview", max_tokens=1024)
+            print("Relation attributes: ", next_response)
             try:
                 attributes = ast.literal_eval(format_json_answer(next_response))
             except:
