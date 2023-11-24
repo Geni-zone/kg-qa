@@ -140,6 +140,101 @@ class KnowledgeGraph:
       return_str += ']\n'
       return return_str
    
+
+
+   def find_entity(self, entity_name: str) -> Optional[KGEntity]:
+      """
+      given name of an entity, find matching entity in the knowledge graph
+
+      Parameters:
+      entity_name (str): Name of the entity we want to find in KG
+
+      Returns:
+      Optional[KGEntity]: the result entity
+      """
+      entity = None
+
+      if entity_name in self.entities:
+         # If the name matches in the graph
+         entity = self.entities[entity_name]
+      else:
+         # Find the most similar entity in the graph in terms of cosine similarity
+         # If the similarity of the most similar entity is lower than 0.9, means no matching entity
+         target_entity_vector = gpt3_embedding(content=entity_name)
+         most_similar_pair = self.entity_vdb.query_index(input_vector=target_entity_vector, count=1)
+         if most_similar_pair["score"] >= 0.90:
+            entity = self.entities_vdb_map[most_similar_pair["id"]]
+   
+      if entity == None:
+         return None    
+      
+      return entity
+   
+
+
+   def find_relation(self, head_name: str, tail_name: str, target_relation_name: str) -> Optional[KGRelation]:
+      """
+      Given a triplet of head, relation and tail, return the corresponding relation in knowledge graph
+
+      Parameters:
+      head_name (str): Name of the head entity
+      tail_name (str): Name of the tail entity
+      target_relation_name (str): name of the relation
+
+      Returns:
+      Optional[KGRelation]: the result relation
+      """
+      head = None
+      # First find head entity in the knowledge graph
+      if head_name in self.entities:
+         # If the name matches in the graph
+         head = self.entities[head_name]
+      else:
+         # Find the most similar entity in the graph in terms of cosine similarity
+         # If the similarity of the most similar entity is lower than 0.9, means no matching entity
+         target_head_entity_vector = gpt3_embedding(content=head_name)
+         most_similar_pair = self.entity_vdb.query_index(input_vector=target_head_entity_vector, count=1)
+         if most_similar_pair["score"] >= 0.90:
+            head = self.entities_vdb_map[most_similar_pair["id"]]
+   
+      if head == None:
+         return None    
+      
+      # Then traverse all the relations of head, and find the one with the same tail entity and relation name
+      for relation in head.relations:
+         if tail_name == relation.tail_entity:
+            # If name of the tail matches
+            if target_relation_name == relation.name:
+               # If relation name also matches
+               return relation
+            else:
+               # If relation name doesn't match, use cosine similarity
+               target_relation_vector = gpt3_embedding(content=target_relation_name)
+               curr_relation_vector = self.relation_vdb.query_id(relation.id)
+               similarity = cosine_similarity(target_relation_vector, curr_relation_vector)
+               if similarity < 0.90:
+                  continue
+               return relation
+         else:
+            # if name does not match, do cosine similarity again
+            target_tail_entity_vector = gpt3_embedding(content=tail_name)
+            curr_tail_entity_vector = self.entity_vdb.query_id(self.entities[relation.tail_entity].id)
+            tail_entity_similarity = cosine_similarity(target_tail_entity_vector, curr_tail_entity_vector)
+            if tail_entity_similarity >= 0.90:
+               if target_relation_name == relation.name:
+                  # If relation name matches
+                  return relation
+               else:
+                  # If relation name doesn't match, use cosine similarity
+                  target_relation_vector = gpt3_embedding(content=target_relation_name)
+                  curr_relation_vector = self.relation_vdb.query_id(relation.id)
+                  similarity = cosine_similarity(target_relation_vector, curr_relation_vector)
+                  if similarity < 0.90:
+                     continue
+                  return relation
+      
+      return None
+   
    def relation_completion(self) -> None:
       """
       For all the relations from a head entity to tail entity, there should be an inverse relation from
@@ -324,69 +419,6 @@ class KnowledgeGraph:
       dfs_find_matching_entities(start_entity, 0, visited)
       return matching_entities
    
-   
-   def find_data_properties_of_relation(self, head_name: str, tail_name: str, target_relation_name: str) -> Optional[dict]:
-      """
-      Given a triplet of head, relation and tail, return the data property of the relation
-
-      Parameters:
-      head_name (str): Name of the head entity
-      tail_name (str): Name of the tail entity
-      target_relation_name (str): name of the relation
-
-      Returns:
-      Optional[dict]: the result data property as dictionary
-      """
-      head = None
-      # First find head entity in the knowledge graph
-      if head_name in self.entities:
-         # If the name matches in the graph
-         head = self.entities[head_name]
-      else:
-         # Find the most similar entity in the graph in terms of cosine similarity
-         # If the similarity of the most similar entity is lower than 0.9, means no matching entity
-         target_head_entity_vector = gpt3_embedding(content=tail_name)
-         most_similar_pair = self.entity_vdb.query_index(input_vector=target_head_entity_vector, count=1)
-         if most_similar_pair["score"] >= 0.90:
-            head = self.entities_vdb_map[most_similar_pair["id"]]
-   
-      if head == None:
-         return None    
-      
-      # Then traverse all the relations of head, and find the one with the same tail entity and relation name
-      for relation in head.relations:
-         if tail_name == relation.tail_entity:
-            # If name of the tail matches
-            if target_relation_name == relation.name:
-               # If relation name also matches
-               return relation.data_properties
-            else:
-               # If relation name doesn't match, use cosine similarity
-               target_relation_vector = gpt3_embedding(content=target_relation_name)
-               curr_relation_vector = self.relation_vdb.query_id(relation.id)
-               similarity = cosine_similarity(target_relation_vector, curr_relation_vector)
-               if similarity < 0.90:
-                  continue
-               return relation.data_properties
-         else:
-            # if name does not match, do cosine similarity again
-            target_tail_entity_vector = gpt3_embedding(content=tail_name)
-            curr_tail_entity_vector = self.entity_vdb.query_id(self.entities[relation.tail_entity].id)
-            tail_entity_similarity = cosine_similarity(target_tail_entity_vector, curr_tail_entity_vector)
-            if tail_entity_similarity >= 0.90:
-               if target_relation_name == relation.name:
-                  # If relation name matches
-                  return relation.data_properties
-               else:
-                  # If relation name doesn't match, use cosine similarity
-                  target_relation_vector = gpt3_embedding(content=target_relation_name)
-                  curr_relation_vector = self.relation_vdb.query_id(relation.id)
-                  similarity = cosine_similarity(target_relation_vector, curr_relation_vector)
-                  if similarity < 0.90:
-                     continue
-                  return relation.data_properties
-      
-      return None
    
    def visualize(self, path="./kg_visualization/knowledge_graph.html") -> None:
       """

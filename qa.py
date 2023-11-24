@@ -12,43 +12,77 @@ openai.api_key = os.getenv("PROF_OPENAI_API_KEY")
 
 
 def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
-    messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You will be given a question, output whether the answer to this question would be an distinct entity, relationship between two entities, or attributes of a relationship."}, {"role": "user", "content": f"Question: {question}"}]
+    messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You will be given a question, output whether the answer to this question would be an distinct entity, relationship between two entities, or attributes of an entity/relationship."}, {"role": "user", "content": f"Question: {question}"}]
     question_type_res = gpt_chat(messages, model="gpt-4-1106-preview")
 
     print(question_type_res)
 
-    if ("propert" in question_type_res) or ("Propert" in question_type_res):
-        entities = entity_extract(question, entity_question=True)
-        entities_names = list(entities.keys())
-
-        if len(entities_names) != 2:
-            raise Exception("there are more than 2 entities in the question")
-        
+    if ("attribut" in question_type_res) or ("Attribut" in question_type_res):
         ## Question about properties/attributes
-        messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You are given two entities, and a text chunk. You help extract relations between the two entities. Do not add any external information outside of the text to the relations. Your output should be a triplet in this list format: ['Head_entity', 'relation', 'Tail_entity']"}, {"role": "user", "content": f"Entity 1: {entities_names[0]}\nEntity 2: {entities_names[1]}\nText: {question}"}]
-        triplet_res = gpt_chat(messages, model="gpt-4-1106-preview")
-        print(triplet_res)
-        triplet: [] = ast.literal_eval(triplet_res)
 
-        triplet[1] = f'{triplet[1].replace(" ", "_")}_Relation'
+        # First check whether it is about attribute of an entity or a relation
+        messages = [{"role": "system", "content": " You are an expert in linguistics and knowledge graph. You will be given a question, output whether the answer to this question would be attributes of an entity, or attributes a relation between two entities."}, {"role": "user", "content": question}]
+        entity_or_relation_res = gpt_chat(messages, model="gpt-4-1106-preview")
+        print(entity_or_relation_res)
 
-        data_properties = knowledge_graph.find_data_properties(triplet[0], triplet[2], triplet[1])
-        print(data_properties)
+        if "relation" in entity_or_relation_res:
+            entity_list = entity_extract(question)
 
-        messages = [{"role": "system", "content": "You will get a question about an entity and the answer in knowledge graph, based on that, phrase a final answer to the question"}, {"role": "user", "content": f"Question: {question}\nAnswer in knowledge graph: {str(data_properties)}\n"}]
+            if len(entity_list) != 1:
+                raise Exception("there are more than 1 entity in the question")
+            
+            target_entity = knowledge_graph.find_entity(entity_list[0].name)
+            if target_entity == None:
+                raise Exception("entity in the question doesn't exist in the knowledge graph")
+            
+            data_properties = target_entity.data_properties
+            print(data_properties)
+
+            messages = [{"role": "system", "content": "You will get a question about an entity and the answer in knowledge graph, based on that, phrase a final answer to the question"}, {"role": "user", "content": f"Question: {question}\nAnswer in knowledge graph: {str(data_properties)}\n"}]
+            
+            final_answer = gpt_chat(messages)
+            return final_answer
         
-        final_answer = gpt_chat(messages)
-        return final_answer
+        else:
+            entities = entity_extract(question)
+
+            if len(entities) != 2:
+                raise Exception("there are more than 2 entities in the question")
+            
+            messages = [{"role": "system", "content": "You are an expert in linguistics and knowledge graph. You are given two entities, and a text chunk. You help extract relations between the two entities. Do not add any external information outside of the text to the relations. Your output should be a triplet in this list format: ['Head_entity', 'relation', 'Tail_entity']"}, {"role": "user", "content": f"Entity 1: {entities[0].name}\nEntity 2: {entities[1].name}\nText: {question}"}]
+            triplet_res = gpt_chat(messages, model="gpt-4-1106-preview")
+            print(triplet_res)
+            triplet: [] = ast.literal_eval(triplet_res)
+
+            triplet[1] = f'{triplet[1].replace(" ", "_")}_Relation'
+
+            relation = knowledge_graph.find_relation(triplet[0], triplet[2], triplet[1])
+            if relation == None:
+                raise Exception("relation in the question doesn't exist in the knowledge graph")
+            
+            data_properties = relation.data_properties
+
+            print(data_properties)
+
+            messages = [{"role": "system", "content": "You will get a question about an entity and the answer in knowledge graph, based on that, phrase a final answer to the question"}, {"role": "user", "content": f"Question: {question}\nAnswer in knowledge graph: {str(data_properties)}\n"}]
+            
+            final_answer = gpt_chat(messages)
+            return final_answer
 
     elif ("relation" in question_type_res) or ("Relation" in question_type_res):
         ## Question about relation
-        entities = entity_extract(question, entity_question=True)
-        entities_names = list(entities.keys())
+        entities = entity_extract(question)
 
-        if len(entities_names) != 2:
+        if len(entities) != 2:
             raise Exception("there are more than 2 entities in the question")
         
-        path = knowledge_graph.find_path(knowledge_graph.entities[entities_names[0]], knowledge_graph.entities[entities_names[1]])
+        start_entity = knowledge_graph.find_entity(entities[0].name)
+        end_entity = knowledge_graph.find_entity(entities[1].name)
+
+        if start_entity == None or end_entity == None:
+            raise Exception("One of the entities in the question doesn't exist in knowledge graph.")
+        
+        path = knowledge_graph.find_path(start_entity, end_entity)
 
         path_str = "["
         for relation in path:
@@ -90,8 +124,8 @@ def kg_qa (question: str, knowledge_graph:KnowledgeGraph):
         subgraph = KnowledgeGraph(entities=dict(), relations=set(), types=set(), vdb_path='./subgraph_vdb')
 
         entities = entity_extract(text, entity_question=True)
-        for entity_name in entities:
-            subgraph.add_entity(KGEntity(name=entity_name, description=entities[entity_name]["description"], types=entities[entity_name]["types"], relations=[]))
+        for entity in entities:
+            subgraph.add_entity(entity)
         
         relations = predicate_extract(text=text, entities=entities, entity_question=True)
         for relation in relations:

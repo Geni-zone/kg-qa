@@ -121,7 +121,9 @@ def entity_extract(text: str, entity_question: bool=False) -> list[KGEntity]:
 
     Parameters:
     text (str): the input text chunk
-    entity_question (bool): This
+    entity_question (bool): This parameter is only used in the question-answering part, since there is a
+    special entity [ENTITY] in the QA part that represent the unknown entity of our interest, and the prompt
+    also need to be changed a little bit for GPT to understand what [ENTITY] is
 
     Returns:
     list[KGEntity]: a list of extracted entities
