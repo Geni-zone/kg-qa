@@ -37,5 +37,6 @@ if __name__ == '__main__':
     with open('./kg_save/knowledge_graph.pkl', 'wb') as file:
         pickle.dump(knowledge_graph, file)
 
+    knowledge_graph.visualize()
     end_time = time.time()
     print(f"Time elapsed: {end_time - start_time} seconds")
